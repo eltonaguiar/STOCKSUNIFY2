@@ -693,6 +693,31 @@ npx tsx scripts/generate-daily-stocks.ts
 
 ---
 
+## 🧐 Scientific Limitations & Peer Critique
+*Transparency is the cornerstone of scientific validation. Below are the known limitations of this system and our direct responses to peer critiques (Gemini/Grok).*
+
+### 1. Selection Bias (Small Universe)
+- **Critique:** The engine currently monitors a curated list of ~100 tickers, rather than the entire market (10,000+).
+- **Impact:** This introduces inherent "Quality Bias"—we are only picking from stocks we already know are decent.
+- **Roadmap:** Future versions will integrate a screener to dynamically populate the universe from the entire Russell 3000.
+
+### 2. Slippage in Microcaps
+- **Critique:** A flat 0.5% slippage model is too optimistic for penny stocks (`Penny Sniper` algo) where spreads can be 2-3%.
+- **Response:** As of **Jan 28, 2026**, `verify-picks.ts` implements **Dynamic Slippage**:
+  - `>$10`: 0.5% (Liquid)
+  - `$5 - $10`: 1.0% (Mid variance)
+  - `<$5`: 3.0% (High risk/illiquid)
+
+### 3. Lack of Historical Backtesting
+- **Critique:** The system relies on "Forward Testing" (The Truth Engine) rather than 10-year historical backtests.
+- **Reality:** We acknowledge this. Most retail backtests are curve-fitted lies. We prefer **Forward Testing** on an immutable ledger as it is the only 100% truthful metric. We are building the track record *live*.
+
+### 4. Regime Lag
+- **Critique:** Relying solely on the Daily 200 SMA for market regime can be slow to react to V-shaped recoveries.
+- **Mitigation:** We advise users to watch the **50 SMA** as a leading indicator, though the primary engine remains conservative.
+
+---
+
 ## Disclaimer
 
 This is experimental financial research software. All picks are for educational purposes only. Past performance does not guarantee future results. Always consult a licensed financial advisor.
