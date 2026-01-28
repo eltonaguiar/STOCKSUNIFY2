@@ -141,11 +141,13 @@ export async function generateScientificPicks(): Promise<{
     spySMA200 = closes.slice(-200).reduce((a, b) => a + b, 0) / 200;
   }
 
+  const isBullish = (spyData?.price || 0) > spySMA200;
   const regime = {
     symbol: "SPY",
     price: spyData?.price || 0,
     sma200: spySMA200,
-    status: (spyData?.price || 0) > spySMA200 ? "BULLISH" : "BEARISH",
+    status: isBullish ? "BULLISH" : "BEARISH",
+    reason: isBullish ? "Price is above long-term 200-day average" : "Price is below long-term 200-day average",
   };
 
   console.log("📡 Engine: Fetching Strategic Universe...");

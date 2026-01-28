@@ -28,18 +28,20 @@ STOCKSUNIFY2 is the **Scientific Validation Engine** for algorithmic stock analy
 ---
 
 ## 📊 Daily Algorithm Summary
-Latest generation: **2026-01-28 18:06:23 UTC**
+Latest generation: **2026-01-28 18:59:58 UTC**
 
-| Algorithm | Status | Picks | Example Symbol | Last Run (Time) |
+> **System Health:** 🛡️ **Source:** Local Manual Run | ✅ **Status:** Success | ⏱️ **Duration:** 34.70s
+
+| [Algorithm [🔬](#scoring-methodology)](#v21-scientific-algorithms) | [Status [ℹ️](#status-definitions)](#status-definitions) | Picks | Example Symbol | Last Run (Time) |
 |-----------|--------|-------|----------------|-----------------|
-| **Alpha Predator** | ✅ Active | 13 | LRCX 100/100 | 18:06:23 |
-| **Technical Momentum** | ✅ Active | 1 | FCX 82/100 | 18:06:23 |
-| **CAN SLIM** | ✅ Active | 0 | - | 18:06:23 |
-| **Composite Rating** | ✅ Active | 0 | - | 18:06:23 |
-| **Penny Sniper** | ⏸️ Selective | 0 | - | 18:06:23 |
-| **Value Sleeper** | ⏸️ Selective | 6 | - | 18:06:23 |
+| [**Alpha Predator**](#4-alpha-predator-scientific-composite-) | ✅ Active | 12 | LRCX 100/100 [🔬](#scoring-methodology) | 18:59:58 |
+| [**Technical Momentum**](#2-technical-momentum-breakout-hunter) | ✅ Active | 1 | FCX 81/100 [🔬](#scoring-methodology) | 18:59:58 |
+| [**CAN SLIM**](#1-can-slim-growth-screener) | ✅ Active | 0 | - [🔬](#scoring-methodology) | 18:59:58 |
+| [**Composite Rating**](#3-composite-rating-balanced-screener) | ✅ Active | 0 | - [🔬](#scoring-methodology) | 18:59:58 |
+| [**Penny Sniper**](#5-penny-sniper-microcap-hunter-) | ⏸️ Selective | 0 | - | 18:59:58 |
+| [**Value Sleeper**](#6-value-sleeper-mean-reversion-) | ⏸️ Selective | 7 | - | 18:59:58 |
 
-> **Market Regime:** BULLISH (undefined)
+> **Market Regime:** BULLISH (Price is above long-term 200-day average) [ℹ️](#market-regime)
 
 ---
 
@@ -631,7 +633,7 @@ A: Check if it's still valid:
 
 ## Recent Performance Details (2026-01-28)
 
-**Market Regime:** BULLISH (undefined)
+**Market Regime:** BULLISH (Price is above long-term 200-day average)
 
 **Top V2.1 Picks (Live Deduplicated Data):**
 - **LRCX** (100/100) - Alpha Predator - STRONG BUY
@@ -646,8 +648,8 @@ A: Check if it's still valid:
   - *Context:* Strong trend (ADX N/A).
 
 **Algorithm Distribution:**
-- Alpha Predator: 13 picks
-- Value Sleeper: 6 picks
+- Alpha Predator: 12 picks
+- Value Sleeper: 7 picks
 - Technical Momentum: 1 picks
 
 *Note: Algorithmic tags like "+ 2" indicate that 2 other algorithms ALSO triggered on this same stock, increasing confidence.*
@@ -727,6 +729,21 @@ npx tsx scripts/generate-daily-stocks.ts
 
 ---
 
+## 🔬 System Metadata
+
+### Status Definitions
+*   **✅ Active:** The algorithm is currently scanning its universe and producing trades.
+*   **⏸️ Selective:** The algorithm's specific technical conditions (e.g., extreme oversold or Penny float requirements) have not been met today. It is standing by to avoid low-probability trades.
+
+### Scoring Methodology [🔬](#v21-scientific-algorithms)
+Our 0-100 scoring system is a composite of multiple technical and fundamental "interrogations":
+1.  **Trend Alignment (40pts):** Is the stock above key moving averages (SMA 20, 50, 200)?
+2.  **Momentum Density (30pts):** Statistical strength of the current move relative to historical volatility.
+3.  **Institutional Footprint (20pts):** Detection of "Smart Money" via Volume Z-Scores and VWAP positioning.
+4.  **Risk Normalization (10pts):** Penalties applied for excessive volatility or earnings risk.
+
+---
+
 ## 📚 Glossary of Terms
 
 To help you understand the scientific metrics used in our engine, here is a breakdown of the jargon in plain English:
@@ -774,4 +791,4 @@ This is experimental financial research software. All picks are for educational 
 
 ---
 
-*Last Updated: 2026-01-28T18:06:23.676Z | V2.1 - Multi-Algorithm Framework with Real Examples*
+*Last Updated: 2026-01-28T18:59:58.248Z | V2.1 - Multi-Algorithm Framework with Real Examples*

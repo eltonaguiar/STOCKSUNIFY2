@@ -30,16 +30,18 @@ STOCKSUNIFY2 is the **Scientific Validation Engine** for algorithmic stock analy
 ## 📊 Daily Algorithm Summary
 Latest generation: **{{LAST_UPDATE_DATE}} {{LAST_UPDATE_TIME}} UTC**
 
-| Algorithm | Status | Picks | Example Symbol | Last Run (Time) |
-|-----------|--------|-------|----------------|-----------------|
-| **Alpha Predator** | ✅ Active | {{ALPHA_PRED_COUNT}} | {{ALPHA_PRED_TOP}} | {{LAST_UPDATE_TIME}} |
-| **Technical Momentum** | ✅ Active | {{TECH_MOM_COUNT}} | {{TECH_MOM_TOP}} | {{LAST_UPDATE_TIME}} |
-| **CAN SLIM** | ✅ Active | {{CAN_SLIM_COUNT}} | {{CAN_SLIM_TOP}} | {{LAST_UPDATE_TIME}} |
-| **Composite Rating** | ✅ Active | {{COMPOSITE_COUNT}} | {{COMPOSITE_TOP}} | {{LAST_UPDATE_TIME}} |
-| **Penny Sniper** | ⏸️ Selective | {{PENNY_SNIPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
-| **Value Sleeper** | ⏸️ Selective | {{VALUE_SLEEPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
+> **System Health:** 🛡️ **Source:** {{RUN_SOURCE}} | ✅ **Status:** {{RUN_STATUS}} | ⏱️ **Duration:** {{RUN_DURATION}}
 
-> **Market Regime:** {{REGIME_STATUS}} ({{REGIME_REASON}})
+| [Algorithm [🔬](#scoring-methodology)](#v21-scientific-algorithms) | [Status [ℹ️](#status-definitions)](#status-definitions) | Picks | Example Symbol | Last Run (Time) |
+|-----------|--------|-------|----------------|-----------------|
+| [**Alpha Predator**](#4-alpha-predator-scientific-composite-) | ✅ Active | {{ALPHA_PRED_COUNT}} | {{ALPHA_PRED_TOP}} [🔬](#scoring-methodology) | {{LAST_UPDATE_TIME}} |
+| [**Technical Momentum**](#2-technical-momentum-breakout-hunter) | ✅ Active | {{TECH_MOM_COUNT}} | {{TECH_MOM_TOP}} [🔬](#scoring-methodology) | {{LAST_UPDATE_TIME}} |
+| [**CAN SLIM**](#1-can-slim-growth-screener) | ✅ Active | {{CAN_SLIM_COUNT}} | {{CAN_SLIM_TOP}} [🔬](#scoring-methodology) | {{LAST_UPDATE_TIME}} |
+| [**Composite Rating**](#3-composite-rating-balanced-screener) | ✅ Active | {{COMPOSITE_COUNT}} | {{COMPOSITE_TOP}} [🔬](#scoring-methodology) | {{LAST_UPDATE_TIME}} |
+| [**Penny Sniper**](#5-penny-sniper-microcap-hunter-) | ⏸️ Selective | {{PENNY_SNIPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
+| [**Value Sleeper**](#6-value-sleeper-mean-reversion-) | ⏸️ Selective | {{VALUE_SLEEPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
+
+> **Market Regime:** {{REGIME_STATUS}} ({{REGIME_REASON}}) [ℹ️](#market-regime)
 
 ---
 
@@ -707,6 +709,21 @@ npx tsx scripts/generate-daily-stocks.ts
 - **Mitigation:** We advise users to watch the **50 SMA** as a leading indicator, though the primary engine remains conservative.
 
 ---
+
+---
+
+## 🔬 System Metadata
+
+### Status Definitions
+*   **✅ Active:** The algorithm is currently scanning its universe and producing trades.
+*   **⏸️ Selective:** The algorithm's specific technical conditions (e.g., extreme oversold or Penny float requirements) have not been met today. It is standing by to avoid low-probability trades.
+
+### Scoring Methodology [🔬](#v21-scientific-algorithms)
+Our 0-100 scoring system is a composite of multiple technical and fundamental "interrogations":
+1.  **Trend Alignment (40pts):** Is the stock above key moving averages (SMA 20, 50, 200)?
+2.  **Momentum Density (30pts):** Statistical strength of the current move relative to historical volatility.
+3.  **Institutional Footprint (20pts):** Detection of "Smart Money" via Volume Z-Scores and VWAP positioning.
+4.  **Risk Normalization (10pts):** Penalties applied for excessive volatility or earnings risk.
 
 ---
 
