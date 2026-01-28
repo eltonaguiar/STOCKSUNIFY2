@@ -58,6 +58,8 @@ Entry: $26.50 | Stop Loss: $25.69
 - Institutions accumulating (price > VWAP)
 - Volume confirming interest
 
+[View All CAN SLIM Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
+
 ---
 
 #### 2. **Technical Momentum** (Breakout Hunter)
@@ -84,6 +86,8 @@ Timeframe: 3 days
 - Perfect storm: Breakout + Volume + Squeeze
 - 100/100 score = all criteria met maximally
 - High-probability setup for 3-day swing
+
+[View All Technical Momentum Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
 
 ---
 
@@ -112,6 +116,8 @@ Entry: $103.12 | Stop Loss: $97.20
 - Strong year-to-date momentum
 - Multi-timeframe trend alignment
 - Quality company with technical setup
+
+[View All Composite Rating Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
 
 ---
 
@@ -143,6 +149,8 @@ Entry: $13.12 | Stop Loss: $12.43
 - All 5 dimensions aligned (trend, momentum, structure, institutions)
 - 90/100 score = near-perfect setup
 - Pharmaceutical sector with technical tailwinds
+
+[View All Alpha Predator Picks for 2026-01-28](./data/v2/current.json)
 
 ---
 
