@@ -646,25 +646,26 @@ npx tsx scripts/generate-daily-stocks.ts
 
 ## Recent Performance (2026-01-28)
 
-**Market Regime:** BULL (SPY: 695.49 > SMA200: 638.68)
+**Market Regime:** BULL (SPY > SMA200)
 
-**Top Picks:**
-- **GM** (100/100) - Technical Momentum - STRONG BUY
-  - Volume spike 3.01σ, Breakout + Bollinger Squeeze
-- **VTRS** (90/100) - Alpha Predator - STRONG BUY
-  - ADX 44.83, VCP + Institutional Footprint
-- **PFE** (85/100) - Technical Momentum - STRONG BUY
-  - Multi-timeframe momentum, Volume 2.48σ
-- **SBUX** (70/100) - Composite - STRONG BUY
-  - YTD +14%, Trend alignment
+**Top V2.1 Picks (Live Deduplicated Data):**
+- **GM** (100/100) - Technical Momentum + 1 - STRONG BUY
+  - *Context:* Breakout + Volume Spike (3.0σ) + Bollinger Squeeze.
+- **BMY** (90/100) - Alpha Predator + 2 - STRONG BUY
+  - *Context:* VCP + Institutional Footprint. Triggered by CAN SLIM, Momentum, and Alpha Predator simultaneously.
+- **HON** (90/100) - Alpha Predator + 1 - STRONG BUY
+  - *Context:* Strong trend (ADX 36) + Momentum shift.
+- **XLI** (90/100) - Alpha Predator + 3 - STRONG BUY
+  - *Context:* **State Street Industrial ETF**. Proves expanded universe is working. Captures sector rotation.
+- **PFE** (85/100) - Technical Momentum + 3 - STRONG BUY
+  - *Context:* Multi-strategy concurrence (CAN SLIM + Momentum + Composite + Alpha Predator).
 
 **Algorithm Distribution:**
-- Alpha Predator: 19 picks (dominant in current regime)
-- Technical Momentum: 7 picks
-- CAN SLIM: 3 picks
-- Composite: 1 pick
-- Penny Sniper: 0 (awaiting volatile conditions)
-- Value Sleeper: 0 (awaiting corrections)
+- Alpha Predator + X: 19 picks (Dominant in high-quality setups)
+- Technical Momentum: 5 picks
+- Composite Rating: 1 pick (SBUX)
+
+*Note: Algorithmic tags like "+ 2" indicate that 2 other algorithms ALSO triggered on this same stock, increasing confidence.*
 
 ---
 
