@@ -58,10 +58,10 @@ Entry: $26.50 | Stop Loss: $25.69
 - Institutions accumulating (price > VWAP)
 - Volume confirming interest
 
-[View All CAN SLIM Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+[View All Scientific CAN SLIM (SCS) Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
 
 **🔬 Scientific Strictness Rationale:**
-The CAN SLIM (SCS) algorithm requires concurrent alignment of long-term trend (Stage-2) and market regime. In bullish phases, it only selects stocks with verified relative strength.
+The **Scientific CAN SLIM (SCS)** algorithm is significantly more restrictive than V1. It requires concurrent alignment of long-term trend (Stage-2), market regime, and a "Slippage Torture Test" penalty. Rarity is expected; it only triggers when a growth stock's momentum is backed by high-conviction institutional accumulation.
 - **QA Runner-Up:** {{CAN_SLIM_RUNNER_UP}}
 
 ---
@@ -94,7 +94,7 @@ Timeframe: 3 days
 [View All Technical Momentum Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
 
 **🔬 Scientific Strictness Rationale:**
-V2 Technical Momentum Hunter is designed to avoid "momentum traps." It requires statistically significant volume surges (>2.0 sigma) and volatility compression (Squeeze) to trigger.
+The **Adversarial Trend (AT)** and **Volatility-Adjusted Momentum (VAM)** engines are designed to avoid "momentum traps." Rarity occurs because we disqualify stocks with erratic price action (high Ulcer Index), even if they are surging. V2 only accepts "Smooth Alpha."
 - **QA Runner-Up:** {{TECH_MOM_RUNNER_UP}}
 
 ---
@@ -125,10 +125,10 @@ Entry: $103.12 | Stop Loss: $97.20
 - Multi-timeframe trend alignment
 - Quality company with technical setup
 
-[View All Composite Rating Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+[View All Institutional Footprint (IF) Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
 
 **🔬 Scientific Strictness Rationale:**
-The Composite Rating engine balances technicals with fundamental filters (PE < 25). It prioritizes quality over pure speed.
+The **Institutional Footprint (IF)** engine requires a Volume Z-Score > 2.0. This means a stock must see a statistical "volume anomaly" to be considered. On average days, most stocks fail this interrogation, ensuring we only follow "Smart Money."
 - **QA Runner-Up:** {{COMPOSITE_RUNNER_UP}}
 
 ---
@@ -162,10 +162,10 @@ Entry: $13.12 | Stop Loss: $12.43
 - 90/100 score = near-perfect setup
 - Pharmaceutical sector with technical tailwinds
 
-[View All Alpha Predator Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+[View All Alpha Predator (VAM-Scientific) Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
 
 **🔬 Scientific Strictness Rationale:**
-Alpha Predator provides high-confidence signals by requiring 5 dimensions of verification. It is inherently selective to maximize win rates over quantity.
+The **Alpha Predator (V2-VAM)** provides high-confidence signals by requiring 5 dimensions of verification (Trend, Volume, RSI, Volatility, and Regime). It is the most selective algorithm in the engine, designed to have a near-zero false-positive rate.
 - **QA Runner-Up:** {{ALPHA_PRED_RUNNER_UP}}
 
 ---
@@ -205,7 +205,11 @@ Entry: $4.22 (with slippage) | Stop Loss: $3.80
 - Meme stock momentum phases
 - Crypto correlation events
 
-[View All Penny Sniper Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+[View All Penny Sniper (LSP) Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+
+**🔬 Scientific Strictness Rationale:**
+**Liquidity-Shielded Penny (LSP)** performs a "Slippage Torture Test." If a penny stock can't survive a simulated 3% execution slippage while maintaining a profit margin, the engine labels it a "Liquidity Mirage" and disqualifies it.
+- **QA Runner-Up:** {{PENNY_SNIPER_RUNNER_UP}}
 
 ---
 
@@ -244,7 +248,11 @@ Entry: $45.20 | Stop Loss: $42.50
 - Quality stocks oversold on news
 - Dividend yield hunting phases
 
-[View All Value Sleeper Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+[View All Value Sleeper (RAR) Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+
+**🔬 Scientific Strictness Rationale:**
+The **Regime-Aware Reversion (RAR)** algorithm only triggers when a long-term winner experiences a temporary, mathematically significant dip. In raging bull markets, few quality stocks pull back enough to trigger this, leading to frequent "Dormant" status.
+- **QA Runner-Up:** {{VALUE_SLEEPER_RUNNER_UP}}
 
 ---
 
