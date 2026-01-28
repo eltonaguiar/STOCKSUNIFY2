@@ -2,16 +2,20 @@
 
 [![Daily Audit](https://img.shields.io/badge/Audit-Daily%2021%3A00%20UTC-blue)](https://github.com/eltonaguiar/stocksunify2/actions)
 [![Regime](https://img.shields.io/badge/Market%20Regime-BULLISH-green)](./data/v2/current.json)
-[![Picks](https://img.shields.io/badge/Active%20Picks-20-purple)](./data/v2/current.json)
+[![Picks](https://img.shields.io/badge/Active%20Picks-30-purple)](./data/v2/current.json)
+
+## 🚀 V2.1 Update - Multi-Algorithm Framework
+
+**NEW:** STOCKSUNIFY2 now features **6 parallel scoring algorithms** with advanced scientific validation, delivering 30 daily picks across multiple strategies.
 
 ## Overview
 
 STOCKSUNIFY2 is the **Scientific Validation Engine** for algorithmic stock analysis. Unlike traditional backtesting approaches, V2 enforces:
 
 1. **Temporal Isolation** - Picks are timestamped and archived before market opens
-2. **Regime Awareness** - Engine shuts down in bearish regimes (SPY < 200 SMA)
-3. **Slippage Torture** - Returns are penalized 3-5x standard spread to find "bulletproof" liquidity
-4. **Immutable Ledger** - Every pick is hashed and committed to Git history
+2. **Regime Awareness** - Engine adapts to market conditions (SPY vs 200 SMA)
+3. **Slippage Torture** - Returns are penalized with +0.5% worst-case entry simulation
+4. **Immutable Ledger** - Every pick is SHA-256 hashed and committed to Git history
 
 ## Live Data
 
@@ -21,66 +25,145 @@ STOCKSUNIFY2 is the **Scientific Validation Engine** for algorithmic stock analy
 | Historical Ledgers | [data/v2/history/](./data/v2/history/) |
 | Research Paper | [STOCK_RESEARCH_ANALYSIS.md](./STOCK_RESEARCH_ANALYSIS.md) |
 
-## V2 Scientific Strategies
+## V2.1 Scientific Algorithms
 
-### 1. Regime-Aware Reversion (RAR)
-Buy high-quality stocks in an uptrend that have a short-term RSI dip. Only active in bullish regimes.
+### 🎯 Core Algorithms
 
-### 2. Volatility-Adjusted Momentum (VAM)
-Ranks stocks by Return / Ulcer Index (Martin Ratio). Prioritizes smooth uptrends over volatile gains.
+#### 1. **CAN SLIM** (Growth Screener)
+Traditional William O'Neil methodology with V2 enhancements:
+- **Relative Strength Rating** (quarterly weighted)
+- **Stage-2 Uptrend Detection** (moving average alignment)
+- **VCP Bonus** (+20 points for volatility contraction)
+- **Institutional Footprint** (+10 points for price > VWAP)
+- **Regime Penalty** (-30 in bear markets)
 
-### 3. Liquidity-Shielded Penny (LSP)
-Penny stocks ($0.10-$5) that pass the "Slippage Torture Test" - returns must survive 3% slippage penalty.
+**Timeframe:** 3-12 months | **Risk:** Medium
 
-### 4. Scientific CAN SLIM (SCS)
-Traditional O'Neil methodology with Regime Guard and Slippage Penalty adjustments.
+#### 2. **Technical Momentum** (Breakout Hunter)
+Short-term momentum across multiple timeframes (24h/3d/7d):
+- **Volume Z-Score** (spike detection)
+- **RSI Divergence** (momentum shifts)
+- **Breakout Detection** (20-day high penetration)
+- **Bollinger Squeeze** (volatility compression)
 
-### 5. Adversarial Trend (AT)
-Volatility-normalized trend following. Requires golden cross alignment and stable ATR.
+**Timeframe:** 1-7 days | **Risk:** High
+
+#### 3. **Composite Rating** (Balanced Screener)
+Combines technical + fundamental signals:
+- **Trend Alignment** (50/200 SMA)
+- **Volume Confirmation**
+- **PE Ratio Filter** (< 25)
+- **YTD Performance** (> 10%)
+- **Regime Awareness** (caps at 40 in bear)
+
+**Timeframe:** 1-3 months | **Risk:** Medium
+
+### ⚡ Advanced Algorithms (V2.1)
+
+#### 4. **Alpha Predator** (Scientific Composite) ⭐ **NEW**
+Multi-dimensional alpha generator combining:
+- **Trend Strength** (ADX > 25)
+- **Bullish Momentum** (RSI 50-75)
+- **Momentum Shift** (Awesome Oscillator > 0)
+- **VCP Structure** (volatility contraction)
+- **Institutional Support** (Price > VWAP)
+
+**Timeframe:** 3 days | **Risk:** Medium | **Current Output:** 10 picks/day
+
+#### 5. **Penny Sniper** (Microcap Hunter) ⚡ **NEW**
+Targets explosive low-priced stocks ($0.50-$15):
+- **Volume Liquidity** (> 500k average)
+- **Volume Spike** (> 3x average)
+- **Golden Cross** (5 SMA > 20 SMA)
+- **Low Float** (< 50M shares)
+- **Trend Alignment** (Price > 50 SMA)
+
+**Timeframe:** 24 hours | **Risk:** Very High
+
+#### 6. **Value Sleeper** (Mean Reversion) 💤 **NEW**
+Fundamental value plays with reversion potential:
+- **PE Ratio** (2-20 range)
+- **ROE** (> 15%)
+- **Debt/Equity** (< 0.8)
+- **Near 52-Week Low** (< 20% of range)
+- **Trend Safety** (Price > 200 SMA)
+
+**Timeframe:** 3 months | **Risk:** Low
+
+## 🧬 Scientific Indicators
+
+### New V2.1 Indicators
+- **VWAP (Volume Weighted Average Price)**: Institutional footprint detection
+- **VCP (Volatility Contraction Pattern)**: Minervini-style base detection
+- **ADX (Average Directional Index)**: Trend strength measurement (0-100)
+- **AO (Awesome Oscillator)**: Momentum shift detection
+
+### Core Indicators
+- RSI, SMA (5/20/50/200), Bollinger Bands, ATR
+- Volume Z-Score, Relative Strength Rating
+- Stage-2 Uptrend Detection, Breakout Detection
 
 ## Architecture
 
 ```
 STOCKSUNIFY2/
 ├── data/
-│   └── v2/
-│       ├── current.json          # Live picks (updated daily)
-│       ├── ledger-index.json     # 30-day index
-│       └── history/              # Immutable archive
-│           └── YYYY/MM/DD.json
+│   ├── daily-stocks.json         # Latest 30 picks
+│   └── picks-archive/            # Historical ledgers
+│       └── YYYY-MM-DD.json
 ├── scripts/
-│   └── v2/
-│       ├── generate-ledger.ts    # Daily audit generator
-│       ├── verify-performance.ts # Weekly truth engine
-│       └── lib/
-│           ├── v2-engine.ts      # Core orchestration
-│           └── strategies.ts     # 5 scientific strategies
-└── README.md
+│   ├── generate-daily-stocks.ts  # Main generator
+│   └── lib/
+│       ├── stock-data-fetcher-enhanced.ts
+│       ├── stock-indicators.ts   # 15+ indicators
+│       ├── stock-scorers.ts      # 6 algorithms
+│       └── stock-api-keys.ts
+└── public/data/                  # Web-facing data
 ```
 
 ## Usage
 
-### Generate Daily Ledger
+### Generate Daily Picks
 
 ```bash
-npx tsx scripts/v2/generate-ledger.ts
+npx tsx scripts/generate-daily-stocks.ts
 ```
 
-### Verify Performance (Weekly)
+**Output:** 30 picks with:
+- SHA-256 audit hash
+- Simulated slippage entry price
+- Full indicator set
+- Algorithm attribution
 
-```bash
-npx tsx scripts/v2/verify-performance.ts
-```
+## Comparison: V1 vs V2.1
 
-## Comparison: V1 vs V2
+| Feature | STOCKSUNIFY (V1) | STOCKSUNIFY2 (V2.1) |
+|---------|------------------|---------------------|
+| **Algorithms** | 3 (CAN SLIM, Momentum, Composite) | **6** (+ Alpha Predator, Penny Sniper, Value Sleeper) |
+| **Indicators** | 8 basic | **15+** (+ VWAP, VCP, ADX, AO) |
+| **Regime Filter** | None | SPY > 200 SMA detection |
+| **Slippage Model** | None | +0.5% entry penalty |
+| **Audit Trail** | Basic timestamps | **SHA-256 immutable ledger** |
+| **Fundamental Data** | PE only | **ROE, Debt/Equity, Shares Outstanding** |
+| **Picks/Day** | 20 | **30** |
 
-| Feature | STOCKSUNIFY (V1) | STOCKSUNIFY2 (V2) |
-|---------|------------------|-------------------|
-| Algorithms | CAN SLIM, Technical Momentum, Composite | RAR, VAM, LSP, SCS, AT |
-| Regime Filter | None | SPY > 200 SMA required |
-| Slippage Model | None | 3-5x standard spread penalty |
-| Audit Trail | Basic timestamps | Immutable Git ledger |
-| Bias Prevention | Manual | Temporal isolation enforced |
+## Recent Performance (2026-01-28)
+
+**Market Regime:** BULL (SPY: 695.49 > SMA200: 638.68)
+
+**Top Picks:**
+- **GM** (100/100) - Technical Momentum - STRONG BUY
+- **WMT** (80/100) - Alpha Predator - BUY
+- **PFE** (75/100) - CAN SLIM - BUY
+- **SBUX** (70/100) - Composite - STRONG BUY
+
+**Algorithm Distribution:**
+- Technical Momentum: 11 picks
+- Alpha Predator: 10 picks ⭐
+- CAN SLIM: 5 picks
+- Composite: 4 picks
+- Penny Sniper: 0 (strict filters)
+- Value Sleeper: 0 (fundamental thresholds)
 
 ## Disclaimer
 
@@ -94,4 +177,4 @@ This is experimental financial research software. All picks are for educational 
 
 ---
 
-*Last Updated: 2026-01-28T03:04:13.174Z*
+*Last Updated: 2026-01-28T07:16:30.000Z | V2.1 - Multi-Algorithm Framework Release*
