@@ -16,11 +16,13 @@ async function main() {
     const [year, month, day] = datePortion.split('-');
 
     try {
-        const picks = await generateScientificPicks();
+        const { picks, regime } = await generateScientificPicks();
 
         const auditObject = {
             version: '2.0.0',
+            date: datePortion,
             timestamp: dateStr,
+            regime,
             metadata: {
                 engine: 'STOCKSUNIFY2-Scientific',
                 system: process.platform,

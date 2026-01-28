@@ -13,9 +13,23 @@ const V2_UNIVERSE = [
     'GME', 'AMC', 'SNDL', 'MULN', 'XELA', 'HSTO'
 ];
 
-export async function generateScientificPicks(): Promise<V2Pick[]> {
+export async function generateScientificPicks(): Promise<{ picks: V2Pick[], regime: any }> {
     console.log('📡 Engine: Fetching Market Regime Baseline (SPY)...');
     const spyData = await fetchStockData('SPY');
+
+    let spySMA200 = 0;
+    if (spyData?.history && spyData.history.length >= 200) {
+        const closes = spyData.history.map(h => h.close);
+        // Calculate SMA200 using the last 200 closing prices
+        spySMA200 = closes.slice(-200).reduce((a, b) => a + b, 0) / 200;
+    }
+
+    const regime = {
+        symbol: 'SPY',
+        price: spyData?.price || 0,
+        sma200: spySMA200,
+        status: (spyData?.price || 0) > spySMA200 ? 'BULLISH' : 'BEARISH'
+    };
 
     console.log('📡 Engine: Fetching Strategic Universe...');
     const allData = await fetchMultipleStocks(V2_UNIVERSE);
@@ -42,5 +56,9 @@ export async function generateScientificPicks(): Promise<V2Pick[]> {
     }
 
     v2Picks.sort((a, b) => b.score - a.score);
-    return v2Picks.slice(0, 25);
+    return {
+        picks: v2Picks.slice(0, 25),
+        regime
+    };
 }
+
