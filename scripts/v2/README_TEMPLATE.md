@@ -60,6 +60,10 @@ Entry: $26.50 | Stop Loss: $25.69
 
 [View All CAN SLIM Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
 
+**🔬 Scientific Strictness Rationale:**
+The CAN SLIM (SCS) algorithm requires concurrent alignment of long-term trend (Stage-2) and market regime. In bullish phases, it only selects stocks with verified relative strength.
+- **QA Runner-Up:** {{CAN_SLIM_RUNNER_UP}}
+
 ---
 
 #### 2. **Technical Momentum** (Breakout Hunter)
@@ -88,6 +92,10 @@ Timeframe: 3 days
 - High-probability setup for 3-day swing
 
 [View All Technical Momentum Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+
+**🔬 Scientific Strictness Rationale:**
+V2 Technical Momentum Hunter is designed to avoid "momentum traps." It requires statistically significant volume surges (>2.0 sigma) and volatility compression (Squeeze) to trigger.
+- **QA Runner-Up:** {{TECH_MOM_RUNNER_UP}}
 
 ---
 
@@ -118,6 +126,10 @@ Entry: $103.12 | Stop Loss: $97.20
 - Quality company with technical setup
 
 [View All Composite Rating Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+
+**🔬 Scientific Strictness Rationale:**
+The Composite Rating engine balances technicals with fundamental filters (PE < 25). It prioritizes quality over pure speed.
+- **QA Runner-Up:** {{COMPOSITE_RUNNER_UP}}
 
 ---
 
@@ -151,6 +163,10 @@ Entry: $13.12 | Stop Loss: $12.43
 - Pharmaceutical sector with technical tailwinds
 
 [View All Alpha Predator Picks for {{LAST_UPDATE_DATE}}]({{HISTORY_FILE}})
+
+**🔬 Scientific Strictness Rationale:**
+Alpha Predator provides high-confidence signals by requiring 5 dimensions of verification. It is inherently selective to maximize win rates over quantity.
+- **QA Runner-Up:** {{ALPHA_PRED_RUNNER_UP}}
 
 ---
 

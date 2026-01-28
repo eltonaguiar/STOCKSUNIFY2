@@ -2,7 +2,7 @@
 
 [![Daily Audit](https://img.shields.io/badge/Audit-Daily%2021%3A00%20UTC-blue)](https://github.com/eltonaguiar/stocksunify2/actions)
 [![Regime](https://img.shields.io/badge/Market%20Regime-BULLISH-green)](./data/v2/current.json)
-[![Picks](https://img.shields.io/badge/Active%20Picks-4-purple)](./data/v2/current.json)
+[![Picks](https://img.shields.io/badge/Active%20Picks-20-purple)](./data/v2/current.json)
 
 ## 🚀 V2.1 Update - Multi-Algorithm Framework
 
@@ -60,6 +60,10 @@ Entry: $26.50 | Stop Loss: $25.69
 
 [View All CAN SLIM Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
 
+**🔬 Scientific Strictness Rationale:**
+The CAN SLIM (SCS) algorithm requires concurrent alignment of long-term trend (Stage-2) and market regime. In bullish phases, it only selects stocks with verified relative strength.
+- **QA Runner-Up:** None identified in current scan
+
 ---
 
 #### 2. **Technical Momentum** (Breakout Hunter)
@@ -88,6 +92,10 @@ Timeframe: 3 days
 - High-probability setup for 3-day swing
 
 [View All Technical Momentum Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
+
+**🔬 Scientific Strictness Rationale:**
+V2 Technical Momentum Hunter is designed to avoid "momentum traps." It requires statistically significant volume surges (>2.0 sigma) and volatility compression (Squeeze) to trigger.
+- **QA Runner-Up:** None identified in current scan
 
 ---
 
@@ -118,6 +126,10 @@ Entry: $103.12 | Stop Loss: $97.20
 - Quality company with technical setup
 
 [View All Composite Rating Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
+
+**🔬 Scientific Strictness Rationale:**
+The Composite Rating engine balances technicals with fundamental filters (PE < 25). It prioritizes quality over pure speed.
+- **QA Runner-Up:** None identified in current scan
 
 ---
 
@@ -151,6 +163,10 @@ Entry: $13.12 | Stop Loss: $12.43
 - Pharmaceutical sector with technical tailwinds
 
 [View All Alpha Predator Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
+
+**🔬 Scientific Strictness Rationale:**
+Alpha Predator provides high-confidence signals by requiring 5 dimensions of verification. It is inherently selective to maximize win rates over quantity.
+- **QA Runner-Up:** None identified in current scan
 
 ---
 
@@ -590,10 +606,11 @@ Based on latest generation (2026-01-28):
 
 | Symbol | Score | Algorithm |
 |---|---|---|
-| MRK | 99 | Volatility-Adjusted Momentum (V2) |
-| PFE | 95 | Institutional Footprint (V2) |
-| AXP | 69 | Regime-Aware Reversion (V2) |
-| PFE | 62 | Volatility-Adjusted Momentum (V2) |
+| LRCX | 100 | Volatility-Adjusted Momentum (V2) |
+| JNJ | 100 | Volatility-Adjusted Momentum (V2) |
+| XOM | 100 | Volatility-Adjusted Momentum (V2) |
+| SLB | 100 | Volatility-Adjusted Momentum (V2) |
+| FCX | 100 | Volatility-Adjusted Momentum (V2) |
 
 [View All Current Picks](./data/v2/current.json)
 
@@ -604,19 +621,21 @@ Based on latest generation (2026-01-28):
 **Market Regime:** BULLISH (undefined)
 
 **Top V2.1 Picks (Live Deduplicated Data):**
-- **MRK** (99/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
-  - *Context:* System Score: 99/100.
-- **PFE** (95/100) - Institutional Footprint (V2) - STRONG BUY
-  - *Context:* System Score: 95/100.
-- **AXP** (69/100) - Regime-Aware Reversion (V2) - BUY
-  - *Context:* System Score: 69/100.
-- **PFE** (62/100) - Volatility-Adjusted Momentum (V2) - BUY
-  - *Context:* System Score: 62/100.
+- **LRCX** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
+  - *Context:* System Score: 100/100.
+- **JNJ** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
+  - *Context:* System Score: 100/100.
+- **XOM** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
+  - *Context:* System Score: 100/100.
+- **SLB** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
+  - *Context:* System Score: 100/100.
+- **FCX** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
+  - *Context:* System Score: 100/100.
 
 **Algorithm Distribution:**
-- Volatility-Adjusted Momentum (V2): 2 picks
-- Institutional Footprint (V2): 1 picks
-- Regime-Aware Reversion (V2): 1 picks
+- Volatility-Adjusted Momentum (V2): 13 picks
+- Regime-Aware Reversion (V2): 6 picks
+- Adversarial Trend (V2): 1 picks
 
 *Note: Algorithmic tags like "+ 2" indicate that 2 other algorithms ALSO triggered on this same stock, increasing confidence.*
 
@@ -707,4 +726,4 @@ This is experimental financial research software. All picks are for educational 
 
 ---
 
-*Last Updated: 2026-01-28T15:12:13.827Z | V2.1 - Multi-Algorithm Framework with Real Examples*
+*Last Updated: 2026-01-28T17:24:00.004Z | V2.1 - Multi-Algorithm Framework with Real Examples*

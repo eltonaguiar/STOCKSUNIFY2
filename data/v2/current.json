@@ -1,11 +1,11 @@
 {
   "version": "2.0.0-alpha",
   "date": "2026-01-28",
-  "timestamp": "2026-01-28T15:12:13.827Z",
+  "timestamp": "2026-01-28T17:24:00.004Z",
   "regime": {
     "symbol": "SPY",
-    "price": 695.49,
-    "sma200": 638.6772499999998,
+    "price": 694.97,
+    "sma200": 639.5292001342773,
     "status": "BULLISH"
   },
   "metadata": {
@@ -14,77 +14,392 @@
     "checksPerformed": [
       "Purging",
       "Slippage-Stress",
-      "Regime-Detection"
+      "Regime-Detection",
+      "Runner-Up-Verification"
     ]
   },
   "picks": [
     {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 5.400984325855417,
+        "totalReturn": 51.340016410029406,
+        "ytdReturn": 28.769049575151644,
+        "martinRatio": 9.505677726975831
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-LRCX-1769621040004"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.0579143191197944,
+        "totalReturn": 20.367981086113637,
+        "ytdReturn": 9.640218619769533,
+        "martinRatio": 9.897390234801115
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-JNJ-1769621040004"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.8974522916680474,
+        "totalReturn": 20.60598046859,
+        "ytdReturn": 12.454136391427692,
+        "martinRatio": 10.859814794328933
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-XOM-1769621040004"
+    },
+    {
+      "symbol": "SLB",
+      "name": "SLB N.V.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.266088937277715,
+        "totalReturn": 36.550188920600455,
+        "ytdReturn": 22.48755986441314,
+        "martinRatio": 11.190812504654279
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-SLB-1769621040004"
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.4108058962345975,
+        "totalReturn": 51.45083655760627,
+        "ytdReturn": 21.61563571896502,
+        "martinRatio": 21.341758221998123
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-FCX-1769621040004"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 19.353025712614354,
+        "sma200": 158.3478252029419,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "audit_id": "v2-PLTR-1769621040004"
+    },
+    {
+      "symbol": "RIVN",
+      "name": "Rivian Automotive, Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 5.6986259295211,
+        "sma200": 14.695375471115112,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "audit_id": "v2-RIVN-1769621040004"
+    },
+    {
+      "symbol": "GM",
+      "name": "General Motors Company",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.743150616835688,
+        "totalReturn": 23.708213244073058,
+        "ytdReturn": 5.544574533142406,
+        "martinRatio": 8.64269468054993
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-GM-1769621040004"
+    },
+    {
       "symbol": "MRK",
-      "name": "MRK",
+      "name": "Merck & Co., Inc.",
       "score": 99,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.0740552555906646,
-        "totalReturn": 23.94529439035697,
-        "ytdReturn": 0.46031000469703603,
-        "martinRatio": 7.789480799607813
+        "ulcerIndex": 3.096785730292473,
+        "totalReturn": 24.255635995371954,
+        "ytdReturn": 0.3616750237625665,
+        "martinRatio": 7.8325199441813345
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-MRK-1769613133827"
+      "audit_id": "v2-MRK-1769621040004"
     },
     {
-      "symbol": "PFE",
-      "name": "Pfizer Inc.",
-      "score": 95,
+      "symbol": "SBUX",
+      "name": "Starbucks Corporation",
+      "score": 94,
       "rating": "STRONG BUY",
-      "algorithm": "Institutional Footprint (V2)",
-      "timeframe": "7d",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "volumeZScore": 2.6,
-        "rsi": 64.5776566757493,
-        "rsiZScore": 1.12,
-        "breakout": true,
-        "sma20": 25.489999999999995
+        "ulcerIndex": 2.8634879968370193,
+        "totalReturn": 20.965743387630308,
+        "ytdReturn": 16.499938761321438,
+        "martinRatio": 7.321750051262258
       },
-      "v2_hash": "if-v2.0.0-alpha",
-      "audit_id": "v2-PFE-1769613133827"
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-SBUX-1769621040004"
     },
     {
-      "symbol": "AXP",
-      "name": "AXP",
-      "score": 69,
-      "rating": "BUY",
+      "symbol": "BAC",
+      "name": "Bank of America Corporation",
+      "score": 92,
+      "rating": "STRONG BUY",
       "algorithm": "Regime-Aware Reversion (V2)",
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 35.609417487600695,
-        "sma200": 325.94570064500004,
+        "rsi": 24.14017090631839,
+        "sma200": 48.92442504882813,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-alpha",
-      "audit_id": "v2-AXP-1769613133827"
+      "audit_id": "v2-BAC-1769621040004"
     },
     {
-      "symbol": "PFE",
-      "name": "Pfizer Inc.",
-      "score": 62,
+      "symbol": "WMT",
+      "name": "Walmart Inc.",
+      "score": 90,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.074263491014206,
+        "totalReturn": 15.279699197661866,
+        "ytdReturn": 3.4409345426243703,
+        "martinRatio": 7.366325090256926
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-WMT-1769621040004"
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets, Inc.",
+      "score": 90,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 25.08103910588966,
+        "sma200": 103.44104965209961,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "audit_id": "v2-HOOD-1769621040004"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 89,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.7265827140136234,
+        "totalReturn": 18.2581162604783,
+        "ytdReturn": 5.514836249441374,
+        "martinRatio": 6.696336834616591
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-GOOGL-1769621040004"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "score": 89,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 25.31369563120559,
+        "sma200": 292.516875,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "audit_id": "v2-JPM-1769621040004"
+    },
+    {
+      "symbol": "LOW",
+      "name": "Lowe's Companies, Inc.",
+      "score": 84,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.2078937688503775,
-        "totalReturn": 9.098394400988065,
-        "ytdReturn": 5.242255758538524,
-        "martinRatio": 2.8362517765819546
+        "ulcerIndex": 2.1639925348779885,
+        "totalReturn": 13.979756618058293,
+        "ytdReturn": 9.935599121468535,
+        "martinRatio": 6.460168597044864
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-PFE-1769613133827"
+      "audit_id": "v2-LOW-1769621040004"
+    },
+    {
+      "symbol": "GS",
+      "name": "The Goldman Sachs Group, Inc.",
+      "score": 82,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.253588241597892,
+        "totalReturn": 17.78380300127472,
+        "ytdReturn": 1.6853656945904578,
+        "martinRatio": 5.465904619983749
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-GS-1769621040004"
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan Inc.",
+      "score": 82,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.2565333573646467,
+        "avgVolatilty": 0.02090471460358887,
+        "signalDensity": 41.50391949176199
+      },
+      "v2_hash": "at-v2.0.0-alpha",
+      "audit_id": "v2-FCX-1769621040004"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
+      "score": 81,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 29.746009573788513,
+        "sma200": 850.2720764160156,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "audit_id": "v2-LLY-1769621040004"
+    },
+    {
+      "symbol": "BA",
+      "name": "The Boeing Company",
+      "score": 80,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.45119933709682,
+        "totalReturn": 22.055016806908302,
+        "ytdReturn": 7.720505508927195,
+        "martinRatio": 4.9548481513957805
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "audit_id": "v2-BA-1769621040004"
     }
-  ]
+  ],
+  "runnerUps": {
+    "Regime-Aware Reversion (V2)": {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 14.703714756429008,
+        "sma200": 344.99079864501954,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha"
+    },
+    "Institutional Footprint (V2)": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 85,
+      "rating": "BUY",
+      "algorithm": "Institutional Footprint (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "volumeZScore": -2.13,
+        "rsi": 47.42220001559188,
+        "rsiZScore": 0.61,
+        "breakout": false,
+        "sma20": 470.2809997558594
+      },
+      "v2_hash": "if-v2.0.0-alpha"
+    },
+    "Scientific CAN SLIM (V2)": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Scientific CAN SLIM (V2)",
+      "timeframe": "1y",
+      "risk": "Medium",
+      "metrics": {
+        "yearlyReturn": 1.004896893166632,
+        "sma200": 485.49,
+        "adjustedReturn": 98.9896893166632
+      },
+      "v2_hash": "scs-v2.0.0-alpha"
+    }
+  }
 }

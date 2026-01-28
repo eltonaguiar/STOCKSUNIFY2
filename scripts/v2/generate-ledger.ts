@@ -24,7 +24,7 @@ async function main() {
 
     try {
         // 1. Generate Picks using the V2 Engine
-        const { picks, regime } = await generateScientificPicks();
+        const { picks, regime, runnerUps } = await generateScientificPicks();
 
         const auditObject = {
             version: '2.0.0-alpha',
@@ -34,12 +34,13 @@ async function main() {
             metadata: {
                 engine: 'STOCKSUNIFY2-Scientific',
                 system: process.platform,
-                checksPerformed: ['Purging', 'Slippage-Stress', 'Regime-Detection']
+                checksPerformed: ['Purging', 'Slippage-Stress', 'Regime-Detection', 'Runner-Up-Verification']
             },
             picks: picks.map((p: any) => ({
                 ...p,
                 audit_id: `v2-${p.symbol}-${timestamp.getTime()}`
-            }))
+            })),
+            runnerUps: runnerUps || {}
 
         };
 
