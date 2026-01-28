@@ -720,6 +720,41 @@ npx tsx scripts/generate-daily-stocks.ts
 
 ---
 
+---
+
+## 📚 Glossary of Terms
+
+To help you understand the scientific metrics used in our engine, here is a breakdown of the jargon in plain English:
+
+### 📈 Technical Indicators
+*   **ADX (Average Directional Index):** Measures the **strength** of a trend on a scale of 0-100.
+    *   *Analogy:* It’s like a speedometer for the trend. Above 25 means the stock is "moving" fast in one direction; above 40 is "highway speeds."
+*   **AO (Awesome Oscillator):** A momentum indicator that compares recent market momentum with long-term momentum. 
+    *   *Analogy:* It tells us if the "wind" is picking up or dying down behind a trend.
+*   **VCP (Volatility Contraction Pattern):** Created by Mark Minervini, this identifies a stock that is "quieting down" and getting tighter before a predictable breakout.
+    *   *Analogy:* Like a coiled spring being pushed down; the tighter it gets, the more explosive the release.
+*   **VWAP (Volume Weighted Average Price):** The average price a stock has traded at throughout the day, based on both volume and price. **Smart Money** (banks/hedge funds) tries to buy *below* this line.
+*   **SMA (Simple Moving Average):** The average price over a set period (e.g., 50 days or 200 days).
+    *   **50 SMA:** Medium-term trend.
+    *   **200 SMA:** Long-term "health" line. If a stock is below this, it’s considered "sick."
+*   **RSI (Relative Strength Index):** Measures if a stock is "Overbought" (too expensive, RSI > 70) or "Oversold" (too cheap, RSI < 30).
+*   **ATR (Average True Range):** Measures how much a stock typically moves in a day. We use this to set **Stop Losses** so you don't get kicked out by normal "noise."
+
+### 🧪 Scientific & Algorithm Terms
+*   **Ulcer Index:** Measures how much "stress" or "pain" a stock causes you by looking at the depth and duration of its price drops.
+    *   *Analogy:* A lower Ulcer Index means a smoother ride. A higher one means you'll be checking your phone every 5 minutes.
+*   **Martin Ratio:** A risk-adjusted return metric (Return / Ulcer Index). We use this to find stocks that go up without the "drama."
+*   **Z-Score (Statistical Significance):** Tells us how "weird" or "rare" a current event is.
+    *   **Volume Z-Score > 2.0:** Means today's buying volume is higher than 95% of previous days. This usually means **Institutions** have arrived.
+*   **Golden Cross:** When a shorter-term average (like 5 SMA) crosses above a longer-term average (20 SMA). It’s a classic "Go" signal.
+*   **Slippage:** The "hidden cost" of trading. If a stock is priced at $10.00, you might actually pay $10.05 because of the "Ask" price. Our engine simulates this so our results are honest.
+*   **Stage-2 Uptrend:** A specific phase in a stock's life cycle where it is consistently making higher highs and higher lows above its 200-day average. This is the **only** time we want to buy growth stocks.
+*   **Market Regime:** The "Weather" of the stock market. 
+    *   **Bullish:** Sunny skies (S&P 500 > 200 SMA).
+    *   **Bearish:** Stormy/Rainy (S&P 500 < 200 SMA). In a storm, even good stocks tend to get wet.
+
+---
+
 ## Disclaimer
 
 This is experimental financial research software. All picks are for educational purposes only. Past performance does not guarantee future results. Always consult a licensed financial advisor.
