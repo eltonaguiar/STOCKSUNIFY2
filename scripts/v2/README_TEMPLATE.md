@@ -41,7 +41,7 @@ Traditional William O'Neil methodology with V2 enhancements:
 
 **Timeframe:** 3-12 months | **Risk:** Medium
 
-**Recent Example ({{LAST_UPDATE_DATE}}):**
+**Example Setup (Historical Logic Walkthrough):**
 ```
 Symbol: PFE (Pfizer) - Score: 75/100 BUY
 ✓ RS Rating: 50 (above threshold)
@@ -75,7 +75,7 @@ Short-term momentum across multiple timeframes (24h/3d/7d):
 
 **Timeframe:** 1-7 days | **Risk:** High
 
-**Recent Example ({{LAST_UPDATE_DATE}}):**
+**Example Setup (Historical Logic Walkthrough):**
 ```
 Symbol: GM (General Motors) - Score: 100/100 STRONG BUY
 ✓ Volume Spike: 3.01σ (extreme)
@@ -109,7 +109,7 @@ Combines technical + fundamental signals:
 
 **Timeframe:** 1-3 months | **Risk:** Medium
 
-**Recent Example ({{LAST_UPDATE_DATE}}):**
+**Example Setup (Historical Logic Walkthrough):**
 ```
 Symbol: SBUX (Starbucks) - Score: 70/100 STRONG BUY
 ✓ Above 50 SMA & 200 SMA
@@ -145,7 +145,7 @@ Multi-dimensional alpha generator combining:
 
 **Timeframe:** 3 days | **Risk:** Medium | **Current Output:** 19 picks/day
 
-**Recent Example ({{LAST_UPDATE_DATE}}):**
+**Example Setup (Historical Logic Walkthrough):**
 ```
 Symbol: VTRS (Viatris) - Score: 90/100 STRONG BUY
 ✓ ADX: 44.83 (VERY strong trend)
@@ -294,7 +294,7 @@ When you see a pick like this:
 
 ---
 
-### 💡 **Real Pick Walkthrough (Beginner-Friendly)**
+### 💡 **Historical Walkthrough Examples** (Educational Only)
 
 #### **Example 1: GM - Technical Momentum (Day Trader / Swing Trader)**
 

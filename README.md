@@ -41,7 +41,7 @@ Traditional William O'Neil methodology with V2 enhancements:
 
 **Timeframe:** 3-12 months | **Risk:** Medium
 
-**Recent Example (2026-01-28):**
+**Example Setup (Historical Logic Walkthrough):**
 ```
 Symbol: PFE (Pfizer) - Score: 75/100 BUY
 ✓ RS Rating: 50 (above threshold)
@@ -62,7 +62,7 @@ Entry: $26.50 | Stop Loss: $25.69
 
 **🔬 Scientific Strictness Rationale:**
 The **Scientific CAN SLIM (SCS)** algorithm is significantly more restrictive than V1. It requires concurrent alignment of long-term trend (Stage-2), market regime, and a "Slippage Torture Test" penalty. Rarity is expected; it only triggers when a growth stock's momentum is backed by high-conviction institutional accumulation.
-- **QA Runner-Up:** MSFT (Score: 70) - *Close match, missed strict criteria*
+- **QA Runner-Up:** None identified in current scan
 
 ---
 
@@ -75,7 +75,7 @@ Short-term momentum across multiple timeframes (24h/3d/7d):
 
 **Timeframe:** 1-7 days | **Risk:** High
 
-**Recent Example (2026-01-28):**
+**Example Setup (Historical Logic Walkthrough):**
 ```
 Symbol: GM (General Motors) - Score: 100/100 STRONG BUY
 ✓ Volume Spike: 3.01σ (extreme)
@@ -109,7 +109,7 @@ Combines technical + fundamental signals:
 
 **Timeframe:** 1-3 months | **Risk:** Medium
 
-**Recent Example (2026-01-28):**
+**Example Setup (Historical Logic Walkthrough):**
 ```
 Symbol: SBUX (Starbucks) - Score: 70/100 STRONG BUY
 ✓ Above 50 SMA & 200 SMA
@@ -129,7 +129,7 @@ Entry: $103.12 | Stop Loss: $97.20
 
 **🔬 Scientific Strictness Rationale:**
 The **Institutional Footprint (IF)** engine requires a Volume Z-Score > 2.0. This means a stock must see a statistical "volume anomaly" to be considered. On average days, most stocks fail this interrogation, ensuring we only follow "Smart Money."
-- **QA Runner-Up:** MSFT (Score: 85) - *Close match, missed strict criteria*
+- **QA Runner-Up:** None identified in current scan
 
 ---
 
@@ -145,7 +145,7 @@ Multi-dimensional alpha generator combining:
 
 **Timeframe:** 3 days | **Risk:** Medium | **Current Output:** 19 picks/day
 
-**Recent Example (2026-01-28):**
+**Example Setup (Historical Logic Walkthrough):**
 ```
 Symbol: VTRS (Viatris) - Score: 90/100 STRONG BUY
 ✓ ADX: 44.83 (VERY strong trend)
@@ -252,7 +252,7 @@ Entry: $45.20 | Stop Loss: $42.50
 
 **🔬 Scientific Strictness Rationale:**
 The **Regime-Aware Reversion (RAR)** algorithm only triggers when a long-term winner experiences a temporary, mathematically significant dip. In raging bull markets, few quality stocks pull back enough to trigger this, leading to frequent "Dormant" status.
-- **QA Runner-Up:** V (Score: 100) - *Close match, missed strict criteria*
+- **QA Runner-Up:** None identified in current scan
 
 ---
 
@@ -294,7 +294,7 @@ When you see a pick like this:
 
 ---
 
-### 💡 **Real Pick Walkthrough (Beginner-Friendly)**
+### 💡 **Historical Walkthrough Examples** (Educational Only)
 
 #### **Example 1: GM - Technical Momentum (Day Trader / Swing Trader)**
 
@@ -614,11 +614,11 @@ Based on latest generation (2026-01-28):
 
 | Symbol | Score | Algorithm |
 |---|---|---|
-| LRCX | 100 | Volatility-Adjusted Momentum (V2) |
-| JNJ | 100 | Volatility-Adjusted Momentum (V2) |
-| XOM | 100 | Volatility-Adjusted Momentum (V2) |
-| SLB | 100 | Volatility-Adjusted Momentum (V2) |
-| FCX | 100 | Volatility-Adjusted Momentum (V2) |
+| LRCX | 100 | Alpha Predator |
+| JNJ | 100 | Alpha Predator |
+| XOM | 100 | Alpha Predator |
+| SLB | 100 | Alpha Predator |
+| FCX | 100 | Alpha Predator |
 
 [View All Current Picks](./data/v2/current.json)
 
@@ -629,21 +629,21 @@ Based on latest generation (2026-01-28):
 **Market Regime:** BULLISH (undefined)
 
 **Top V2.1 Picks (Live Deduplicated Data):**
-- **LRCX** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
-  - *Context:* System Score: 100/100.
-- **JNJ** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
-  - *Context:* System Score: 100/100.
-- **XOM** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
-  - *Context:* System Score: 100/100.
-- **SLB** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
-  - *Context:* System Score: 100/100.
-- **FCX** (100/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
-  - *Context:* System Score: 100/100.
+- **LRCX** (100/100) - Alpha Predator - STRONG BUY
+  - *Context:* Strong trend (ADX N/A).
+- **JNJ** (100/100) - Alpha Predator - STRONG BUY
+  - *Context:* Strong trend (ADX N/A).
+- **XOM** (100/100) - Alpha Predator - STRONG BUY
+  - *Context:* Strong trend (ADX N/A).
+- **SLB** (100/100) - Alpha Predator - STRONG BUY
+  - *Context:* Strong trend (ADX N/A).
+- **FCX** (100/100) - Alpha Predator - STRONG BUY
+  - *Context:* Strong trend (ADX N/A).
 
 **Algorithm Distribution:**
-- Volatility-Adjusted Momentum (V2): 13 picks
-- Regime-Aware Reversion (V2): 6 picks
-- Adversarial Trend (V2): 1 picks
+- Alpha Predator: 13 picks
+- Value Sleeper: 6 picks
+- Technical Momentum: 1 picks
 
 *Note: Algorithmic tags like "+ 2" indicate that 2 other algorithms ALSO triggered on this same stock, increasing confidence.*
 
@@ -769,4 +769,4 @@ This is experimental financial research software. All picks are for educational 
 
 ---
 
-*Last Updated: 2026-01-28T17:24:00.004Z | V2.1 - Multi-Algorithm Framework with Real Examples*
+*Last Updated: 2026-01-28T18:06:23.676Z | V2.1 - Multi-Algorithm Framework with Real Examples*
