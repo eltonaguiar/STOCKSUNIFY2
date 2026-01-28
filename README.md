@@ -62,7 +62,7 @@ Entry: $26.50 | Stop Loss: $25.69
 
 **🔬 Scientific Strictness Rationale:**
 The CAN SLIM (SCS) algorithm requires concurrent alignment of long-term trend (Stage-2) and market regime. In bullish phases, it only selects stocks with verified relative strength.
-- **QA Runner-Up:** None identified in current scan
+- **QA Runner-Up:** MSFT (Score: 70) - *Close match, missed strict criteria*
 
 ---
 
@@ -129,7 +129,7 @@ Entry: $103.12 | Stop Loss: $97.20
 
 **🔬 Scientific Strictness Rationale:**
 The Composite Rating engine balances technicals with fundamental filters (PE < 25). It prioritizes quality over pure speed.
-- **QA Runner-Up:** None identified in current scan
+- **QA Runner-Up:** MSFT (Score: 85) - *Close match, missed strict criteria*
 
 ---
 
@@ -591,12 +591,12 @@ Based on latest generation (2026-01-28):
 
 | Algorithm | Picks | Top Score | Status | Market Condition |
 |-----------|-------|-----------|--------|------------------|
-| **Alpha Predator** | 0 | - | ✅ Active | All markets |
-| **Technical Momentum** | 0 | - | ✅ Active | Bull/Volatile |
+| **Alpha Predator** | 13 | LRCX 100/100 | ✅ Active | All markets |
+| **Technical Momentum** | 1 | FCX 82/100 | ✅ Active | Bull/Volatile |
 | **CAN SLIM** | 0 | - | ✅ Active | Bull markets |
 | **Composite Rating** | 0 | - | ✅ Active | All markets |
 | **Penny Sniper** | 0 | - | ⏸️ Selective | Volatile only |
-| **Value Sleeper** | 0 | - | ⏸️ Selective | Bear/corrections |
+| **Value Sleeper** | 6 | - | ⏸️ Selective | Bear/corrections |
 
 **Key Insight:** Dormant algorithms are **working correctly** - they're designed to be highly selective and only trigger on specific market conditions. This prevents false signals.
 
