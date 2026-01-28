@@ -595,16 +595,16 @@ A: Check if it's still valid:
 
 ## 📊 Algorithm Performance Distribution
 
-Based on latest generation ({{LAST_UPDATE_DATE}}):
+Based on latest generation (**{{LAST_UPDATE_DATE}} {{LAST_UPDATE_TIME}} UTC**):
 
-| Algorithm | Picks | Top Score | Status | Market Condition |
-|-----------|-------|-----------|--------|------------------|
-| **Alpha Predator** | {{ALPHA_PRED_COUNT}} | {{ALPHA_PRED_TOP}} | ✅ Active | All markets |
-| **Technical Momentum** | {{TECH_MOM_COUNT}} | {{TECH_MOM_TOP}} | ✅ Active | Bull/Volatile |
-| **CAN SLIM** | {{CAN_SLIM_COUNT}} | {{CAN_SLIM_TOP}} | ✅ Active | Bull markets |
-| **Composite Rating** | {{COMPOSITE_COUNT}} | {{COMPOSITE_TOP}} | ✅ Active | All markets |
-| **Penny Sniper** | {{PENNY_SNIPER_COUNT}} | - | ⏸️ Selective | Volatile only |
-| **Value Sleeper** | {{VALUE_SLEEPER_COUNT}} | - | ⏸️ Selective | Bear/corrections |
+| Algorithm | Status | Picks | Example Symbol | Last Run (Time) |
+|-----------|--------|-------|----------------|-----------------|
+| **Alpha Predator** | ✅ Active | {{ALPHA_PRED_COUNT}} | {{ALPHA_PRED_TOP}} | {{LAST_UPDATE_TIME}} |
+| **Technical Momentum** | ✅ Active | {{TECH_MOM_COUNT}} | {{TECH_MOM_TOP}} | {{LAST_UPDATE_TIME}} |
+| **CAN SLIM** | ✅ Active | {{CAN_SLIM_COUNT}} | {{CAN_SLIM_TOP}} | {{LAST_UPDATE_TIME}} |
+| **Composite Rating** | ✅ Active | {{COMPOSITE_COUNT}} | {{COMPOSITE_TOP}} | {{LAST_UPDATE_TIME}} |
+| **Penny Sniper** | ⏸️ Selective | {{PENNY_SNIPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
+| **Value Sleeper** | ⏸️ Selective | {{VALUE_SLEEPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
 
 **Key Insight:** Dormant algorithms are **working correctly** - they're designed to be highly selective and only trigger on specific market conditions. This prevents false signals.
 

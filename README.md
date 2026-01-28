@@ -595,16 +595,16 @@ A: Check if it's still valid:
 
 ## 📊 Algorithm Performance Distribution
 
-Based on latest generation (2026-01-28):
+Based on latest generation (**2026-01-28 18:06:23 UTC**):
 
-| Algorithm | Picks | Top Score | Status | Market Condition |
-|-----------|-------|-----------|--------|------------------|
-| **Alpha Predator** | 13 | LRCX 100/100 | ✅ Active | All markets |
-| **Technical Momentum** | 1 | FCX 82/100 | ✅ Active | Bull/Volatile |
-| **CAN SLIM** | 0 | - | ✅ Active | Bull markets |
-| **Composite Rating** | 0 | - | ✅ Active | All markets |
-| **Penny Sniper** | 0 | - | ⏸️ Selective | Volatile only |
-| **Value Sleeper** | 6 | - | ⏸️ Selective | Bear/corrections |
+| Algorithm | Status | Picks | Example Symbol | Last Run (Time) |
+|-----------|--------|-------|----------------|-----------------|
+| **Alpha Predator** | ✅ Active | 13 | LRCX 100/100 | 18:06:23 |
+| **Technical Momentum** | ✅ Active | 1 | FCX 82/100 | 18:06:23 |
+| **CAN SLIM** | ✅ Active | 0 | - | 18:06:23 |
+| **Composite Rating** | ✅ Active | 0 | - | 18:06:23 |
+| **Penny Sniper** | ⏸️ Selective | 0 | - | 18:06:23 |
+| **Value Sleeper** | ⏸️ Selective | 6 | - | 18:06:23 |
 
 **Key Insight:** Dormant algorithms are **working correctly** - they're designed to be highly selective and only trigger on specific market conditions. This prevents false signals.
 
