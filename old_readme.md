@@ -2,7 +2,7 @@
 
 [![Daily Audit](https://img.shields.io/badge/Audit-Daily%2021%3A00%20UTC-blue)](https://github.com/eltonaguiar/stocksunify2/actions)
 [![Regime](https://img.shields.io/badge/Market%20Regime-BULLISH-green)](./data/v2/current.json)
-[![Picks](https://img.shields.io/badge/Active%20Picks-4-purple)](./data/v2/current.json)
+[![Picks](https://img.shields.io/badge/Active%20Picks-30-purple)](./data/v2/current.json)
 
 ## 🚀 V2.1 Update - Multi-Algorithm Framework
 
@@ -563,50 +563,14 @@ Based on latest generation (2026-01-28):
 
 | Algorithm | Picks | Top Score | Status | Market Condition |
 |-----------|-------|-----------|--------|------------------|
-| **Alpha Predator** | 0 | - | ✅ Active | All markets |
-| **Technical Momentum** | 0 | - | ✅ Active | Bull/Volatile |
-| **CAN SLIM** | 0 | - | ✅ Active | Bull markets |
-| **Composite Rating** | 0 | - | ✅ Active | All markets |
-| **Penny Sniper** | 0 | - | ⏸️ Selective | Volatile only |
-| **Value Sleeper** | 0 | - | ⏸️ Selective | Bear/corrections |
+| **Alpha Predator** | 19 (63%) | VTRS 90/100 | ✅ Active | All markets |
+| **Technical Momentum** | 7 (23%) | GM 100/100 | ✅ Active | Bull/Volatile |
+| **CAN SLIM** | 3 (10%) | PFE 75/100 | ✅ Active | Bull markets |
+| **Composite Rating** | 1 (3%) | SBUX 70/100 | ✅ Active | All markets |
+| **Penny Sniper** | 0 (0%) | - | ⏸️ Selective | Volatile only |
+| **Value Sleeper** | 0 (0%) | - | ⏸️ Selective | Bear/corrections |
 
 **Key Insight:** Dormant algorithms are **working correctly** - they're designed to be highly selective and only trigger on specific market conditions. This prevents false signals.
-
----
-
-## 🚀 Latest Top Picks (2026-01-28)
-
-| Symbol | Score | Algorithm |
-|---|---|---|
-| MRK | 99 | Volatility-Adjusted Momentum (V2) |
-| PFE | 95 | Institutional Footprint (V2) |
-| AXP | 69 | Regime-Aware Reversion (V2) |
-| PFE | 62 | Volatility-Adjusted Momentum (V2) |
-
-[View All Current Picks](./data/v2/current.json)
-
----
-
-## Recent Performance Details (2026-01-28)
-
-**Market Regime:** BULLISH (undefined)
-
-**Top V2.1 Picks (Live Deduplicated Data):**
-- **MRK** (99/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
-  - *Context:* System Score: 99/100.
-- **PFE** (95/100) - Institutional Footprint (V2) - STRONG BUY
-  - *Context:* System Score: 95/100.
-- **AXP** (69/100) - Regime-Aware Reversion (V2) - BUY
-  - *Context:* System Score: 69/100.
-- **PFE** (62/100) - Volatility-Adjusted Momentum (V2) - BUY
-  - *Context:* System Score: 62/100.
-
-**Algorithm Distribution:**
-- Volatility-Adjusted Momentum (V2): 2 picks
-- Institutional Footprint (V2): 1 picks
-- Regime-Aware Reversion (V2): 1 picks
-
-*Note: Algorithmic tags like "+ 2" indicate that 2 other algorithms ALSO triggered on this same stock, increasing confidence.*
 
 ---
 
@@ -639,6 +603,30 @@ STOCKSUNIFY2/
 npx tsx scripts/generate-daily-stocks.ts
 ```
 
+**Output:** 30 picks with:
+- SHA-256 audit hash
+- Simulated slippage entry price
+- Full indicator set
+- Algorithm attribution
+
+**Sample Output:**
+```json
+{
+  "symbol": "VTRS",
+  "score": 90,
+  "rating": "STRONG BUY",
+  "algorithm": "Alpha Predator",
+  "indicators": {
+    "adx": 44.83,
+    "vcp": true,
+    "institutionalFootprint": true
+  },
+  "pickHash": "0d1c6a05a5aeb...",
+  "slippageSimulated": true,
+  "simulatedEntryPrice": 13.19
+}
+```
+
 ---
 
 ## Comparison: V1 vs V2.1
@@ -653,6 +641,56 @@ npx tsx scripts/generate-daily-stocks.ts
 | **Fundamental Data** | PE only | **ROE, Debt/Equity, Shares Outstanding** |
 | **Stock Universe** | 64 tickers | **101 tickers** (all caps + microcaps) |
 | **Picks/Day** | 20 | **30** |
+
+---
+
+## Recent Performance (2026-01-28)
+
+**Market Regime:** BULL (SPY > SMA200)
+
+**Top V2.1 Picks (Live Deduplicated Data):**
+- **GM** (100/100) - Technical Momentum + 1 - STRONG BUY
+  - *Context:* Breakout + Volume Spike (3.0σ) + Bollinger Squeeze.
+- **BMY** (90/100) - Alpha Predator + 2 - STRONG BUY
+  - *Context:* VCP + Institutional Footprint. Triggered by CAN SLIM, Momentum, and Alpha Predator simultaneously.
+- **HON** (90/100) - Alpha Predator + 1 - STRONG BUY
+  - *Context:* Strong trend (ADX 36) + Momentum shift.
+- **XLI** (90/100) - Alpha Predator + 3 - STRONG BUY
+  - *Context:* **State Street Industrial ETF**. Proves expanded universe is working. Captures sector rotation.
+- **PFE** (85/100) - Technical Momentum + 3 - STRONG BUY
+  - *Context:* Multi-strategy concurrence (CAN SLIM + Momentum + Composite + Alpha Predator).
+
+**Algorithm Distribution:**
+- Alpha Predator + X: 19 picks (Dominant in high-quality setups)
+- Technical Momentum: 5 picks
+- Composite Rating: 1 pick (SBUX)
+
+*Note: Algorithmic tags like "+ 2" indicate that 2 other algorithms ALSO triggered on this same stock, increasing confidence.*
+
+---
+
+## Scientific Principles
+
+### 1. Bias-Free Prediction
+- All picks timestamped BEFORE market opens
+- Immutable SHA-256 hash prevents tampering
+- Git commit history = public audit trail
+
+### 2. Regime Awareness
+- Bull Market (Current): CAN SLIM, Momentum, Alpha Predator dominate
+- Bear Market: Scoring penalties activate (-30 points)
+- Volatile Market: Penny Sniper activates
+- Correction: Value Sleeper activates
+
+### 3. Realistic Execution
+- **Slippage Torture:** +0.5% entry penalty on all picks
+- **Liquidity Filter:** 500k+ average volume minimum
+- **Market Impact:** Assumes worst-case execution
+
+### 4. Multi-Strategy Diversification
+- Not all algorithms fire in all markets
+- Dormant algorithms = CORRECT behavior (prevent bad signals)
+- Dynamic allocation based on market conditions
 
 ---
 
@@ -695,4 +733,4 @@ This is experimental financial research software. All picks are for educational 
 
 ---
 
-*Last Updated: 2026-01-28T15:12:13.827Z | V2.1 - Multi-Algorithm Framework with Real Examples*
+*Last Updated: 2026-01-28T12:36:00.000Z | V2.1 - Multi-Algorithm Framework with Real Examples*

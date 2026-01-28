@@ -1,8 +1,8 @@
 # STOCKSUNIFY2 - Scientific Stock Analysis Engine
 
 [![Daily Audit](https://img.shields.io/badge/Audit-Daily%2021%3A00%20UTC-blue)](https://github.com/eltonaguiar/stocksunify2/actions)
-[![Regime](https://img.shields.io/badge/Market%20Regime-BULLISH-green)](./data/v2/current.json)
-[![Picks](https://img.shields.io/badge/Active%20Picks-4-purple)](./data/v2/current.json)
+[![Regime](https://img.shields.io/badge/Market%20Regime-{{REGIME_STATUS}}-{{REGIME_COLOR}})](./data/v2/current.json)
+[![Picks](https://img.shields.io/badge/Active%20Picks-{{PICK_COUNT}}-purple)](./data/v2/current.json)
 
 ## 🚀 V2.1 Update - Multi-Algorithm Framework
 
@@ -41,7 +41,7 @@ Traditional William O'Neil methodology with V2 enhancements:
 
 **Timeframe:** 3-12 months | **Risk:** Medium
 
-**Recent Example (2026-01-28):**
+**Recent Example ({{LAST_UPDATE_DATE}}):**
 ```
 Symbol: PFE (Pfizer) - Score: 75/100 BUY
 ✓ RS Rating: 50 (above threshold)
@@ -69,7 +69,7 @@ Short-term momentum across multiple timeframes (24h/3d/7d):
 
 **Timeframe:** 1-7 days | **Risk:** High
 
-**Recent Example (2026-01-28):**
+**Recent Example ({{LAST_UPDATE_DATE}}):**
 ```
 Symbol: GM (General Motors) - Score: 100/100 STRONG BUY
 ✓ Volume Spike: 3.01σ (extreme)
@@ -97,7 +97,7 @@ Combines technical + fundamental signals:
 
 **Timeframe:** 1-3 months | **Risk:** Medium
 
-**Recent Example (2026-01-28):**
+**Recent Example ({{LAST_UPDATE_DATE}}):**
 ```
 Symbol: SBUX (Starbucks) - Score: 70/100 STRONG BUY
 ✓ Above 50 SMA & 200 SMA
@@ -127,7 +127,7 @@ Multi-dimensional alpha generator combining:
 
 **Timeframe:** 3 days | **Risk:** Medium | **Current Output:** 19 picks/day
 
-**Recent Example (2026-01-28):**
+**Recent Example ({{LAST_UPDATE_DATE}}):**
 ```
 Symbol: VTRS (Viatris) - Score: 90/100 STRONG BUY
 ✓ ADX: 44.83 (VERY strong trend)
@@ -559,52 +559,38 @@ A: Check if it's still valid:
 
 ## 📊 Algorithm Performance Distribution
 
-Based on latest generation (2026-01-28):
+Based on latest generation ({{LAST_UPDATE_DATE}}):
 
 | Algorithm | Picks | Top Score | Status | Market Condition |
 |-----------|-------|-----------|--------|------------------|
-| **Alpha Predator** | 0 | - | ✅ Active | All markets |
-| **Technical Momentum** | 0 | - | ✅ Active | Bull/Volatile |
-| **CAN SLIM** | 0 | - | ✅ Active | Bull markets |
-| **Composite Rating** | 0 | - | ✅ Active | All markets |
-| **Penny Sniper** | 0 | - | ⏸️ Selective | Volatile only |
-| **Value Sleeper** | 0 | - | ⏸️ Selective | Bear/corrections |
+| **Alpha Predator** | {{ALPHA_PRED_COUNT}} | {{ALPHA_PRED_TOP}} | ✅ Active | All markets |
+| **Technical Momentum** | {{TECH_MOM_COUNT}} | {{TECH_MOM_TOP}} | ✅ Active | Bull/Volatile |
+| **CAN SLIM** | {{CAN_SLIM_COUNT}} | {{CAN_SLIM_TOP}} | ✅ Active | Bull markets |
+| **Composite Rating** | {{COMPOSITE_COUNT}} | {{COMPOSITE_TOP}} | ✅ Active | All markets |
+| **Penny Sniper** | {{PENNY_SNIPER_COUNT}} | - | ⏸️ Selective | Volatile only |
+| **Value Sleeper** | {{VALUE_SLEEPER_COUNT}} | - | ⏸️ Selective | Bear/corrections |
 
 **Key Insight:** Dormant algorithms are **working correctly** - they're designed to be highly selective and only trigger on specific market conditions. This prevents false signals.
 
 ---
 
-## 🚀 Latest Top Picks (2026-01-28)
+## 🚀 Latest Top Picks ({{LAST_UPDATE_DATE}})
 
-| Symbol | Score | Algorithm |
-|---|---|---|
-| MRK | 99 | Volatility-Adjusted Momentum (V2) |
-| PFE | 95 | Institutional Footprint (V2) |
-| AXP | 69 | Regime-Aware Reversion (V2) |
-| PFE | 62 | Volatility-Adjusted Momentum (V2) |
+{{TOP_PICKS_TABLE}}
 
 [View All Current Picks](./data/v2/current.json)
 
 ---
 
-## Recent Performance Details (2026-01-28)
+## Recent Performance Details ({{LAST_UPDATE_DATE}})
 
-**Market Regime:** BULLISH (undefined)
+**Market Regime:** {{REGIME_STATUS}} ({{REGIME_REASON}})
 
 **Top V2.1 Picks (Live Deduplicated Data):**
-- **MRK** (99/100) - Volatility-Adjusted Momentum (V2) - STRONG BUY
-  - *Context:* System Score: 99/100.
-- **PFE** (95/100) - Institutional Footprint (V2) - STRONG BUY
-  - *Context:* System Score: 95/100.
-- **AXP** (69/100) - Regime-Aware Reversion (V2) - BUY
-  - *Context:* System Score: 69/100.
-- **PFE** (62/100) - Volatility-Adjusted Momentum (V2) - BUY
-  - *Context:* System Score: 62/100.
+{{TOP_PICKS_SUMMARY}}
 
 **Algorithm Distribution:**
-- Volatility-Adjusted Momentum (V2): 2 picks
-- Institutional Footprint (V2): 1 picks
-- Regime-Aware Reversion (V2): 1 picks
+{{ALGO_DISTRIBUTION}}
 
 *Note: Algorithmic tags like "+ 2" indicate that 2 other algorithms ALSO triggered on this same stock, increasing confidence.*
 
@@ -695,4 +681,4 @@ This is experimental financial research software. All picks are for educational 
 
 ---
 
-*Last Updated: 2026-01-28T15:12:13.827Z | V2.1 - Multi-Algorithm Framework with Real Examples*
+*Last Updated: {{LAST_UPDATE_FULL}} | V2.1 - Multi-Algorithm Framework with Real Examples*
