@@ -27,6 +27,22 @@ STOCKSUNIFY2 is the **Scientific Validation Engine** for algorithmic stock analy
 
 ---
 
+## 📊 Daily Algorithm Summary
+Latest generation: **2026-01-28 18:06:23 UTC**
+
+| Algorithm | Status | Picks | Example Symbol | Last Run (Time) |
+|-----------|--------|-------|----------------|-----------------|
+| **Alpha Predator** | ✅ Active | 13 | LRCX 100/100 | 18:06:23 |
+| **Technical Momentum** | ✅ Active | 1 | FCX 82/100 | 18:06:23 |
+| **CAN SLIM** | ✅ Active | 0 | - | 18:06:23 |
+| **Composite Rating** | ✅ Active | 0 | - | 18:06:23 |
+| **Penny Sniper** | ⏸️ Selective | 0 | - | 18:06:23 |
+| **Value Sleeper** | ⏸️ Selective | 6 | - | 18:06:23 |
+
+> **Market Regime:** BULLISH (undefined)
+
+---
+
 ## V2.1 Scientific Algorithms
 
 ### 🎯 Core Algorithms
@@ -594,17 +610,6 @@ A: Check if it's still valid:
 ---
 
 ## 📊 Algorithm Performance Distribution
-
-Based on latest generation (**2026-01-28 18:06:23 UTC**):
-
-| Algorithm | Status | Picks | Example Symbol | Last Run (Time) |
-|-----------|--------|-------|----------------|-----------------|
-| **Alpha Predator** | ✅ Active | 13 | LRCX 100/100 | 18:06:23 |
-| **Technical Momentum** | ✅ Active | 1 | FCX 82/100 | 18:06:23 |
-| **CAN SLIM** | ✅ Active | 0 | - | 18:06:23 |
-| **Composite Rating** | ✅ Active | 0 | - | 18:06:23 |
-| **Penny Sniper** | ⏸️ Selective | 0 | - | 18:06:23 |
-| **Value Sleeper** | ⏸️ Selective | 6 | - | 18:06:23 |
 
 **Key Insight:** Dormant algorithms are **working correctly** - they're designed to be highly selective and only trigger on specific market conditions. This prevents false signals.
 

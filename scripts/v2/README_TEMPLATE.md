@@ -27,6 +27,22 @@ STOCKSUNIFY2 is the **Scientific Validation Engine** for algorithmic stock analy
 
 ---
 
+## 📊 Daily Algorithm Summary
+Latest generation: **{{LAST_UPDATE_DATE}} {{LAST_UPDATE_TIME}} UTC**
+
+| Algorithm | Status | Picks | Example Symbol | Last Run (Time) |
+|-----------|--------|-------|----------------|-----------------|
+| **Alpha Predator** | ✅ Active | {{ALPHA_PRED_COUNT}} | {{ALPHA_PRED_TOP}} | {{LAST_UPDATE_TIME}} |
+| **Technical Momentum** | ✅ Active | {{TECH_MOM_COUNT}} | {{TECH_MOM_TOP}} | {{LAST_UPDATE_TIME}} |
+| **CAN SLIM** | ✅ Active | {{CAN_SLIM_COUNT}} | {{CAN_SLIM_TOP}} | {{LAST_UPDATE_TIME}} |
+| **Composite Rating** | ✅ Active | {{COMPOSITE_COUNT}} | {{COMPOSITE_TOP}} | {{LAST_UPDATE_TIME}} |
+| **Penny Sniper** | ⏸️ Selective | {{PENNY_SNIPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
+| **Value Sleeper** | ⏸️ Selective | {{VALUE_SLEEPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
+
+> **Market Regime:** {{REGIME_STATUS}} ({{REGIME_REASON}})
+
+---
+
 ## V2.1 Scientific Algorithms
 
 ### 🎯 Core Algorithms
@@ -594,17 +610,6 @@ A: Check if it's still valid:
 ---
 
 ## 📊 Algorithm Performance Distribution
-
-Based on latest generation (**{{LAST_UPDATE_DATE}} {{LAST_UPDATE_TIME}} UTC**):
-
-| Algorithm | Status | Picks | Example Symbol | Last Run (Time) |
-|-----------|--------|-------|----------------|-----------------|
-| **Alpha Predator** | ✅ Active | {{ALPHA_PRED_COUNT}} | {{ALPHA_PRED_TOP}} | {{LAST_UPDATE_TIME}} |
-| **Technical Momentum** | ✅ Active | {{TECH_MOM_COUNT}} | {{TECH_MOM_TOP}} | {{LAST_UPDATE_TIME}} |
-| **CAN SLIM** | ✅ Active | {{CAN_SLIM_COUNT}} | {{CAN_SLIM_TOP}} | {{LAST_UPDATE_TIME}} |
-| **Composite Rating** | ✅ Active | {{COMPOSITE_COUNT}} | {{COMPOSITE_TOP}} | {{LAST_UPDATE_TIME}} |
-| **Penny Sniper** | ⏸️ Selective | {{PENNY_SNIPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
-| **Value Sleeper** | ⏸️ Selective | {{VALUE_SLEEPER_COUNT}} | - | {{LAST_UPDATE_TIME}} |
 
 **Key Insight:** Dormant algorithms are **working correctly** - they're designed to be highly selective and only trigger on specific market conditions. This prevents false signals.
 
