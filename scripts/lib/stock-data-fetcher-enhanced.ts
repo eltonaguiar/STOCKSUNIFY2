@@ -12,6 +12,15 @@
 
 import { STOCK_API_KEYS, API_PRIORITY } from "./stock-api-keys";
 
+export interface StockHistory {
+  date: string;
+  open: number;
+  high: number;
+  low: number;
+  close: number;
+  volume: number;
+}
+
 export interface StockData {
   symbol: string;
   name: string;
@@ -22,16 +31,15 @@ export interface StockData {
   avgVolume: number;
   marketCap?: number;
   pe?: number;
+  roe?: number;
+  debtToEquity?: number;
+  sharesOutstanding?: number;
   high52Week?: number;
   low52Week?: number;
-  history?: {
-    date: string;
-    open: number;
-    high: number;
-    low: number;
-    close: number;
-    volume: number;
-  }[];
+  history?: StockHistory[];
+  earningsTimestamp?: number;
+  daysToEarnings?: number;
+  earningsDate?: string;
 }
 
 /**
@@ -39,8 +47,9 @@ export interface StockData {
  */
 async function fetchFromYahoo(symbol: string): Promise<StockData | null> {
   try {
-    const quoteUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1y`;
-    const infoUrl = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${symbol}?modules=summaryProfile,financialData,defaultKeyStatistics`;
+    const quoteUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=5y`;
+    // Added calendarEvents
+    const infoUrl = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${symbol}?modules=summaryProfile,financialData,defaultKeyStatistics,calendarEvents`;
 
     const [quoteResponse, infoResponse] = await Promise.all([
       fetch(quoteUrl),
@@ -72,7 +81,7 @@ async function fetchFromYahoo(symbol: string): Promise<StockData | null> {
     const avgVolume =
       recentVolumes.length > 0
         ? recentVolumes.reduce((a: number, b: number) => a + b, 0) /
-          recentVolumes.length
+        recentVolumes.length
         : meta.regularMarketVolume || 0;
 
     const history = timestamps
@@ -86,7 +95,15 @@ async function fetchFromYahoo(symbol: string): Promise<StockData | null> {
       }))
       .filter((h: any) => h.close > 0);
 
-    let marketCap, pe, high52Week, low52Week;
+    let marketCap,
+      pe,
+      roe,
+      debtToEquity,
+      sharesOutstanding,
+      high52Week,
+      low52Week;
+    let earningsTimestamp, earningsDate, daysToEarnings;
+
     if (infoResponse?.ok) {
       try {
         const infoData = await infoResponse.json();
@@ -98,6 +115,27 @@ async function fetchFromYahoo(symbol: string): Promise<StockData | null> {
           pe = summary.defaultKeyStatistics?.trailingPE?.raw;
           high52Week = summary.defaultKeyStatistics?.fiftyTwoWeekHigh?.raw;
           low52Week = summary.defaultKeyStatistics?.fiftyTwoWeekLow?.raw;
+          // New Fundamental Fields
+          roe = summary.financialData?.returnOnEquity?.raw;
+          debtToEquity = summary.financialData?.debtToEquity?.raw;
+          sharesOutstanding =
+            summary.defaultKeyStatistics?.sharesOutstanding?.raw;
+
+          // Earnings Event
+          const earningsEvent =
+            summary.calendarEvents?.earnings?.earningsDate?.[0];
+          if (earningsEvent?.raw) {
+            earningsTimestamp = earningsEvent.raw;
+            earningsDate = earningsEvent.fmt;
+            const nowMs = Date.now();
+            const earningsMs = earningsTimestamp * 1000;
+            const diffDays = Math.ceil(
+              (earningsMs - nowMs) / (1000 * 3600 * 24),
+            );
+            if (Number.isFinite(diffDays)) {
+              daysToEarnings = diffDays;
+            }
+          }
         }
       } catch (e) {
         // Ignore
@@ -114,9 +152,15 @@ async function fetchFromYahoo(symbol: string): Promise<StockData | null> {
       avgVolume,
       marketCap,
       pe,
+      roe,
+      debtToEquity,
+      sharesOutstanding,
       high52Week,
       low52Week,
       history,
+      earningsTimestamp,
+      earningsDate,
+      daysToEarnings,
     };
   } catch (error) {
     return null;
@@ -193,7 +237,7 @@ async function fetchFromPolygon(symbol: string): Promise<StockData | null> {
     const avgVolume =
       recentVolumes.length > 0
         ? recentVolumes.reduce((a: number, b: number) => a + b, 0) /
-          recentVolumes.length
+        recentVolumes.length
         : volume;
 
     return {
@@ -287,7 +331,7 @@ async function fetchFromFinnhub(symbol: string): Promise<StockData | null> {
     const avgVolume =
       recentVolumes.length > 0
         ? recentVolumes.reduce((a: number, b: number) => a + b, 0) /
-          recentVolumes.length
+        recentVolumes.length
         : volume;
 
     return {
@@ -364,7 +408,7 @@ async function fetchFromTwelveData(symbol: string): Promise<StockData | null> {
         avgVolume =
           recentVolumes.length > 0
             ? recentVolumes.reduce((a: number, b: number) => a + b, 0) /
-              recentVolumes.length
+            recentVolumes.length
             : 0;
       }
     }
