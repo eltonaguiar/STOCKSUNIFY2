@@ -45,6 +45,7 @@ async function main() {
             },
             picks: picks.map((p: any) => ({
                 ...p,
+                pickedAt: timestamp.toISOString(), // Absolute timestamp per pick
                 audit_id: `v2-${p.symbol}-${timestamp.getTime()}`
             })),
             runnerUps: runnerUps || {}

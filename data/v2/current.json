@@ -1,11 +1,11 @@
 {
   "version": "2.0.0-alpha",
   "date": "2026-01-28",
-  "timestamp": "2026-01-28T18:59:58.248Z",
+  "timestamp": "2026-01-28T19:44:18.216Z",
   "regime": {
     "symbol": "SPY",
-    "price": 695.11,
-    "sma200": 639.529899597168,
+    "price": 694.65,
+    "sma200": 639.5276000976562,
     "status": "BULLISH",
     "reason": "Price is above long-term 200-day average"
   },
@@ -20,7 +20,7 @@
     ],
     "runSource": "Local Manual Run",
     "runStatus": "Success",
-    "durationMs": 34699,
+    "durationMs": 21266,
     "jobId": "N/A"
   },
   "picks": [
@@ -34,12 +34,13 @@
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 5.400977379214371,
-        "totalReturn": 51.84808192882093,
-        "ytdReturn": 29.201341810401832,
-        "martinRatio": 9.5997591340334
+        "totalReturn": 52.27358680080886,
+        "ytdReturn": 29.563386557423875,
+        "martinRatio": 9.678542073140955
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-LRCX-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-LRCX-1769629458216"
     },
     {
       "symbol": "JNJ",
@@ -51,12 +52,13 @@
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 2.0579143191197944,
-        "totalReturn": 20.278501547611423,
-        "ytdReturn": 9.558713919974327,
-        "martinRatio": 9.853909542883637
+        "totalReturn": 20.01906383242752,
+        "ytdReturn": 9.322398518201268,
+        "martinRatio": 9.727841264543034
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-JNJ-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-JNJ-1769629458216"
     },
     {
       "symbol": "XOM",
@@ -68,12 +70,13 @@
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 1.8974522916680474,
-        "totalReturn": 20.07257718357393,
-        "ytdReturn": 11.956786214166337,
-        "martinRatio": 10.578699275715733
+        "totalReturn": 19.98513402209589,
+        "ytdReturn": 11.87525339822186,
+        "martinRatio": 10.53261476446767
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-XOM-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-XOM-1769629458216"
     },
     {
       "symbol": "SLB",
@@ -84,13 +87,14 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.269863707178513,
-        "totalReturn": 36.1952249851448,
-        "ytdReturn": 22.16915191025707,
-        "martinRatio": 11.069337509598157
+        "ulcerIndex": 3.279672913061881,
+        "totalReturn": 35.38546350738656,
+        "ytdReturn": 21.442783764838534,
+        "martinRatio": 10.789326998572832
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-SLB-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-SLB-1769629458216"
     },
     {
       "symbol": "FCX",
@@ -101,13 +105,14 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.410809394471038,
-        "totalReturn": 50.71942170288266,
-        "ytdReturn": 21.028306625555405,
-        "martinRatio": 21.0383375057368
+        "ulcerIndex": 2.4108058962345975,
+        "totalReturn": 50.91606438513623,
+        "ytdReturn": 21.18621149657045,
+        "martinRatio": 21.119935231891247
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-FCX-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-FCX-1769629458216"
     },
     {
       "symbol": "PLTR",
@@ -118,12 +123,13 @@
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 18.92343425978379,
-        "sma200": 158.3438251876831,
+        "rsi": 18.808619656479564,
+        "sma200": 158.3427251815796,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-alpha",
-      "audit_id": "v2-PLTR-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-PLTR-1769629458216"
     },
     {
       "symbol": "RIVN",
@@ -134,12 +140,13 @@
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 7.01913278368518,
-        "sma200": 14.69589997291565,
+        "rsi": 6.422010321734831,
+        "sma200": 14.695724973678589,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-alpha",
-      "audit_id": "v2-RIVN-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-RIVN-1769629458216"
     },
     {
       "symbol": "GM",
@@ -150,46 +157,32 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.748275501678675,
-        "totalReturn": 22.93386090891945,
-        "ytdReturn": 4.883917608195279,
-        "martinRatio": 8.344818739937539
+        "ulcerIndex": 2.745069629815014,
+        "totalReturn": 23.375314109334113,
+        "ytdReturn": 5.26055379905298,
+        "martinRatio": 8.515381123833038
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-GM-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-GM-1769629458216"
     },
     {
       "symbol": "MRK",
       "name": "Merck & Co., Inc.",
-      "score": 99,
+      "score": 98,
       "rating": "STRONG BUY",
       "algorithm": "Alpha Predator",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.0989569684448726,
-        "totalReturn": 24.121883965237007,
-        "ytdReturn": 0.2536430807875847,
-        "martinRatio": 7.7838718674889895
+        "ulcerIndex": 3.1070491014627266,
+        "totalReturn": 23.65084420693565,
+        "ytdReturn": -0.1268172401243258,
+        "martinRatio": 7.611995637855024
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-MRK-1769626798248"
-    },
-    {
-      "symbol": "JPM",
-      "name": "JPMorgan Chase & Co.",
-      "score": 93,
-      "rating": "STRONG BUY",
-      "algorithm": "Value Sleeper",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 23.677660967005366,
-        "sma200": 292.5088999938965,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-alpha",
-      "audit_id": "v2-JPM-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-MRK-1769629458216"
     },
     {
       "symbol": "BAC",
@@ -200,12 +193,48 @@
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 23.25000762939453,
-        "sma200": 48.9229500579834,
+        "rsi": 23.694878650661053,
+        "sma200": 48.92370105743408,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-alpha",
-      "audit_id": "v2-BAC-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-BAC-1769629458216"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 92,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.723545835836084,
+        "totalReturn": 19.20053952481617,
+        "ytdReturn": 6.3557056929833795,
+        "martinRatio": 7.049831610020221
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-GOOGL-1769629458216"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "score": 92,
+      "rating": "STRONG BUY",
+      "algorithm": "Value Sleeper",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 24.151395032536016,
+        "sma200": 292.5128750610352,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-JPM-1769629458216"
     },
     {
       "symbol": "HOOD",
@@ -216,113 +245,102 @@
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 24.198499419595834,
-        "sma200": 103.43654914855956,
+        "rsi": 24.11375552477115,
+        "sma200": 103.43609966278076,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-alpha",
-      "audit_id": "v2-HOOD-1769626798248"
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc.",
-      "score": 91,
-      "rating": "STRONG BUY",
-      "algorithm": "Alpha Predator",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 2.7241056848171796,
-        "totalReturn": 18.898252817387036,
-        "ytdReturn": 6.0859928526019775,
-        "martinRatio": 6.9374154324175334
-      },
-      "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-GOOGL-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-HOOD-1769629458216"
     },
     {
       "symbol": "SBUX",
       "name": "Starbucks Corporation",
-      "score": 91,
+      "score": 89,
       "rating": "STRONG BUY",
       "algorithm": "Alpha Predator",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.8656419939491284,
-        "totalReturn": 19.67354607773944,
-        "ytdReturn": 15.255446698908134,
-        "martinRatio": 6.8653188776827685
+        "ulcerIndex": 2.870350904407608,
+        "totalReturn": 18.857421460966272,
+        "ytdReturn": 14.469451712120792,
+        "martinRatio": 6.569726869286083
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-SBUX-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-SBUX-1769629458216"
     },
     {
       "symbol": "WMT",
       "name": "Walmart Inc.",
-      "score": 90,
+      "score": 88,
       "rating": "STRONG BUY",
       "algorithm": "Alpha Predator",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.071427292239712,
-        "totalReturn": 15.418066463502683,
-        "ytdReturn": 3.5650920429327333,
-        "martinRatio": 7.443209096097232
+        "ulcerIndex": 2.086229118555218,
+        "totalReturn": 14.744020211335283,
+        "ytdReturn": 2.960267648573422,
+        "martinRatio": 7.067306308880397
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-WMT-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-WMT-1769629458216"
     },
     {
-      "symbol": "LOW",
-      "name": "Lowe's Companies, Inc.",
+      "symbol": "GS",
+      "name": "The Goldman Sachs Group, Inc.",
       "score": 83,
       "rating": "BUY",
       "algorithm": "Alpha Predator",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.1720796431760343,
-        "totalReturn": 13.496827135666534,
-        "ytdReturn": 9.46980463694384,
-        "martinRatio": 6.2137809624380775
+        "ulcerIndex": 3.248139137924895,
+        "totalReturn": 18.068840437954332,
+        "ytdReturn": 1.931444826413882,
+        "martinRatio": 5.5628283366881215
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-LOW-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-GS-1769629458216"
     },
     {
-      "symbol": "LLY",
-      "name": "Eli Lilly and Company",
+      "symbol": "ABBV",
+      "name": "AbbVie Inc.",
       "score": 81,
       "rating": "STRONG BUY",
       "algorithm": "Value Sleeper",
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 29.30262058061102,
-        "sma200": 850.2538018798828,
+        "rsi": 29.5680769468742,
+        "sma200": 207.96352500915526,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-alpha",
-      "audit_id": "v2-LLY-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-ABBV-1769629458216"
     },
     {
-      "symbol": "GS",
-      "name": "The Goldman Sachs Group, Inc.",
+      "symbol": "LOW",
+      "name": "Lowe's Companies, Inc.",
       "score": 81,
       "rating": "BUY",
       "algorithm": "Alpha Predator",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.263655028200504,
-        "totalReturn": 17.289738111030065,
-        "ytdReturn": 1.2588285327631918,
-        "martinRatio": 5.297661046168591
+        "ulcerIndex": 2.183917243239058,
+        "totalReturn": 12.896314822779406,
+        "ytdReturn": 8.890599321404451,
+        "martinRatio": 5.905129813276417
       },
       "v2_hash": "vam-v2.0.0-alpha",
-      "audit_id": "v2-GS-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-LOW-1769629458216"
     },
     {
       "symbol": "FCX",
@@ -333,28 +351,30 @@
       "timeframe": "1m",
       "risk": "Medium",
       "metrics": {
-        "trendStrength": 0.250616852424871,
-        "avgVolatilty": 0.020693962739304964,
-        "signalDensity": 40.82510533968055
+        "trendStrength": 0.25220785976515997,
+        "avgVolatilty": 0.020727046304112012,
+        "signalDensity": 41.04004291024363
       },
       "v2_hash": "at-v2.0.0-alpha",
-      "audit_id": "v2-FCX-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-FCX-1769629458216"
     },
     {
-      "symbol": "WFC",
-      "name": "Wells Fargo & Company",
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
       "score": 80,
-      "rating": "STRONG BUY",
+      "rating": "BUY",
       "algorithm": "Value Sleeper",
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 29.768203497208802,
-        "sma200": 81.66502513885499,
+        "rsi": 30.164991502891482,
+        "sma200": 850.2888513183593,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-alpha",
-      "audit_id": "v2-WFC-1769626798248"
+      "pickedAt": "2026-01-28T19:44:18.216Z",
+      "audit_id": "v2-LLY-1769629458216"
     }
   ],
   "runnerUps": {
@@ -367,8 +387,8 @@
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 12.837285363859365,
-        "sma200": 344.9862986755371,
+        "rsi": 15.218105172298067,
+        "sma200": 344.9920736694336,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-alpha"
@@ -382,11 +402,11 @@
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "volumeZScore": -1.82,
-        "rsi": 48.35852738670785,
-        "rsiZScore": 0.69,
+        "volumeZScore": -1.56,
+        "rsi": 48.619430345819204,
+        "rsiZScore": 0.71,
         "breakout": false,
-        "sma20": 470.36399993896487
+        "sma20": 470.38549957275393
       },
       "v2_hash": "if-v2.0.0-alpha"
     },
@@ -399,9 +419,9 @@
       "timeframe": "1y",
       "risk": "Medium",
       "metrics": {
-        "yearlyReturn": 1.0118445349482672,
-        "sma200": 485.49830001831054,
-        "adjustedReturn": 99.68445349482673
+        "yearlyReturn": 1.013644225289293,
+        "sma200": 485.5004499816894,
+        "adjustedReturn": 99.8644225289293
       },
       "v2_hash": "scs-v2.0.0-alpha"
     }
