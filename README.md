@@ -150,7 +150,7 @@ Entry: $13.12 | Stop Loss: $12.43
 - 90/100 score = near-perfect setup
 - Pharmaceutical sector with technical tailwinds
 
-[View All Alpha Predator Picks for 2026-01-28](./data/v2/current.json)
+[View All Alpha Predator Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
 
 ---
 
@@ -189,6 +189,8 @@ Entry: $4.22 (with slippage) | Stop Loss: $3.80
 - Meme stock momentum phases
 - Crypto correlation events
 
+[View All Penny Sniper Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
+
 ---
 
 #### 6. **Value Sleeper** (Mean Reversion) 💤 **NEW**
@@ -225,6 +227,8 @@ Entry: $45.20 | Stop Loss: $42.50
 - Interest rate cycle shifts
 - Quality stocks oversold on news
 - Dividend yield hunting phases
+
+[View All Value Sleeper Picks for 2026-01-28](./data/v2/history/2026/01/28.json)
 
 ---
 
