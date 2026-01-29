@@ -1,0 +1,433 @@
+{
+  "version": "2.0.0-alpha",
+  "date": "2026-01-29",
+  "timestamp": "2026-01-29T17:58:12.000Z",
+  "regime": {
+    "symbol": "SPY",
+    "price": 689.1,
+    "sma200": 640.3072494506836,
+    "status": "BULLISH",
+    "reason": "Price is above long-term 200-day average"
+  },
+  "metadata": {
+    "engine": "STOCKSUNIFY2-Scientific",
+    "system": "win32",
+    "checksPerformed": [
+      "Purging",
+      "Slippage-Stress",
+      "Regime-Detection",
+      "Runner-Up-Verification"
+    ],
+    "runSource": "Local Manual Run",
+    "runStatus": "Success",
+    "durationMs": 20898,
+    "jobId": "N/A"
+  },
+  "picks": [
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 5.400977379214371,
+        "totalReturn": 50.16434616176265,
+        "ytdReturn": 0,
+        "martinRatio": 9.2880126391234
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-LRCX-1769709492000"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.0267969962546193,
+        "totalReturn": 22.0793550445717,
+        "ytdReturn": 0,
+        "martinRatio": 10.893718061242847
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-JNJ-1769709492000"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.895240054122044,
+        "totalReturn": 23.09247307529983,
+        "ytdReturn": 0,
+        "martinRatio": 12.184458124486635
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-XOM-1769709492000"
+    },
+    {
+      "symbol": "MRK",
+      "name": "Merck & Co., Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.0333041674805608,
+        "totalReturn": 32.31301106377846,
+        "ytdReturn": 0,
+        "martinRatio": 10.652743437403906
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-MRK-1769709492000"
+    },
+    {
+      "symbol": "SLB",
+      "name": "SLB N.V.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.3039298437660083,
+        "totalReturn": 32.45542785971682,
+        "ytdReturn": 0,
+        "martinRatio": 9.82327997095794
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-SLB-1769709492000"
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.2284416939580503,
+        "totalReturn": 56.702281500200556,
+        "ytdReturn": 0,
+        "martinRatio": 25.444812693074642
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-FCX-1769709492000"
+    },
+    {
+      "symbol": "RIVN",
+      "name": "Rivian Automotive, Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Value Sleeper",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 7.918959086130343,
+        "sma200": 14.714424967765808,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-RIVN-1769709492000"
+    },
+    {
+      "symbol": "GM",
+      "name": "General Motors Company",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.7240484766297968,
+        "totalReturn": 25.989443655882333,
+        "ytdReturn": 0,
+        "martinRatio": 9.540741979759689
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-GM-1769709492000"
+    },
+    {
+      "symbol": "SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "score": 99,
+      "rating": "STRONG BUY",
+      "algorithm": "Value Sleeper",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 20.559057999928456,
+        "sma200": 22.62752498626709,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-SOFI-1769709492000"
+    },
+    {
+      "symbol": "LMT",
+      "name": "Lockheed Martin Corporation",
+      "score": 95,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.183883762285566,
+        "totalReturn": 28.45636694344759,
+        "ytdReturn": 0,
+        "martinRatio": 6.8014238827472795
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-LMT-1769709492000"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "score": 90,
+      "rating": "STRONG BUY",
+      "algorithm": "Composite Rating",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "volumeZScore": 3.47,
+        "rsi": 70.92772208858503,
+        "rsiZScore": 1.3,
+        "breakout": true,
+        "sma20": 648.7552459716796
+      },
+      "v2_hash": "if-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-META-1769709492000"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "score": 89,
+      "rating": "STRONG BUY",
+      "algorithm": "Value Sleeper",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 25.520547322324873,
+        "sma200": 292.85444999694823,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-JPM-1769709492000"
+    },
+    {
+      "symbol": "WMT",
+      "name": "Walmart Inc.",
+      "score": 89,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.107328411770342,
+        "totalReturn": 15.139289513265789,
+        "ytdReturn": 0,
+        "martinRatio": 7.184114933726655
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-WMT-1769709492000"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 87,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.7254930901900405,
+        "totalReturn": 17.445015707861625,
+        "ytdReturn": 0,
+        "martinRatio": 6.4006824198718615
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-GOOGL-1769709492000"
+    },
+    {
+      "symbol": "COP",
+      "name": "ConocoPhillips",
+      "score": 87,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.9026763536054854,
+        "totalReturn": 18.45997556905403,
+        "ytdReturn": 0,
+        "martinRatio": 6.359639629173415
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-COP-1769709492000"
+    },
+    {
+      "symbol": "BAC",
+      "name": "Bank of America Corporation",
+      "score": 86,
+      "rating": "STRONG BUY",
+      "algorithm": "Value Sleeper",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 26.816716376316194,
+        "sma200": 49.0083250617981,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-BAC-1769709492000"
+    },
+    {
+      "symbol": "UPS",
+      "name": "United Parcel Service, Inc.",
+      "score": 85,
+      "rating": "STRONG BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.851911378536195,
+        "totalReturn": 12.913172637904003,
+        "ytdReturn": 0,
+        "martinRatio": 6.972889085065698
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-UPS-1769709492000"
+    },
+    {
+      "symbol": "GS",
+      "name": "The Goldman Sachs Group, Inc.",
+      "score": 83,
+      "rating": "BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.2932065961507258,
+        "totalReturn": 18.389089631980212,
+        "ytdReturn": 0,
+        "martinRatio": 5.58394655636678
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-GS-1769709492000"
+    },
+    {
+      "symbol": "LOW",
+      "name": "Lowe's Companies, Inc.",
+      "score": 82,
+      "rating": "BUY",
+      "algorithm": "Alpha Predator",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.182418424115543,
+        "totalReturn": 13.331353204769844,
+        "ytdReturn": 0,
+        "martinRatio": 6.108523029983386
+      },
+      "v2_hash": "vam-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-LOW-1769709492000"
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan Inc.",
+      "score": 82,
+      "rating": "BUY",
+      "algorithm": "Technical Momentum",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.2713216781501268,
+        "avgVolatilty": 0.021921704565443303,
+        "signalDensity": 42.49799342542705
+      },
+      "v2_hash": "at-v2.0.0-alpha",
+      "pickedAt": "2026-01-29T17:58:12.000Z",
+      "audit_id": "v2-FCX-1769709492000"
+    }
+  ],
+  "runnerUps": {
+    "Regime-Aware Reversion (V2)": {
+      "symbol": "CRM",
+      "name": "Salesforce, Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Value Sleeper",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 13.987140607354391,
+        "sma200": 254.38050117492676,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-alpha"
+    },
+    "Institutional Footprint (V2)": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "score": 85,
+      "rating": "BUY",
+      "algorithm": "Composite Rating",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "volumeZScore": -1.92,
+        "rsi": 56.18432893797875,
+        "rsiZScore": 0.82,
+        "breakout": false,
+        "sma20": 186.3317512512207
+      },
+      "v2_hash": "if-v2.0.0-alpha"
+    },
+    "Scientific CAN SLIM (V2)": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "CAN SLIM",
+      "timeframe": "1y",
+      "risk": "Medium",
+      "metrics": {
+        "yearlyReturn": 0.8285910834759542,
+        "sma200": 485.6815495300293,
+        "adjustedReturn": 81.35910834759542
+      },
+      "v2_hash": "scs-v2.0.0-alpha"
+    }
+  }
+}
