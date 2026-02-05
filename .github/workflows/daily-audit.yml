@@ -21,6 +21,9 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Fix binary permissions
+        run: chmod +x node_modules/.bin/*
+
       - name: Generate Scientific Ledger
         run: npm run generate
         env:
