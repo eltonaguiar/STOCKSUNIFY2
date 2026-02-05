@@ -11,6 +11,9 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-latest
+    env:
+      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+      ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,9 +32,6 @@ jobs:
 
       - name: Generate Scientific Ledger
         run: npm run generate
-        env:
-          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
 
       - name: Commit and Push Ledger
         run: |
@@ -41,9 +41,11 @@ jobs:
           git commit -m "🔬 Audit: Scientific Ledger for $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push origin main
 
-      - name: Sync daily-stocks.json to findtorontoevents
+      - name: Sync daily-stocks.json to findtorontoevents repo
+        env:
+          FINDTORONTOEVENTS_PAT: ${{ secrets.FINDTORONTOEVENTS_PAT }}
         run: |
-          git clone --depth 1 https://x-access-token:${{ secrets.FINDTORONTOEVENTS_PAT }}@github.com/eltonaguiar/findtorontoevents_antigravity.ca.git /tmp/fte
+          git clone --depth 1 https://x-access-token:${FINDTORONTOEVENTS_PAT}@github.com/eltonaguiar/findtorontoevents_antigravity.ca.git /tmp/fte
           cp data/daily-stocks.json /tmp/fte/data/daily-stocks.json
           cd /tmp/fte
           git config user.name "STOCKSUNIFY2-BOT"
@@ -51,3 +53,22 @@ jobs:
           git add data/daily-stocks.json
           git commit -m "📊 Auto-sync: daily stock picks for $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push origin main
+
+      - name: Deploy daily-stocks.json to live site via FTP
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: |
+          python3 -c "
+          import ftplib
+          import os
+          ftp = ftplib.FTP_TLS(os.environ['FTP_HOST'], timeout=30)
+          ftp.login(os.environ['FTP_USER'], os.environ['FTP_PASS'])
+          ftp.prot_p()
+          ftp.cwd('/findtorontoevents.ca/data')
+          with open('data/daily-stocks.json', 'rb') as f:
+              ftp.storbinary('STOR daily-stocks.json', f)
+          print('FTP upload successful')
+          ftp.quit()
+          "
