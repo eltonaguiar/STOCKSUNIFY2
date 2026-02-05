@@ -5,6 +5,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import * as crypto from 'crypto';
 import { generateScientificPicks } from './lib/v2-engine';
 
 async function main() {
@@ -16,7 +17,7 @@ async function main() {
     const [year, month, day] = datePortion.split('-');
 
     try {
-        const { picks, regime } = await generateScientificPicks();
+        const { picks, regime, stockDataMap } = await generateScientificPicks();
 
         const auditObject = {
             version: '2.0.0',
@@ -60,6 +61,54 @@ async function main() {
         });
 
         fs.writeFileSync(indexPath, JSON.stringify(index.slice(0, 31), null, 2)); // Keep 31 days in index
+
+        // 3. Write current.json (live picks)
+        const currentPath = path.join(process.cwd(), 'data', 'v2', 'current.json');
+        fs.writeFileSync(currentPath, JSON.stringify(auditObject, null, 2));
+        console.log(`✅ Current picks updated: ${currentPath}`);
+
+        // 4. Write daily-stocks.json (findstocks-compatible format)
+        const dailyStocks = picks.map((p: any) => {
+            const sd = stockDataMap.get(p.symbol) || {};
+            const price = sd.price || 0;
+            const slippageFactor = 1.005;
+            const pickHashInput = `${p.symbol}-${dateStr}-${p.algorithm}-${p.score}`;
+            const pickHash = crypto.createHash('sha256').update(pickHashInput).digest('hex');
+            return {
+                symbol: p.symbol,
+                name: p.name,
+                price,
+                change: sd.change || 0,
+                changePercent: sd.changePercent || 0,
+                rating: p.rating,
+                timeframe: p.timeframe,
+                algorithm: p.algorithm,
+                score: p.score,
+                risk: p.risk,
+                stopLoss: +(price * 0.95).toFixed(2),
+                indicators: p.metrics,
+                allAlgorithms: [p.algorithm],
+                slippageSimulated: true,
+                entryPrice: price,
+                simulatedEntryPrice: +(price * slippageFactor).toFixed(4),
+                pickedAt: dateStr,
+                pickHash,
+            };
+        });
+
+        const dailyStocksOutput = {
+            lastUpdated: dateStr,
+            totalPicks: dailyStocks.length,
+            stocks: dailyStocks,
+        };
+
+        const dailyStocksPath = path.join(process.cwd(), 'data', 'daily-stocks.json');
+        const dataDir = path.join(process.cwd(), 'data');
+        if (!fs.existsSync(dataDir)) {
+            fs.mkdirSync(dataDir, { recursive: true });
+        }
+        fs.writeFileSync(dailyStocksPath, JSON.stringify(dailyStocksOutput, null, 2));
+        console.log(`✅ Daily stocks written: ${dailyStocksPath}`);
 
     } catch (error) {
         console.error('❌ CRITICAL: Audit Generation Failed', error);

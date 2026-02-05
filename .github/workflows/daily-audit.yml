@@ -37,6 +37,17 @@ jobs:
         run: |
           git config --global user.name "STOCKSUNIFY2-BOT"
           git config --global user.email "bot@stocksunify.com"
-          git add data/v2/
+          git add data/v2/ data/daily-stocks.json
           git commit -m "🔬 Audit: Scientific Ledger for $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push origin main
+
+      - name: Sync daily-stocks.json to findtorontoevents
+        run: |
+          git clone --depth 1 https://x-access-token:${{ secrets.FINDTORONTOEVENTS_PAT }}@github.com/eltonaguiar/findtorontoevents_antigravity.ca.git /tmp/fte
+          cp data/daily-stocks.json /tmp/fte/data/daily-stocks.json
+          cd /tmp/fte
+          git config user.name "STOCKSUNIFY2-BOT"
+          git config user.email "bot@stocksunify.com"
+          git add data/daily-stocks.json
+          git commit -m "📊 Auto-sync: daily stock picks for $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push origin main

@@ -13,7 +13,7 @@ const V2_UNIVERSE = [
     'GME', 'AMC', 'SNDL', 'MULN', 'XELA', 'HSTO'
 ];
 
-export async function generateScientificPicks(): Promise<{ picks: V2Pick[], regime: any }> {
+export async function generateScientificPicks(): Promise<{ picks: V2Pick[], regime: any, stockDataMap: Map<string, any> }> {
     console.log('📡 Engine: Fetching Market Regime Baseline (SPY)...');
     const spyData = await fetchStockData('SPY');
 
@@ -56,9 +56,23 @@ export async function generateScientificPicks(): Promise<{ picks: V2Pick[], regi
     }
 
     v2Picks.sort((a, b) => b.score - a.score);
+
+    // Build a map of symbol -> stock data for enriching picks
+    const stockDataMap = new Map<string, any>();
+    for (const data of allData) {
+        stockDataMap.set(data.symbol, {
+            price: data.price,
+            change: data.change,
+            changePercent: data.changePercent,
+            volume: data.volume,
+            avgVolume: data.avgVolume,
+        });
+    }
+
     return {
         picks: v2Picks.slice(0, 25),
-        regime
+        regime,
+        stockDataMap
     };
 }
 
