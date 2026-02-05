@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "date": "2026-02-05",
-  "timestamp": "2026-02-05T22:21:13.433Z",
+  "timestamp": "2026-02-05T22:32:41.391Z",
   "regime": {
     "symbol": "SPY",
     "price": 677.62,
@@ -32,7 +32,7 @@
         "martinRatio": 12.930033945102977
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-JNJ-1770330073433"
+      "audit_id": "v2-JNJ-1770330761391"
     },
     {
       "symbol": "XOM",
@@ -48,7 +48,7 @@
         "martinRatio": 12.27551956750976
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-XOM-1770330073433"
+      "audit_id": "v2-XOM-1770330761391"
     },
     {
       "symbol": "AVGO",
@@ -64,7 +64,7 @@
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-AVGO-1770330073433"
+      "audit_id": "v2-AVGO-1770330761391"
     },
     {
       "symbol": "LRCX",
@@ -80,7 +80,7 @@
         "martinRatio": 4.589223999919582
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-LRCX-1770330073433"
+      "audit_id": "v2-LRCX-1770330761391"
     },
     {
       "symbol": "GOOGL",
@@ -96,7 +96,7 @@
         "martinRatio": 5.12114237526767
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-GOOGL-1770330073433"
+      "audit_id": "v2-GOOGL-1770330761391"
     },
     {
       "symbol": "CAT",
@@ -112,7 +112,7 @@
         "martinRatio": 4.779155676158407
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-CAT-1770330073433"
+      "audit_id": "v2-CAT-1770330761391"
     },
     {
       "symbol": "XOM",
@@ -127,7 +127,7 @@
         "avgVolatilty": 0.015170573640199983
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-XOM-1770330073433"
+      "audit_id": "v2-XOM-1770330761391"
     },
     {
       "symbol": "NVDA",
@@ -143,7 +143,7 @@
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-NVDA-1770330073433"
+      "audit_id": "v2-NVDA-1770330761391"
     },
     {
       "symbol": "TSLA",
@@ -159,7 +159,7 @@
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-TSLA-1770330073433"
+      "audit_id": "v2-TSLA-1770330761391"
     },
     {
       "symbol": "JNJ",
@@ -174,7 +174,7 @@
         "avgVolatilty": 0.00930198497096316
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-JNJ-1770330073433"
+      "audit_id": "v2-JNJ-1770330761391"
     },
     {
       "symbol": "AMD",
@@ -190,7 +190,7 @@
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-AMD-1770330073433"
+      "audit_id": "v2-AMD-1770330761391"
     }
   ]
 }
