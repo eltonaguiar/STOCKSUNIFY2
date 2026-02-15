@@ -1,0 +1,194 @@
+{
+  "date": "2026-02-13",
+  "totalPicks": 10,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.292664342780085,
+        "totalReturn": 64.43032041857913,
+        "martinRatio": 15.005905276904212
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LRCX-1771019019609",
+      "exitPrice": 235.53,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:32.090Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.0300210854770024,
+        "totalReturn": 21.724999999999994,
+        "martinRatio": 10.696590082371152
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1771019019609",
+      "exitPrice": 243.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:32.246Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.82653236328008,
+        "totalReturn": 24.716459314809462,
+        "martinRatio": 13.52449883319605
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1771019019609",
+      "exitPrice": 148.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:32.402Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.7048203550935814,
+        "totalReturn": 41.56670441185695,
+        "martinRatio": 11.216599950595093
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-CAT-1771019019609",
+      "exitPrice": 774.2,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:32.605Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 93,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 23.427259326788132,
+        "sma200": 242.85424987792967,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-GOOGL-1771019019609",
+      "exitPrice": 305.72,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:32.689Z"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 78,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 30.99127911116878,
+        "sma200": 181.94779987335204,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMD-1771019019609",
+      "exitPrice": 207.32,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:32.841Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 76,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.12322691913358831,
+        "avgVolatilty": 0.007253314635087165
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1771019019609",
+      "exitPrice": 243.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:32.892Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 74,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.22121924839032103,
+        "avgVolatilty": 0.022391160192351166
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-CAT-1771019019609",
+      "exitPrice": 774.2,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:32.947Z"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.6366882347514915,
+        "totalReturn": 13.786475013861244,
+        "martinRatio": 3.7899001025312073
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1771019019609",
+      "exitPrice": 1018.48,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:33.042Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.15171442175484617,
+        "avgVolatilty": 0.014991623957838585
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-XOM-1771019019609",
+      "exitPrice": 148.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:33.102Z"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "date": "2026-02-11",
+  "totalPicks": 11,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.173663170199657,
+        "totalReturn": 58.58627324389868,
+        "martinRatio": 14.033772511782486
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LRCX-1770845952458",
+      "exitPrice": 235.53,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:33.916Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.0291903516008682,
+        "totalReturn": 22.93166386147297,
+        "martinRatio": 11.295326984186799
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1770845952458",
+      "exitPrice": 243.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:33.963Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.7395858790434,
+        "totalReturn": 30.404894631660266,
+        "martinRatio": 17.468195621792788
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1770845952458",
+      "exitPrice": 148.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.006Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.6998447568401747,
+        "totalReturn": 39.88411440144502,
+        "martinRatio": 10.777029846423105
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-CAT-1770845952458",
+      "exitPrice": 774.2,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.049Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 85,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.21943380466337406,
+        "avgVolatilty": 0.014545553650764228
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-XOM-1770845952458",
+      "exitPrice": 148.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.101Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 78,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.23739178113495657,
+        "avgVolatilty": 0.021098283721835358
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-CAT-1770845952458",
+      "exitPrice": 774.2,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.146Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 76,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 32.043297729544804,
+        "sma200": 241.3844998931885,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-GOOGL-1770845952458",
+      "exitPrice": 305.72,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.188Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 74,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.11925456019981376,
+        "avgVolatilty": 0.007642499529756863
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1770845952458",
+      "exitPrice": 243.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.242Z"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 73,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 33.41046580599084,
+        "sma200": 180.84374980926515,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMD-1770845952458",
+      "exitPrice": 207.32,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.298Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.199877345226523,
+        "totalReturn": 12.499546282747929,
+        "martinRatio": 3.9050375677120326
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GOOGL-1770845952458",
+      "exitPrice": 305.72,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.351Z"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 63,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.381556708962639,
+        "totalReturn": 17.182963111360177,
+        "martinRatio": 2.6921755489036516
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GME-1770845952458",
+      "exitPrice": 23.57,
+      "realizedReturn": null,
+      "verifiedAt": "2026-02-15T23:18:34.411Z"
+    }
+  ]
+}
