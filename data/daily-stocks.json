@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-13T21:43:39.609Z",
+  "lastUpdated": "2026-02-16T21:36:31.655Z",
   "totalPicks": 10,
   "stocks": [
     {
@@ -25,8 +25,8 @@
       "slippageSimulated": true,
       "entryPrice": 235.53,
       "simulatedEntryPrice": 236.7076,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "c5072cd0ee34571f153d54a90dc9bb6993634f6844a7af717ddac11cdb04ec3d"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "ab70c6a77c8ccaef735cae288909fa80503ed52360720ffef4572d343793f9fa"
     },
     {
       "symbol": "JNJ",
@@ -51,8 +51,8 @@
       "slippageSimulated": true,
       "entryPrice": 243.45,
       "simulatedEntryPrice": 244.6672,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "5157e415fadf6e47baaed3696c638a0d49375e88a42acd159953471be5361625"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "759466b7c4964c1d386f8f2cbbca2bdaf32973d9d97b48598d8927fae06ea32d"
     },
     {
       "symbol": "XOM",
@@ -77,8 +77,8 @@
       "slippageSimulated": true,
       "entryPrice": 148.45,
       "simulatedEntryPrice": 149.1922,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "b25f3da9fa71e7823b890a66519aa1ec0a024a5ce811e561c02be711301b8b7a"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "8c9c78d30431712e5b8bcfa43ffd6fe7eafa8fe9ccfd78819d1609a51b4b4a8c"
     },
     {
       "symbol": "CAT",
@@ -103,8 +103,8 @@
       "slippageSimulated": true,
       "entryPrice": 774.2,
       "simulatedEntryPrice": 778.071,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "6767d1acf6e2b71756f20ba88e5c6c42fe38c4a80868a87f81c18f876a3d2124"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "3abb917aa53cc75a352608377573c6cc24575bec414f1037e5c70a040a26c399"
     },
     {
       "symbol": "GOOGL",
@@ -129,8 +129,8 @@
       "slippageSimulated": true,
       "entryPrice": 305.72,
       "simulatedEntryPrice": 307.2486,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "2dbacfa48b82c6d72cc3d854ccd5f0b43e432c1dc6e15e360c827a8858c2c4c2"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "51ffd473f76d339691f30cf712dda4849758cf2d8a6f53e8ccf2300154eb0e80"
     },
     {
       "symbol": "AMD",
@@ -155,8 +155,8 @@
       "slippageSimulated": true,
       "entryPrice": 207.32,
       "simulatedEntryPrice": 208.3566,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "4b1366d44632be6c1b3556a7a8dfc8a920b35a3386c791bc5d7b3df3d4ab6a14"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "38f4543d8f23ac21599b6c1edf9316e70642029f09212171a160ba4dc44ad409"
     },
     {
       "symbol": "JNJ",
@@ -180,8 +180,8 @@
       "slippageSimulated": true,
       "entryPrice": 243.45,
       "simulatedEntryPrice": 244.6672,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "c51c9c7290078885489abb4a97e7ecb3f59e6917ab416763b3586842e10645bb"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "2567084f5301ac8578c499149663a61f82259791ce9e1df218cef7474a848a8e"
     },
     {
       "symbol": "CAT",
@@ -205,8 +205,8 @@
       "slippageSimulated": true,
       "entryPrice": 774.2,
       "simulatedEntryPrice": 778.071,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "328dc07391e989a58ebb668c4ecc8e86858d94ea134af9516f1b4c90cdd00958"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "ad6f364112a4f993d9aa78d8b120d5d812eabfded0b089f720f25180d7f4fa0b"
     },
     {
       "symbol": "COST",
@@ -231,8 +231,8 @@
       "slippageSimulated": true,
       "entryPrice": 1018.48,
       "simulatedEntryPrice": 1023.5724,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "bcccb664bf344275edc05e3874ce14d2f9312f3f8bc23fe614e78ba69127982c"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "62535641fbd775917a8ada89c0e629c68f115e77d19b12e8489d6443beae7716"
     },
     {
       "symbol": "XOM",
@@ -256,8 +256,8 @@
       "slippageSimulated": true,
       "entryPrice": 148.45,
       "simulatedEntryPrice": 149.1922,
-      "pickedAt": "2026-02-13T21:43:39.609Z",
-      "pickHash": "5de294165a859ff932003e1a79750cc83efe6358feedb1fdfe9b0e922ce81fcd"
+      "pickedAt": "2026-02-16T21:36:31.655Z",
+      "pickHash": "299ff08d55cda89f1537416838ea5c53f00a7354b6391804eb7115f2d7bd8d9a"
     }
   ]
 }
