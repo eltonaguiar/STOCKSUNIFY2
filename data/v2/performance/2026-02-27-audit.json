@@ -18,9 +18,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-LRCX-1772228160119",
-      "exitPrice": 233.89,
+      "exitPrice": 199.33,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:52.436Z"
+      "verifiedAt": "2026-03-08T23:16:00.285Z"
     },
     {
       "symbol": "JNJ",
@@ -37,9 +37,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-JNJ-1772228160119",
-      "exitPrice": 248.43,
+      "exitPrice": 240.4,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:52.649Z"
+      "verifiedAt": "2026-03-08T23:16:00.332Z"
     },
     {
       "symbol": "XOM",
@@ -56,9 +56,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-XOM-1772228160119",
-      "exitPrice": 152.5,
+      "exitPrice": 151.21,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:52.836Z"
+      "verifiedAt": "2026-03-08T23:16:00.377Z"
     },
     {
       "symbol": "CAT",
@@ -75,9 +75,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-CAT-1772228160119",
-      "exitPrice": 742.83,
+      "exitPrice": 680.9,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:53.034Z"
+      "verifiedAt": "2026-03-08T23:16:00.425Z"
     },
     {
       "symbol": "PG",
@@ -94,9 +94,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-PG-1772228160119",
-      "exitPrice": 167.2,
+      "exitPrice": 153.63,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:53.220Z"
+      "verifiedAt": "2026-03-08T23:16:00.470Z"
     },
     {
       "symbol": "JPM",
@@ -113,9 +113,9 @@
       },
       "v2_hash": "rar-v2.0.0-beta",
       "audit_id": "v2-JPM-1772228160119",
-      "exitPrice": 300.3,
+      "exitPrice": 289.48,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:53.631Z"
+      "verifiedAt": "2026-03-08T23:16:00.516Z"
     },
     {
       "symbol": "GE",
@@ -132,9 +132,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-GE-1772228160119",
-      "exitPrice": 342.26,
+      "exitPrice": 323.11,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:53.878Z"
+      "verifiedAt": "2026-03-08T23:16:00.564Z"
     },
     {
       "symbol": "JNJ",
@@ -150,9 +150,9 @@
       },
       "v2_hash": "at-v2.0.0-beta",
       "audit_id": "v2-JNJ-1772228160119",
-      "exitPrice": 248.43,
+      "exitPrice": 240.4,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:53.977Z"
+      "verifiedAt": "2026-03-08T23:16:00.647Z"
     },
     {
       "symbol": "PG",
@@ -168,9 +168,9 @@
       },
       "v2_hash": "at-v2.0.0-beta",
       "audit_id": "v2-PG-1772228160119",
-      "exitPrice": 167.2,
+      "exitPrice": 153.63,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:54.073Z"
+      "verifiedAt": "2026-03-08T23:16:00.695Z"
     },
     {
       "symbol": "AAPL",
@@ -187,9 +187,9 @@
       },
       "v2_hash": "rar-v2.0.0-beta",
       "audit_id": "v2-AAPL-1772228160119",
-      "exitPrice": 264.18,
+      "exitPrice": 257.46,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:54.280Z"
+      "verifiedAt": "2026-03-08T23:16:00.743Z"
     },
     {
       "symbol": "GME",
@@ -206,9 +206,9 @@
       },
       "v2_hash": "rar-v2.0.0-beta",
       "audit_id": "v2-GME-1772228160119",
-      "exitPrice": 24.03,
+      "exitPrice": 24.37,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:54.395Z"
+      "verifiedAt": "2026-03-08T23:16:00.792Z"
     },
     {
       "symbol": "GOOGL",
@@ -225,9 +225,9 @@
       },
       "v2_hash": "rar-v2.0.0-beta",
       "audit_id": "v2-GOOGL-1772228160119",
-      "exitPrice": 311.76,
+      "exitPrice": 298.48,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:54.629Z"
+      "verifiedAt": "2026-03-08T23:16:00.840Z"
     },
     {
       "symbol": "COST",
@@ -244,9 +244,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-COST-1772228160119",
-      "exitPrice": 1010.79,
+      "exitPrice": 998.1,
       "realizedReturn": null,
-      "verifiedAt": "2026-03-01T23:15:54.785Z"
+      "verifiedAt": "2026-03-08T23:16:00.884Z"
     }
   ]
 }
