@@ -1,0 +1,197 @@
+{
+  "date": "2026-03-12",
+  "totalPicks": 10,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.6143315819844306,
+        "totalReturn": 16.58919806247281,
+        "martinRatio": 10.269840723409262
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1773350600943",
+      "exitPrice": 1008.43,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.422Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.3336834345786777,
+        "totalReturn": 30.375337308833494,
+        "martinRatio": 13.010473650923513
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1773350600943",
+      "exitPrice": 156.12,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.460Z"
+    },
+    {
+      "symbol": "GE",
+      "name": "GE Aerospace",
+      "score": 86,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 27.2148763131529,
+        "sma200": 290.25635025024417,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-GE-1773350600943",
+      "exitPrice": 299.69,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.499Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 82,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.0903515961713905,
+        "totalReturn": 13.013028000807928,
+        "martinRatio": 6.222305242519099
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1773350600943",
+      "exitPrice": 241.52,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.540Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 80,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.666192373023912,
+        "totalReturn": 18.809344207393693,
+        "martinRatio": 5.129085767563317
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-CAT-1773350600943",
+      "exitPrice": 693.99,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.580Z"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 75,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 32.3503012992399,
+        "sma200": 148.16104961395263,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-LRCX-1773350600943",
+      "exitPrice": 212.2,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.619Z"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 75,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.8953833883986215,
+        "totalReturn": 27.504562452142157,
+        "martinRatio": 3.988258903704724
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LRCX-1773350600943",
+      "exitPrice": 212.2,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.663Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 71,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 34.6774548618623,
+        "sma200": 523.6105992126464,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-CAT-1773350600943",
+      "exitPrice": 693.99,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.701Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 66,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 37.171713988808186,
+        "sma200": 255.82414962768556,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-GOOGL-1773350600943",
+      "exitPrice": 302.28,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.741Z"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 65,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 37.72957674961057,
+        "sma200": 245.33474937438965,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AAPL-1773350600943",
+      "exitPrice": 250.12,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-15T23:06:14.780Z"
+    }
+  ]
+}
