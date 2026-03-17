@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-16T21:20:10.771Z",
-  "totalPicks": 11,
+  "lastUpdated": "2026-03-17T21:27:27.509Z",
+  "totalPicks": 14,
   "stocks": [
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "price": 1001.74,
+      "price": 996.16,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -13,25 +13,25 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 951.65,
+      "stopLoss": 946.35,
       "indicators": {
-        "ulcerIndex": 1.6331911603057037,
-        "totalReturn": 16.123569425551405,
-        "martinRatio": 9.866391287133883
+        "ulcerIndex": 1.6421297698349682,
+        "totalReturn": 16.15806723553289,
+        "martinRatio": 9.833713399980432
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 1001.74,
-      "simulatedEntryPrice": 1006.7487,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "90189132213331a846bb57da78852bc2fdf72b09bf63da75843ef859ee054fe0"
+      "entryPrice": 996.16,
+      "simulatedEntryPrice": 1001.1408,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "4af1765301133fe3b462c8cdb860a04ec8aab941b5270f8a2657d67f4c6ee715"
     },
     {
       "symbol": "JNJ",
       "name": "Johnson & Johnson",
-      "price": 243.19,
+      "price": 238.11,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -39,25 +39,25 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 231.03,
+      "stopLoss": 226.2,
       "indicators": {
-        "ulcerIndex": 1.423895962875017,
-        "totalReturn": 15.62306750481548,
-        "martinRatio": 10.964356635057602
+        "ulcerIndex": 1.3038246712155628,
+        "totalReturn": 14.305603567118316,
+        "martinRatio": 10.963621306908113
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 243.19,
-      "simulatedEntryPrice": 244.4059,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "ecb2c5d39be01a4916eaa33660e5685ab7f12ddc2e7814fdc41ffbc827b52b9f"
+      "entryPrice": 238.11,
+      "simulatedEntryPrice": 239.3005,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "62de7a1012e4fd34b11a2adbdcce0af93ea9227efad83b42ec92176b88340d9a"
     },
     {
       "symbol": "XOM",
       "name": "Exxon Mobil Corporation",
-      "price": 157.23,
+      "price": 158.81,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -65,228 +65,306 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 149.37,
+      "stopLoss": 150.87,
       "indicators": {
-        "ulcerIndex": 2.305290276563128,
-        "totalReturn": 33.9153352319853,
-        "martinRatio": 14.705579595351935
+        "ulcerIndex": 2.3019436067015056,
+        "totalReturn": 36.27080723563025,
+        "martinRatio": 15.749759190838697
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 157.23,
-      "simulatedEntryPrice": 158.0161,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "cc42208db1d857f8b6845e706a91c6366fa1a9906d37e647a7de2e7ea53c881b"
+      "entryPrice": 158.81,
+      "simulatedEntryPrice": 159.604,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "d335d6c62fd12a50110645293c7bf8bf82e516d5eccdd66182c2f56ac8a3e4b0"
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "price": 252.82,
+      "price": 254.23,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
       "timeframe": "7d",
       "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 93,
+      "score": 95,
       "risk": "Medium",
-      "stopLoss": 240.18,
+      "stopLoss": 241.52,
       "indicators": {
-        "rsi": 23.69282322259363,
-        "sma200": 245.8462993621826,
+        "rsi": 22.253049321335737,
+        "sma200": 246.1176993560791,
         "regime": "Bullish"
       },
       "allAlgorithms": [
         "Regime-Aware Reversion (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 252.82,
-      "simulatedEntryPrice": 254.0841,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "e9a32d0d41defa813f86ee73d03c1f1e6ded1e5ed6fc074b4c17625f592b32f9"
+      "entryPrice": 254.23,
+      "simulatedEntryPrice": 255.5011,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "2f50abcf2fd64956bdf52eca1a7223c3028239644918ac6909b393038df70b40"
     },
     {
       "symbol": "GE",
       "name": "GE Aerospace",
-      "price": 304,
+      "price": 302.09,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
       "timeframe": "7d",
       "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 92,
+      "score": 91,
       "risk": "Medium",
-      "stopLoss": 288.8,
+      "stopLoss": 286.99,
       "indicators": {
-        "rsi": 24.162299976822084,
-        "sma200": 290.84755027770996,
+        "rsi": 24.416830372468496,
+        "sma200": 291.13720024108886,
         "regime": "Bullish"
       },
       "allAlgorithms": [
         "Regime-Aware Reversion (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 304,
-      "simulatedEntryPrice": 305.52,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "bc2af34eb122cc206458c548e3f62bae36f618a1c33989d096cf0218fbc1fd83"
+      "entryPrice": 302.09,
+      "simulatedEntryPrice": 303.6004,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "821528ecef09531afaea2223dd573afeb7122989006a7f51e2582599a8b925ae"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "price": 702,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "STRONG BUY",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 87,
+      "risk": "Low",
+      "stopLoss": 666.9,
+      "indicators": {
+        "ulcerIndex": 4.160130238738535,
+        "totalReturn": 24.065528303093696,
+        "martinRatio": 5.7834114585149985
+      },
+      "allAlgorithms": [
+        "Volatility-Adjusted Momentum (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 702,
+      "simulatedEntryPrice": 705.51,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "6f8b351871d903eb212426ae3fcbd47e994653227066dd64fbc72a73ce704cb3"
     },
     {
       "symbol": "LRCX",
       "name": "Lam Research Corporation",
-      "price": 219.4,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "STRONG BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 90,
-      "risk": "Low",
-      "stopLoss": 208.43,
-      "indicators": {
-        "ulcerIndex": 7.290254932901131,
-        "totalReturn": 41.56665766446003,
-        "martinRatio": 5.700892102523289
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 219.4,
-      "simulatedEntryPrice": 220.497,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "0ce76babb0caeb970814c4cc6418c7143e549bc0c74a921da22a223a0e3cb399"
-    },
-    {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
-      "price": 699.78,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "STRONG BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 89,
-      "risk": "Low",
-      "stopLoss": 664.79,
-      "indicators": {
-        "ulcerIndex": 3.9784351417328256,
-        "totalReturn": 24.540387221124988,
-        "martinRatio": 6.166801655784493
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 699.78,
-      "simulatedEntryPrice": 703.2789,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "98559ca71722779aacf4b784bd7008538b94616f283ac6fc70a69040e93cca20"
-    },
-    {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
-      "price": 699.78,
+      "price": 226.47,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
-      "timeframe": "7d",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 76,
-      "risk": "Medium",
-      "stopLoss": 664.79,
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 85,
+      "risk": "Low",
+      "stopLoss": 215.15,
       "indicators": {
-        "rsi": 32.00105539677526,
-        "sma200": 527.0744493103027,
-        "regime": "Bullish"
+        "ulcerIndex": 7.386853309217362,
+        "totalReturn": 37.50455628191016,
+        "martinRatio": 5.076516101790769
       },
       "allAlgorithms": [
-        "Regime-Aware Reversion (V2)"
+        "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 699.78,
-      "simulatedEntryPrice": 703.2789,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "64176a6c6c1fa07c700c41168d0a2b8bf047c4fbd140057fe4c4d2e8fd122fd2"
+      "entryPrice": 226.47,
+      "simulatedEntryPrice": 227.6023,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "8167a9d3efce11356a372399d40983793b43ebef05e2d64f187228e8a56f3b4b"
     },
     {
       "symbol": "LLY",
       "name": "Eli Lilly and Company",
-      "price": 989.12,
+      "price": 930.35,
       "change": 0,
       "changePercent": 0,
-      "rating": "BUY",
+      "rating": "STRONG BUY",
       "timeframe": "7d",
       "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 68,
+      "score": 82,
       "risk": "Medium",
-      "stopLoss": 939.66,
+      "stopLoss": 883.83,
       "indicators": {
-        "rsi": 35.81857046416367,
-        "sma200": 888.9897033691407,
+        "rsi": 28.814212724476675,
+        "sma200": 890.0286032104492,
         "regime": "Bullish"
       },
       "allAlgorithms": [
         "Regime-Aware Reversion (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 989.12,
-      "simulatedEntryPrice": 994.0656,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "4a5550a738496d5ded14b6bd82e32036dc43fa7206337a5ac2acf6d5a0661f7b"
+      "entryPrice": 930.35,
+      "simulatedEntryPrice": 935.0017,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "4932cab738a275d2abc19444a16a7acb121d12022b48e62d83d5e2cf35a2d326"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "price": 702,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "7d",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "score": 74,
+      "risk": "Medium",
+      "stopLoss": 666.9,
+      "indicators": {
+        "rsi": 33.06421318513807,
+        "sma200": 528.8254992675782,
+        "regime": "Bullish"
+      },
+      "allAlgorithms": [
+        "Regime-Aware Reversion (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 702,
+      "simulatedEntryPrice": 705.51,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "934ee2b76008f5f25f5ca69ffaad0c434f09a250585c1f3d63fc0316a47df338"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 181.93,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "7d",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "score": 66,
+      "risk": "Medium",
+      "stopLoss": 172.83,
+      "indicators": {
+        "rsi": 37.17778525486071,
+        "sma200": 177.8466505432129,
+        "regime": "Bullish"
+      },
+      "allAlgorithms": [
+        "Regime-Aware Reversion (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 181.93,
+      "simulatedEntryPrice": 182.8396,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "26d7db9fac2bb6df6339da5755504251830235dcf8b43a5648d2afe1ebc0df72"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "price": 238.11,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "7d",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "score": 65,
+      "risk": "Medium",
+      "stopLoss": 226.2,
+      "indicators": {
+        "rsi": 37.71746701891793,
+        "sma200": 193.35244995117188,
+        "regime": "Bullish"
+      },
+      "allAlgorithms": [
+        "Regime-Aware Reversion (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 238.11,
+      "simulatedEntryPrice": 239.3005,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "48a21027fca88a32cc0f93fe4631aa3c9fe5ea5bb3989cd86fffa4b60828913f"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "price": 399.27,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "7d",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "score": 61,
+      "risk": "Medium",
+      "stopLoss": 379.31,
+      "indicators": {
+        "rsi": 39.3465670669687,
+        "sma200": 393.84704971313477,
+        "regime": "Bullish"
+      },
+      "allAlgorithms": [
+        "Regime-Aware Reversion (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 399.27,
+      "simulatedEntryPrice": 401.2663,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "2bbb83446b3736b816de90b03b58afde49251295676fad45774aa2f9e0459870"
     },
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "price": 196.58,
+      "price": 196.31,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "7d",
       "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 64,
+      "score": 61,
       "risk": "Medium",
-      "stopLoss": 186.75,
+      "stopLoss": 186.49,
       "indicators": {
-        "rsi": 37.79005014370412,
-        "sma200": 191.23659980773925,
+        "rsi": 39.29675372124948,
+        "sma200": 191.65299980163573,
         "regime": "Bullish"
       },
       "allAlgorithms": [
         "Regime-Aware Reversion (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 196.58,
-      "simulatedEntryPrice": 197.5629,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "933990ec54d322506d41ddee0e0589d54e0827b79f1d43afc6f6de2ac126a5ab"
+      "entryPrice": 196.31,
+      "simulatedEntryPrice": 197.2915,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "ffe67ad8f3bf9b01b7f8621a1ea6fe23bb9df882eff03825070ce0a119d89a7b"
     },
     {
       "symbol": "LRCX",
       "name": "Lam Research Corporation",
-      "price": 219.4,
+      "price": 226.47,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "7d",
       "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 64,
+      "score": 61,
       "risk": "Medium",
-      "stopLoss": 208.43,
+      "stopLoss": 215.15,
       "indicators": {
-        "rsi": 38.239462982872595,
-        "sma200": 149.47934955596924,
+        "rsi": 39.29667882420562,
+        "sma200": 150.1908995437622,
         "regime": "Bullish"
       },
       "allAlgorithms": [
         "Regime-Aware Reversion (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 219.4,
-      "simulatedEntryPrice": 220.497,
-      "pickedAt": "2026-03-16T21:20:10.771Z",
-      "pickHash": "e08d5d917752d16074b9dad433b6a87a8bbaec55730e67e48f7c993ec024ec9b"
+      "entryPrice": 226.47,
+      "simulatedEntryPrice": 227.6023,
+      "pickedAt": "2026-03-17T21:27:27.509Z",
+      "pickHash": "ef4d9d5c4bfd9865cee158b14edfa9e17f4f0cf8bea0780cfaf1e648179f56f7"
     }
   ]
 }
