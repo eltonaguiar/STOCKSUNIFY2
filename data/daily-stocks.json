@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-24T21:19:42.458Z",
-  "totalPicks": 7,
+  "lastUpdated": "2026-03-25T22:27:20.309Z",
+  "totalPicks": 6,
   "stocks": [
     {
       "symbol": "XOM",
       "name": "Exxon Mobil Corporation",
-      "price": 165.38,
+      "price": 163.26,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -13,20 +13,20 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 157.11,
+      "stopLoss": 155.1,
       "indicators": {
-        "ulcerIndex": 2.3043397524642057,
-        "totalReturn": 38.84644375161494,
-        "martinRatio": 16.850637182693575
+        "ulcerIndex": 2.3102747875630634,
+        "totalReturn": 35.45175612168241,
+        "martinRatio": 15.338615863612498
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 165.38,
-      "simulatedEntryPrice": 166.2069,
-      "pickedAt": "2026-03-24T21:19:42.458Z",
-      "pickHash": "49f7418b368f9c468be8f8bced2438b460f18ed22aaf310493a8318fee956056"
+      "entryPrice": 163.26,
+      "simulatedEntryPrice": 164.0763,
+      "pickedAt": "2026-03-25T22:27:20.309Z",
+      "pickHash": "ae0cd92ab933a8f8e72fd70ff7ed3ae84af029779ea9714a67dde185d56672d0"
     },
     {
       "symbol": "XELA",
@@ -41,9 +41,9 @@
       "risk": "Low",
       "stopLoss": 0.01,
       "indicators": {
-        "ulcerIndex": 39.445951197312716,
-        "totalReturn": 999.9999477528061,
-        "martinRatio": 25.35050028963785
+        "ulcerIndex": 39.63033569739463,
+        "totalReturn": 449.99997387640303,
+        "martinRatio": 11.354650706511165
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
@@ -51,39 +51,39 @@
       "slippageSimulated": true,
       "entryPrice": 0.011,
       "simulatedEntryPrice": 0.0111,
-      "pickedAt": "2026-03-24T21:19:42.458Z",
-      "pickHash": "e46bcdfd73818350566e0324ccb12a6f5ae1be9f241e098ce86a7728fa96ae4d"
+      "pickedAt": "2026-03-25T22:27:20.309Z",
+      "pickHash": "d0f7f987877f47323ea82a56e590e4898191dfd617ee6a2521d4dfc28fdbba2a"
     },
     {
       "symbol": "JNJ",
       "name": "Johnson & Johnson",
-      "price": 235.27,
+      "price": 239.93,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 86,
+      "score": 93,
       "risk": "Low",
-      "stopLoss": 223.51,
+      "stopLoss": 227.93,
       "indicators": {
-        "ulcerIndex": 1.9103005350911981,
-        "totalReturn": 13.312139125935904,
-        "martinRatio": 6.964963846096926
+        "ulcerIndex": 1.9604303926352378,
+        "totalReturn": 15.595491820271521,
+        "martinRatio": 7.951080945227188
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 235.27,
-      "simulatedEntryPrice": 236.4463,
-      "pickedAt": "2026-03-24T21:19:42.458Z",
-      "pickHash": "16cac6b931ea2bc1d8c8711362d44c7af92fabbc10e4b9adae30f643f5d00740"
+      "entryPrice": 239.93,
+      "simulatedEntryPrice": 241.1296,
+      "pickedAt": "2026-03-25T22:27:20.309Z",
+      "pickHash": "251d6cfce09ce8ce8338b9ca22f08a69fe5c1249593d28c9e1b58dbb6e651c6b"
     },
     {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "price": 238.84,
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "price": 974.86,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
@@ -91,25 +91,51 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 79,
       "risk": "Low",
-      "stopLoss": 226.9,
+      "stopLoss": 926.12,
       "indicators": {
-        "ulcerIndex": 7.6843202663498875,
-        "totalReturn": 34.127023179785155,
-        "martinRatio": 4.440546652194841
+        "ulcerIndex": 2.1367032369426147,
+        "totalReturn": 12.33176274806169,
+        "martinRatio": 5.768697233063473
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 238.84,
-      "simulatedEntryPrice": 240.0342,
-      "pickedAt": "2026-03-24T21:19:42.458Z",
-      "pickHash": "cb14e06e4805458a8acda8acf31d0e0aa4a8349d1d15f2cf06a4e1248b84f3a5"
+      "entryPrice": 974.86,
+      "simulatedEntryPrice": 979.7343,
+      "pickedAt": "2026-03-25T22:27:20.309Z",
+      "pickHash": "b99b6389a4d454c12034deb4152772c57a8599cd54ac4a6a403e054bcbcbfaa0"
     },
     {
       "symbol": "CAT",
       "name": "Caterpillar Inc.",
-      "price": 716.63,
+      "price": 719.04,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 79,
+      "risk": "Low",
+      "stopLoss": 683.09,
+      "indicators": {
+        "ulcerIndex": 5.186805247866205,
+        "totalReturn": 24.27023698236255,
+        "martinRatio": 4.678324613736249
+      },
+      "allAlgorithms": [
+        "Volatility-Adjusted Momentum (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 719.04,
+      "simulatedEntryPrice": 722.6352,
+      "pickedAt": "2026-03-25T22:27:20.309Z",
+      "pickHash": "8e10ce0d7134739c0cf9ec5028abce83d7ac0ff1125c5034215798116793fbd5"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "price": 233.45,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
@@ -117,71 +143,20 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 78,
       "risk": "Low",
-      "stopLoss": 680.8,
+      "stopLoss": 221.78,
       "indicators": {
-        "ulcerIndex": 5.108037257911421,
-        "totalReturn": 22.921097770154372,
-        "martinRatio": 4.486382974534137
+        "ulcerIndex": 7.714093133509061,
+        "totalReturn": 32.7400957988571,
+        "martinRatio": 4.243642329689661
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 716.63,
-      "simulatedEntryPrice": 720.2131,
-      "pickedAt": "2026-03-24T21:19:42.458Z",
-      "pickHash": "0a6f5b6f903b4957e25e89918b6336d111b1c031b06697271fe6736dca4b23fe"
-    },
-    {
-      "symbol": "COST",
-      "name": "Costco Wholesale Corporation",
-      "price": 973.82,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 77,
-      "risk": "Low",
-      "stopLoss": 925.13,
-      "indicators": {
-        "ulcerIndex": 2.082395038202054,
-        "totalReturn": 11.50398204873784,
-        "martinRatio": 5.521747838405934
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 973.82,
-      "simulatedEntryPrice": 978.6891,
-      "pickedAt": "2026-03-24T21:19:42.458Z",
-      "pickHash": "42f9caba2ed125988d0956f713d25bc4894a3f91f1be4d829cdd928b99a37320"
-    },
-    {
-      "symbol": "XOM",
-      "name": "Exxon Mobil Corporation",
-      "price": 165.38,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Adversarial Trend (V2)",
-      "score": 70,
-      "risk": "Medium",
-      "stopLoss": 157.11,
-      "indicators": {
-        "trendStrength": 0.12870884864462326,
-        "avgVolatilty": 0.011387934778338353
-      },
-      "allAlgorithms": [
-        "Adversarial Trend (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 165.38,
-      "simulatedEntryPrice": 166.2069,
-      "pickedAt": "2026-03-24T21:19:42.458Z",
-      "pickHash": "f114979a322d87703b0a5c58b91f976ce2fbe10b150ba50e020427c885760b4e"
+      "entryPrice": 233.45,
+      "simulatedEntryPrice": 234.6172,
+      "pickedAt": "2026-03-25T22:27:20.309Z",
+      "pickHash": "9ea7acea9fa9dc4be1377ce02c32471404a6010cbe7c36777bf1892186c6bd41"
     }
   ]
 }
