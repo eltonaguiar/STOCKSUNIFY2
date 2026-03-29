@@ -1,0 +1,139 @@
+{
+  "date": "2026-03-24",
+  "totalPicks": 7,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.3043397524642057,
+        "totalReturn": 38.84644375161494,
+        "martinRatio": 16.850637182693575
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1774387182458",
+      "exitPrice": 170.99,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-29T23:07:54.283Z"
+    },
+    {
+      "symbol": "XELA",
+      "name": "Exela Technologies, Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 39.445951197312716,
+        "totalReturn": 999.9999477528061,
+        "martinRatio": 25.35050028963785
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XELA-1774387182458",
+      "exitPrice": 0.011,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-29T23:07:54.368Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 86,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.9103005350911981,
+        "totalReturn": 13.312139125935904,
+        "martinRatio": 6.964963846096926
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1774387182458",
+      "exitPrice": 240.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-29T23:07:54.456Z"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 79,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 7.6843202663498875,
+        "totalReturn": 34.127023179785155,
+        "martinRatio": 4.440546652194841
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LRCX-1774387182458",
+      "exitPrice": 211.41,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-29T23:07:54.541Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 78,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 5.108037257911421,
+        "totalReturn": 22.921097770154372,
+        "martinRatio": 4.486382974534137
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-CAT-1774387182458",
+      "exitPrice": 695.4,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-29T23:07:54.631Z"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 77,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.082395038202054,
+        "totalReturn": 11.50398204873784,
+        "martinRatio": 5.521747838405934
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1774387182458",
+      "exitPrice": 983.86,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-29T23:07:54.717Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.12870884864462326,
+        "avgVolatilty": 0.011387934778338353
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-XOM-1774387182458",
+      "exitPrice": 170.99,
+      "realizedReturn": null,
+      "verifiedAt": "2026-03-29T23:07:54.802Z"
+    }
+  ]
+}
