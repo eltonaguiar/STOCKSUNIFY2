@@ -1,37 +1,11 @@
 {
-  "lastUpdated": "2026-04-01T21:21:11.453Z",
-  "totalPicks": 4,
+  "lastUpdated": "2026-04-02T21:17:41.466Z",
+  "totalPicks": 5,
   "stocks": [
-    {
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "price": 244.12,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "STRONG BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 100,
-      "risk": "Low",
-      "stopLoss": 231.91,
-      "indicators": {
-        "ulcerIndex": 2.092121336468035,
-        "totalReturn": 19.205043216596653,
-        "martinRatio": 9.17531290804361
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 244.12,
-      "simulatedEntryPrice": 245.3406,
-      "pickedAt": "2026-04-01T21:21:11.453Z",
-      "pickHash": "63271c3471ddbcf6275a7d9427da24a3abef24dcbe7a6a55af9062e095ac3311"
-    },
     {
       "symbol": "XOM",
       "name": "Exxon Mobil Corporation",
-      "price": 160.78,
+      "price": 160.69,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -39,72 +13,123 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 152.74,
+      "stopLoss": 152.66,
       "indicators": {
-        "ulcerIndex": 2.3002441887521536,
-        "totalReturn": 32.82114493731543,
-        "martinRatio": 14.26234777592753
+        "ulcerIndex": 2.423904917147038,
+        "totalReturn": 35.6148222609884,
+        "martinRatio": 14.687100516456594
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 160.78,
-      "simulatedEntryPrice": 161.5839,
-      "pickedAt": "2026-04-01T21:21:11.453Z",
-      "pickHash": "3079096e8b8c72b99e25840f417791b017e3be9b81de90a10e2109a63e03d1f6"
+      "entryPrice": 160.69,
+      "simulatedEntryPrice": 161.4934,
+      "pickedAt": "2026-04-02T21:17:41.466Z",
+      "pickHash": "6ed626cc60857aac5bced9fd11c37c45c791289923045c9a783d842404f0c608"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "price": 243.04,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "STRONG BUY",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 95,
+      "risk": "Low",
+      "stopLoss": 230.89,
+      "indicators": {
+        "ulcerIndex": 2.1116747893770356,
+        "totalReturn": 17.13335272334703,
+        "martinRatio": 8.109791819118144
+      },
+      "allAlgorithms": [
+        "Volatility-Adjusted Momentum (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 243.04,
+      "simulatedEntryPrice": 244.2552,
+      "pickedAt": "2026-04-02T21:17:41.466Z",
+      "pickHash": "1ab5b404a537e1c9dee1d378f8bc654db649c7f32ad45639ef4b5996134d75bb"
     },
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "price": 996.56,
+      "price": 1014.96,
       "change": 0,
       "changePercent": 0,
-      "rating": "BUY",
+      "rating": "STRONG BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 77,
+      "score": 86,
       "risk": "Low",
-      "stopLoss": 946.73,
+      "stopLoss": 964.21,
       "indicators": {
-        "ulcerIndex": 2.2771863107299626,
-        "totalReturn": 12.086382562685799,
-        "martinRatio": 5.30526520406189
+        "ulcerIndex": 2.2756549798730816,
+        "totalReturn": 14.99920464397739,
+        "martinRatio": 6.588264263394694
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 996.56,
-      "simulatedEntryPrice": 1001.5428,
-      "pickedAt": "2026-04-01T21:21:11.453Z",
-      "pickHash": "7d20e8ddd979ff37b0708482e15e89944a3ddca8d6939accfdca34b36ca29885"
+      "entryPrice": 1014.96,
+      "simulatedEntryPrice": 1020.0348,
+      "pickedAt": "2026-04-02T21:17:41.466Z",
+      "pickHash": "188b9b4f11f7ed52dd1d041db69a44359927c175fa080c86564d9d88b15ed322"
     },
     {
       "symbol": "CAT",
       "name": "Caterpillar Inc.",
-      "price": 730.32,
+      "price": 717.22,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 65,
+      "score": 69,
       "risk": "Low",
-      "stopLoss": 693.8,
+      "stopLoss": 681.36,
       "indicators": {
-        "ulcerIndex": 5.921857451362593,
-        "totalReturn": 17.209386849872377,
-        "martinRatio": 2.905588559439877
+        "ulcerIndex": 5.965133631661264,
+        "totalReturn": 20.23402006920019,
+        "martinRatio": 3.3914795273477716
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 730.32,
-      "simulatedEntryPrice": 733.9716,
-      "pickedAt": "2026-04-01T21:21:11.453Z",
-      "pickHash": "72128a9652b12bb9927675fabc4de95a38d68ca1b54e081c89c364fdc7aa5e82"
+      "entryPrice": 717.22,
+      "simulatedEntryPrice": 720.8061,
+      "pickedAt": "2026-04-02T21:17:41.466Z",
+      "pickHash": "a03da3bc02883b84e7153b0e848ca1384330b7061fb0ce07269dafeea7f6d7be"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix, Inc.",
+      "price": 98.66,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Adversarial Trend (V2)",
+      "score": 66,
+      "risk": "Medium",
+      "stopLoss": 93.73,
+      "indicators": {
+        "trendStrength": 0.1190178627793006,
+        "avgVolatilty": 0.012742363381536958
+      },
+      "allAlgorithms": [
+        "Adversarial Trend (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 98.66,
+      "simulatedEntryPrice": 99.1533,
+      "pickedAt": "2026-04-02T21:17:41.466Z",
+      "pickHash": "841eb6d4c6ac30f0d6c6c80124d20acb1db615028248a07d4312fe256e38bf0c"
     }
   ]
 }
