@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-01",
+  "totalPicks": 4,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.092121336468035,
+        "totalReturn": 19.205043216596653,
+        "martinRatio": 9.17531290804361
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1775078471453",
+      "exitPrice": 243.04,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-05T23:07:58.956Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.3002441887521536,
+        "totalReturn": 32.82114493731543,
+        "martinRatio": 14.26234777592753
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1775078471453",
+      "exitPrice": 160.69,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-05T23:07:59.000Z"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 77,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.2771863107299626,
+        "totalReturn": 12.086382562685799,
+        "martinRatio": 5.30526520406189
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1775078471453",
+      "exitPrice": 1014.96,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-05T23:07:59.044Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 65,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 5.921857451362593,
+        "totalReturn": 17.209386849872377,
+        "martinRatio": 2.905588559439877
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-CAT-1775078471453",
+      "exitPrice": 717.22,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-05T23:07:59.088Z"
+    }
+  ]
+}

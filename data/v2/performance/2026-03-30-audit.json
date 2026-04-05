@@ -1,0 +1,82 @@
+{
+  "date": "2026-03-30",
+  "totalPicks": 4,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.309233470904898,
+        "totalReturn": 39.80431950000439,
+        "martinRatio": 17.22956575657844
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1774905650292",
+      "exitPrice": 160.69,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-05T23:07:59.381Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 95,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.08308206003236,
+        "totalReturn": 16.947187297858772,
+        "martinRatio": 8.131727451075333
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1774905650292",
+      "exitPrice": 243.04,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-05T23:07:59.429Z"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 91,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.2428233523474415,
+        "totalReturn": 16.627267407840847,
+        "martinRatio": 7.410239041520691
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1774905650292",
+      "exitPrice": 1014.96,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-05T23:07:59.474Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.14506926964927022,
+        "avgVolatilty": 0.012375964999461373
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-XOM-1774905650292",
+      "exitPrice": 160.69,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-05T23:07:59.516Z"
+    }
+  ]
+}
