@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-03T21:14:58.301Z",
+  "lastUpdated": "2026-04-06T21:17:51.570Z",
   "totalPicks": 5,
   "stocks": [
     {
       "symbol": "XOM",
       "name": "Exxon Mobil Corporation",
-      "price": 160.69,
+      "price": 163.37,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -13,25 +13,25 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 152.66,
+      "stopLoss": 155.2,
       "indicators": {
-        "ulcerIndex": 2.423904917147038,
-        "totalReturn": 35.6148222609884,
-        "martinRatio": 14.687100516456594
+        "ulcerIndex": 2.4994458530691226,
+        "totalReturn": 32.918391613687355,
+        "martinRatio": 13.165008781646813
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 160.69,
-      "simulatedEntryPrice": 161.4934,
-      "pickedAt": "2026-04-03T21:14:58.301Z",
-      "pickHash": "3cbb87630aa76f94b23582e40acf08302fcc8f32d3a65600ea4092840b268181"
+      "entryPrice": 163.37,
+      "simulatedEntryPrice": 164.1868,
+      "pickedAt": "2026-04-06T21:17:51.570Z",
+      "pickHash": "ee300822af37604b3c71ef2ec3d2f2ce8ce70cd9ad86d4d846b5bbc858bed574"
     },
     {
       "symbol": "JNJ",
       "name": "Johnson & Johnson",
-      "price": 243.04,
+      "price": 240.97,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -39,77 +39,51 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 95,
       "risk": "Low",
-      "stopLoss": 230.89,
+      "stopLoss": 228.92,
       "indicators": {
-        "ulcerIndex": 2.1116747893770356,
-        "totalReturn": 17.13335272334703,
-        "martinRatio": 8.109791819118144
+        "ulcerIndex": 2.1384422029403467,
+        "totalReturn": 17.11786148238153,
+        "martinRatio": 8.001086198475269
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 243.04,
-      "simulatedEntryPrice": 244.2552,
-      "pickedAt": "2026-04-03T21:14:58.301Z",
-      "pickHash": "7d23566b405f8f03f42e86e9a88aeb7d25176796f45c0250247455f38bb66336"
+      "entryPrice": 240.97,
+      "simulatedEntryPrice": 242.1748,
+      "pickedAt": "2026-04-06T21:17:51.570Z",
+      "pickHash": "5a0b59cc10d8afd74079ffe8b0f844949da6809177fd5e5221869230164eae46"
     },
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "price": 1014.96,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "STRONG BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 86,
-      "risk": "Low",
-      "stopLoss": 964.21,
-      "indicators": {
-        "ulcerIndex": 2.2756549798730816,
-        "totalReturn": 14.99920464397739,
-        "martinRatio": 6.588264263394694
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 1014.96,
-      "simulatedEntryPrice": 1020.0348,
-      "pickedAt": "2026-04-03T21:14:58.301Z",
-      "pickHash": "139ad88dcc0d6e2e9ba9d2d9a8217587f1150693d135e58d0ec6c8434500e0ea"
-    },
-    {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
-      "price": 717.22,
+      "price": 1018.55,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 69,
+      "score": 74,
       "risk": "Low",
-      "stopLoss": 681.36,
+      "stopLoss": 967.62,
       "indicators": {
-        "ulcerIndex": 5.965133631661264,
-        "totalReturn": 20.23402006920019,
-        "martinRatio": 3.3914795273477716
+        "ulcerIndex": 2.2756549798730816,
+        "totalReturn": 11.279239024677787,
+        "martinRatio": 4.954303187963325
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 717.22,
-      "simulatedEntryPrice": 720.8061,
-      "pickedAt": "2026-04-03T21:14:58.301Z",
-      "pickHash": "61abf10ae8648ac140e9dcdc8e6b16013c86b888df4f558d61d6284daf77a291"
+      "entryPrice": 1018.55,
+      "simulatedEntryPrice": 1023.6427,
+      "pickedAt": "2026-04-06T21:17:51.570Z",
+      "pickHash": "016d855d6210b8c2daaafc97c903f57a1ee63eab36cf78bd084d3aa6c48e032b"
     },
     {
       "symbol": "NFLX",
       "name": "Netflix, Inc.",
-      "price": 98.66,
+      "price": 98.93,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
@@ -117,19 +91,45 @@
       "algorithm": "Adversarial Trend (V2)",
       "score": 66,
       "risk": "Medium",
-      "stopLoss": 93.73,
+      "stopLoss": 93.98,
       "indicators": {
-        "trendStrength": 0.1190178627793006,
-        "avgVolatilty": 0.012742363381536958
+        "trendStrength": 0.11817656083501198,
+        "avgVolatilty": 0.012803566764315858
       },
       "allAlgorithms": [
         "Adversarial Trend (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 98.66,
-      "simulatedEntryPrice": 99.1533,
-      "pickedAt": "2026-04-03T21:14:58.301Z",
-      "pickHash": "8c83dae3a8d2ab822e6d6e347285a630f976c9ad40682abf03f39aaa19457a45"
+      "entryPrice": 98.93,
+      "simulatedEntryPrice": 99.4246,
+      "pickedAt": "2026-04-06T21:17:51.570Z",
+      "pickHash": "098ee79869cb4c7e51d17e7f40868eebaedfa1fd2a6dd11281a043b67ebebe34"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "price": 721.24,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 66,
+      "risk": "Low",
+      "stopLoss": 685.18,
+      "indicators": {
+        "ulcerIndex": 6.031981443810771,
+        "totalReturn": 18.599640571753067,
+        "martinRatio": 3.0829931676376057
+      },
+      "allAlgorithms": [
+        "Volatility-Adjusted Momentum (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 721.24,
+      "simulatedEntryPrice": 724.8462,
+      "pickedAt": "2026-04-06T21:17:51.570Z",
+      "pickHash": "c3d745beca695982c447228f3a2541cc4b550f604a3ee3371c2e4c3b82ae42cc"
     }
   ]
 }
