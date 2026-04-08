@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-07T21:22:12.691Z",
-  "totalPicks": 6,
+  "lastUpdated": "2026-04-08T21:22:36.362Z",
+  "totalPicks": 5,
   "stocks": [
     {
       "symbol": "XOM",
       "name": "Exxon Mobil Corporation",
-      "price": 163.91,
+      "price": 156.22,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -13,149 +13,123 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 155.71,
+      "stopLoss": 148.41,
       "indicators": {
-        "ulcerIndex": 2.5634367068615247,
-        "totalReturn": 31.538399163111563,
-        "martinRatio": 12.298373002822013
+        "ulcerIndex": 2.8081827822550816,
+        "totalReturn": 25.953399610994985,
+        "martinRatio": 9.238772135062284
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 163.91,
-      "simulatedEntryPrice": 164.7295,
-      "pickedAt": "2026-04-07T21:22:12.691Z",
-      "pickHash": "a496d765e4d9f865e1be224e9fca4eded7010be213879ff1ba31c23c7a75426f"
-    },
-    {
-      "symbol": "XELA",
-      "name": "Exela Technologies, Inc.",
-      "price": 0.011,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "STRONG BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 100,
-      "risk": "Low",
-      "stopLoss": 0.01,
-      "indicators": {
-        "ulcerIndex": 35.974295285799265,
-        "totalReturn": 449.99997387640303,
-        "martinRatio": 12.508583190254845
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 0.011,
-      "simulatedEntryPrice": 0.0111,
-      "pickedAt": "2026-04-07T21:22:12.691Z",
-      "pickHash": "da8497e56b118976edb387e25b09848c77b3a2a0aa80e6ac474be44cc4bc639a"
+      "entryPrice": 156.22,
+      "simulatedEntryPrice": 157.0011,
+      "pickedAt": "2026-04-08T21:22:36.362Z",
+      "pickHash": "71766e0c99fcb4f7885b29aabbd45f74b39267152ba7a86f72b9aac43ff4213f"
     },
     {
       "symbol": "JNJ",
       "name": "Johnson & Johnson",
-      "price": 238.41,
+      "price": 241.3,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 92,
+      "score": 87,
       "risk": "Low",
-      "stopLoss": 226.49,
+      "stopLoss": 229.24,
       "indicators": {
-        "ulcerIndex": 2.2008116360456285,
-        "totalReturn": 16.64465028227528,
-        "martinRatio": 7.559525079160927
+        "ulcerIndex": 2.232881215014662,
+        "totalReturn": 15.05817213211964,
+        "martinRatio": 6.7408114768630645
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 238.41,
-      "simulatedEntryPrice": 239.602,
-      "pickedAt": "2026-04-07T21:22:12.691Z",
-      "pickHash": "c475bc00b5c4479c08ac9ec45fdae0455828266ea3575261646271d9d12b3aac"
+      "entryPrice": 241.3,
+      "simulatedEntryPrice": 242.5065,
+      "pickedAt": "2026-04-08T21:22:36.362Z",
+      "pickHash": "af3be81a57dd99fc7c6390b893607adfe5f5d12b344d3e5a4c4908b5aadb02f2"
     },
     {
-      "symbol": "COST",
-      "name": "Costco Wholesale Corporation",
-      "price": 1013.21,
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "price": 771.58,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 69,
+      "score": 72,
       "risk": "Low",
-      "stopLoss": 962.55,
+      "stopLoss": 733,
       "indicators": {
-        "ulcerIndex": 2.2766612824438504,
-        "totalReturn": 9.550427585293018,
-        "martinRatio": 4.193085099574484
+        "ulcerIndex": 6.090762995176503,
+        "totalReturn": 22.517740773735458,
+        "martinRatio": 3.696424301399307
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 1013.21,
-      "simulatedEntryPrice": 1018.276,
-      "pickedAt": "2026-04-07T21:22:12.691Z",
-      "pickHash": "cc17b589f7b0ef771934bb218c6ef31339eabe8fa108cf56d7b7c3544b953b22"
+      "entryPrice": 771.58,
+      "simulatedEntryPrice": 775.4379,
+      "pickedAt": "2026-04-08T21:22:36.362Z",
+      "pickHash": "0a7d857f58265b51130ed50663277b56162fb04f58738123d07bcce061be4a07"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "price": 1030.27,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 68,
+      "risk": "Low",
+      "stopLoss": 978.76,
+      "indicators": {
+        "ulcerIndex": 2.2766612824438504,
+        "totalReturn": 9.245237024447519,
+        "martinRatio": 4.05909214671626
+      },
+      "allAlgorithms": [
+        "Volatility-Adjusted Momentum (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 1030.27,
+      "simulatedEntryPrice": 1035.4213,
+      "pickedAt": "2026-04-08T21:22:36.362Z",
+      "pickHash": "4a5dd22a715f9aa7005b8044dbfddcfb07939ca21009d146afcf6a7a3123811e"
     },
     {
       "symbol": "NFLX",
       "name": "Netflix, Inc.",
-      "price": 98.82,
+      "price": 99.39,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Adversarial Trend (V2)",
-      "score": 65,
+      "score": 66,
       "risk": "Medium",
-      "stopLoss": 93.88,
+      "stopLoss": 94.42,
       "indicators": {
-        "trendStrength": 0.11373585436761421,
-        "avgVolatilty": 0.012505699519997082
+        "trendStrength": 0.11671397254407526,
+        "avgVolatilty": 0.01209231384508139
       },
       "allAlgorithms": [
         "Adversarial Trend (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 98.82,
-      "simulatedEntryPrice": 99.3141,
-      "pickedAt": "2026-04-07T21:22:12.691Z",
-      "pickHash": "dfa8eb3641a0617e5664df451832ee7b5321ad08a17a3cccd661eddc19ace121"
-    },
-    {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
-      "price": 724.44,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 64,
-      "risk": "Low",
-      "stopLoss": 688.22,
-      "indicators": {
-        "ulcerIndex": 6.090496554198316,
-        "totalReturn": 17.29542529829276,
-        "martinRatio": 2.839273591375931
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 724.44,
-      "simulatedEntryPrice": 728.0622,
-      "pickedAt": "2026-04-07T21:22:12.691Z",
-      "pickHash": "5af0ac79d1e381dc13607e618f6943abef8dfd5ee35b0c3c4b24969664bc7256"
+      "entryPrice": 99.39,
+      "simulatedEntryPrice": 99.8869,
+      "pickedAt": "2026-04-08T21:22:36.362Z",
+      "pickHash": "db7a30437ac36cc8be84929616e728393ab4e4c16ad0b29c28c07d1ff47b6629"
     }
   ]
 }
