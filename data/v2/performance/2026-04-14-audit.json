@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-14",
+  "totalPicks": 9,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 81,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 29.44474133726139,
+        "sma200": 125.35559993743897,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-XOM-1776201821030",
+      "exitPrice": 146.44,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.483Z"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix, Inc.",
+      "score": 77,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.17365396676078226,
+        "avgVolatilty": 0.013535008665526196
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-NFLX-1776201821030",
+      "exitPrice": 97.31,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.525Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.090396654510823,
+        "totalReturn": 22.779758848441585,
+        "martinRatio": 3.7396610564791635
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-CAT-1776201821030",
+      "exitPrice": 794.65,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.572Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.031472655830783,
+        "totalReturn": 14.897221265129721,
+        "martinRatio": 3.694314267348837
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1776201821030",
+      "exitPrice": 146.44,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.616Z"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 69,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.21687432036917023,
+        "avgVolatilty": 0.026947846730912405
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AMD-1776201821030",
+      "exitPrice": 278.39,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.659Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 69,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.4247682756457567,
+        "totalReturn": 9.80517514809036,
+        "martinRatio": 4.042090601370468
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1776201821030",
+      "exitPrice": 234.18,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.705Z"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix, Inc.",
+      "score": 68,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.335243248763286,
+        "totalReturn": 20.772727272727273,
+        "martinRatio": 3.278398012384028
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-NFLX-1776201821030",
+      "exitPrice": 97.31,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.755Z"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.1660412352882701,
+        "avgVolatilty": 0.020723066245687448
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AMZN-1776201821030",
+      "exitPrice": 250.56,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.800Z"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 62,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 9.209844807019644,
+        "totalReturn": 22.17886248523209,
+        "martinRatio": 2.407907520961534
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LRCX-1776201821030",
+      "exitPrice": 267.6,
+      "realizedReturn": null,
+      "verifiedAt": "2026-04-19T23:10:47.843Z"
+    }
+  ]
+}
