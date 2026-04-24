@@ -1,88 +1,114 @@
 {
-  "lastUpdated": "2026-04-23T21:22:05.169Z",
+  "lastUpdated": "2026-04-24T21:23:06.709Z",
   "totalPicks": 12,
   "stocks": [
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "price": 305.33,
+      "price": 347.81,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
       "timeframe": "1m",
       "algorithm": "Adversarial Trend (V2)",
-      "score": 90,
+      "score": 100,
       "risk": "Medium",
-      "stopLoss": 290.06,
+      "stopLoss": 330.42,
       "indicators": {
-        "trendStrength": 0.3949066479222701,
-        "avgVolatilty": 0.029551611487782674
+        "trendStrength": 0.5697253032732003,
+        "avgVolatilty": 0.03276261811790156
       },
       "allAlgorithms": [
         "Adversarial Trend (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 305.33,
-      "simulatedEntryPrice": 306.8566,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "89a1056a9fe1297e7e8fd280e05ca5551c3e49b82e796f3f0fe1f1f7b14c5a74"
+      "entryPrice": 347.81,
+      "simulatedEntryPrice": 349.549,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "737ef5662b04d73ddad936fcdadbd5b8e7440d2469b4fa3fa05470258803a883"
     },
     {
-      "symbol": "CAT",
-      "name": "Caterpillar Inc.",
-      "price": 835.24,
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "price": 148.91,
       "change": 0,
       "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 82,
-      "risk": "Low",
-      "stopLoss": 793.48,
-      "indicators": {
-        "ulcerIndex": 6.0782096799820025,
-        "totalReturn": 29.840809905593247,
-        "martinRatio": 4.9086660070066195
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 835.24,
-      "simulatedEntryPrice": 839.4162,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "f248706bd0a7605e0b6ee9ec69795526982476a81ae3ce3d5475a93dbc05b31b"
-    },
-    {
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "price": 230.65,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
+      "rating": "STRONG BUY",
       "timeframe": "7d",
       "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 79,
+      "score": 88,
       "risk": "Medium",
-      "stopLoss": 219.12,
+      "stopLoss": 141.46,
       "indicators": {
-        "rsi": 30.37691719885605,
-        "sma200": 204.18685005187987,
+        "rsi": 25.8355866216383,
+        "sma200": 126.87379985809326,
         "regime": "Bullish"
       },
       "allAlgorithms": [
         "Regime-Aware Reversion (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 230.65,
-      "simulatedEntryPrice": 231.8032,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "6e32a6d63a18059f130d417df015aadf6eebe881c765f05b987f1ccb91b6b754"
+      "entryPrice": 148.91,
+      "simulatedEntryPrice": 149.6545,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "aaaff4d2d6cf377e5d6b5e50f5054ac10ef1936d521d1f50e769d85551a40c86"
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 419.94,
+      "price": 422.76,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 81,
+      "risk": "Low",
+      "stopLoss": 401.62,
+      "indicators": {
+        "ulcerIndex": 5.742856954921245,
+        "totalReturn": 27.826319341027762,
+        "martinRatio": 4.844535572423442
+      },
+      "allAlgorithms": [
+        "Volatility-Adjusted Momentum (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 422.76,
+      "simulatedEntryPrice": 424.8738,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "c3446a2887d484d0c69620e69bba2993f8db8566588da47dc7b6a0390777cc1a"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "price": 227.5,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "STRONG BUY",
+      "timeframe": "7d",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "score": 81,
+      "risk": "Medium",
+      "stopLoss": 216.13,
+      "indicators": {
+        "rsi": 29.37210363089484,
+        "sma200": 204.5429500579834,
+        "regime": "Bullish"
+      },
+      "allAlgorithms": [
+        "Regime-Aware Reversion (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 227.5,
+      "simulatedEntryPrice": 228.6375,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "8e7d0d22a5dbd80c360aa1d9e7924491eca7b0289d419615aa7ce71ac51add45"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "price": 354.92,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
@@ -90,222 +116,197 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 78,
       "risk": "Low",
-      "stopLoss": 398.94,
+      "stopLoss": 337.17,
       "indicators": {
-        "ulcerIndex": 5.772385238138716,
-        "totalReturn": 26.017288532701905,
-        "martinRatio": 4.506418238095892
+        "ulcerIndex": 4.60010345076144,
+        "totalReturn": 21.427346000249127,
+        "martinRatio": 4.6570015713737325
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 419.94,
-      "simulatedEntryPrice": 422.0397,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "c27640617aecc55182d3ded93c5f92859f49223fcf63567e48ed37a9c582b2d6"
+      "entryPrice": 354.92,
+      "simulatedEntryPrice": 356.6946,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "2cd1769e397ac7a96f9143363a9ac081b508687836d05791097ee4c03b5f6e5e"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 263.99,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Adversarial Trend (V2)",
+      "score": 77,
+      "risk": "Medium",
+      "stopLoss": 250.79,
+      "indicators": {
+        "trendStrength": 0.20741306660131714,
+        "avgVolatilty": 0.01786965311768027
+      },
+      "allAlgorithms": [
+        "Adversarial Trend (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 263.99,
+      "simulatedEntryPrice": 265.3099,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "98c6e742c9fab7503f3e0518f5156d07fd335cf3e58c83256f0adedfa06b59c7"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 422.76,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Adversarial Trend (V2)",
+      "score": 75,
+      "risk": "Medium",
+      "stopLoss": 401.62,
+      "indicators": {
+        "trendStrength": 0.23846010526726977,
+        "avgVolatilty": 0.023687519021508275
+      },
+      "allAlgorithms": [
+        "Adversarial Trend (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 422.76,
+      "simulatedEntryPrice": 424.8738,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "2a4828b6f47e16092d7d97a24d6f0b3094294aeb660ba0d0bdca96d44fe448cd"
     },
     {
       "symbol": "UNH",
       "name": "UnitedHealth Group Incorporated",
-      "price": 354.56,
+      "price": 354.92,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Adversarial Trend (V2)",
+      "score": 75,
+      "risk": "Medium",
+      "stopLoss": 337.17,
+      "indicators": {
+        "trendStrength": 0.20918506656455443,
+        "avgVolatilty": 0.019661194516257044
+      },
+      "allAlgorithms": [
+        "Adversarial Trend (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 354.92,
+      "simulatedEntryPrice": 356.6946,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "a370d6de4196f95d8888790218366a57b3433a12a66e1913e16350351b93724a"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "price": 830.79,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 76,
+      "score": 75,
       "risk": "Low",
-      "stopLoss": 336.83,
+      "stopLoss": 789.25,
       "indicators": {
-        "ulcerIndex": 4.7184961250654,
-        "totalReturn": 20.590440530733108,
-        "martinRatio": 4.3628472161205085
+        "ulcerIndex": 6.07859884072037,
+        "totalReturn": 24.885757350110442,
+        "martinRatio": 4.093322273737675
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 354.56,
-      "simulatedEntryPrice": 356.3328,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "0bca610b3830f251e56028d0c2734232c8d8b8a9f92ef5384ea6cd3aa611910f"
-    },
-    {
-      "symbol": "UNH",
-      "name": "UnitedHealth Group Incorporated",
-      "price": 354.56,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Adversarial Trend (V2)",
-      "score": 76,
-      "risk": "Medium",
-      "stopLoss": 336.83,
-      "indicators": {
-        "trendStrength": 0.2142474103690328,
-        "avgVolatilty": 0.02007244695830452
-      },
-      "allAlgorithms": [
-        "Adversarial Trend (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 354.56,
-      "simulatedEntryPrice": 356.3328,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "40ab6849d9381e91425f2f09069071bf3711f524485c27f1534fe81be01d43ac"
-    },
-    {
-      "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "price": 419.94,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Adversarial Trend (V2)",
-      "score": 74,
-      "risk": "Medium",
-      "stopLoss": 398.94,
-      "indicators": {
-        "trendStrength": 0.23599228884041099,
-        "avgVolatilty": 0.024824417391258864
-      },
-      "allAlgorithms": [
-        "Adversarial Trend (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 419.94,
-      "simulatedEntryPrice": 422.0397,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "4a39ca8051e171fc4ceb95afcccf71ebe654aaae185e0b5ce0a2c64b6ba14b4c"
-    },
-    {
-      "symbol": "XOM",
-      "name": "Exxon Mobil Corporation",
-      "price": 150.53,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "7d",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 73,
-      "risk": "Medium",
-      "stopLoss": 143,
-      "indicators": {
-        "rsi": 33.602323984660444,
-        "sma200": 126.69824985504151,
-        "regime": "Bullish"
-      },
-      "allAlgorithms": [
-        "Regime-Aware Reversion (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 150.53,
-      "simulatedEntryPrice": 151.2826,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "e4c81de470e2f5f92897b06e09f320aea4f4e5163a61b34e0297b63459830f34"
-    },
-    {
-      "symbol": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 255.08,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Adversarial Trend (V2)",
-      "score": 72,
-      "risk": "Medium",
-      "stopLoss": 242.33,
-      "indicators": {
-        "trendStrength": 0.1730901184786066,
-        "avgVolatilty": 0.017107985394598024
-      },
-      "allAlgorithms": [
-        "Adversarial Trend (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 255.08,
-      "simulatedEntryPrice": 256.3554,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "251b5a015a096ad7eb56d62b279e1885e764e81c524786bc03976cf404381c10"
+      "entryPrice": 830.79,
+      "simulatedEntryPrice": 834.9439,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "a0e5c5543b2250218470a36f309eb9e7378355ad0fc0ce40959029c178b8fbe8"
     },
     {
       "symbol": "AMC",
       "name": "AMC Entertainment Holdings, Inc.",
-      "price": 1.67,
+      "price": 1.64,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Adversarial Trend (V2)",
-      "score": 70,
+      "score": 68,
       "risk": "Medium",
-      "stopLoss": 1.59,
+      "stopLoss": 1.56,
       "indicators": {
-        "trendStrength": 0.35595972755164046,
-        "avgVolatilty": 0.04843401399737438
+        "trendStrength": 0.3236481035638274,
+        "avgVolatilty": 0.048322116719613645
       },
       "allAlgorithms": [
         "Adversarial Trend (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 1.67,
-      "simulatedEntryPrice": 1.6783,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "debe4f2523f305e7c29baaf9b680f6d574cd0ab99c77502a500edac6a16d3e3d"
-    },
-    {
-      "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "price": 172.47,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Adversarial Trend (V2)",
-      "score": 66,
-      "risk": "Medium",
-      "stopLoss": 163.85,
-      "indicators": {
-        "trendStrength": 0.25830075897095617,
-        "avgVolatilty": 0.04029810127961044
-      },
-      "allAlgorithms": [
-        "Adversarial Trend (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 172.47,
-      "simulatedEntryPrice": 173.3323,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "1d6c66d5277510070f22e5bba0ad2fc6ef16b4849420e0a5805c7d0eed0c88be"
+      "entryPrice": 1.64,
+      "simulatedEntryPrice": 1.6482,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "d8aeade4068266f6a449182949b38515f6c94f93e3587848ae926c6573acdb6b"
     },
     {
       "symbol": "AFRM",
       "name": "Affirm Holdings, Inc.",
-      "price": 62.98,
+      "price": 63.72,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Adversarial Trend (V2)",
-      "score": 66,
+      "score": 67,
       "risk": "Medium",
-      "stopLoss": 59.83,
+      "stopLoss": 60.53,
       "indicators": {
-        "trendStrength": 0.24744983932634437,
-        "avgVolatilty": 0.03780732873295288
+        "trendStrength": 0.2585274523850353,
+        "avgVolatilty": 0.03706296379577957
       },
       "allAlgorithms": [
         "Adversarial Trend (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 62.98,
-      "simulatedEntryPrice": 63.2949,
-      "pickedAt": "2026-04-23T21:22:05.169Z",
-      "pickHash": "86db781da65973579b17f16fd84f8efeb6df8d3ee31fee99f497b8d9afd62510"
+      "entryPrice": 63.72,
+      "simulatedEntryPrice": 64.0386,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "5f4153ccf55a447a68960b000e4bf89e1b34c06c5a0b959f15e0f976fbe0fefc"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "price": 347.81,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 62,
+      "risk": "Low",
+      "stopLoss": 330.42,
+      "indicators": {
+        "ulcerIndex": 16.430827563165487,
+        "totalReturn": 37.9213300426917,
+        "martinRatio": 2.307797467866465
+      },
+      "allAlgorithms": [
+        "Volatility-Adjusted Momentum (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 347.81,
+      "simulatedEntryPrice": 349.549,
+      "pickedAt": "2026-04-24T21:23:06.709Z",
+      "pickHash": "809b1e06b5507f5404788e63b87983c2efc0fa5337b2db1bc8e516cb3074a830"
     }
   ]
 }
