@@ -18,9 +18,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-NFLX-1776374503853",
-      "exitPrice": 97.31,
+      "exitPrice": 92.355,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.389Z"
+      "verifiedAt": "2026-04-26T23:12:35.931Z"
     },
     {
       "symbol": "AMD",
@@ -36,9 +36,9 @@
       },
       "v2_hash": "at-v2.0.0-beta",
       "audit_id": "v2-AMD-1776374503853",
-      "exitPrice": 278.39,
+      "exitPrice": 347.8,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.436Z"
+      "verifiedAt": "2026-04-26T23:12:35.986Z"
     },
     {
       "symbol": "NFLX",
@@ -54,9 +54,9 @@
       },
       "v2_hash": "at-v2.0.0-beta",
       "audit_id": "v2-NFLX-1776374503853",
-      "exitPrice": 97.31,
+      "exitPrice": 92.355,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.482Z"
+      "verifiedAt": "2026-04-26T23:12:36.065Z"
     },
     {
       "symbol": "XOM",
@@ -73,9 +73,9 @@
       },
       "v2_hash": "rar-v2.0.0-beta",
       "audit_id": "v2-XOM-1776374503853",
-      "exitPrice": 146.44,
+      "exitPrice": 148.91,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.527Z"
+      "verifiedAt": "2026-04-26T23:12:36.144Z"
     },
     {
       "symbol": "AVGO",
@@ -92,9 +92,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-AVGO-1776374503853",
-      "exitPrice": 406.54,
+      "exitPrice": 422.76,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.575Z"
+      "verifiedAt": "2026-04-26T23:12:36.221Z"
     },
     {
       "symbol": "AMZN",
@@ -110,9 +110,9 @@
       },
       "v2_hash": "at-v2.0.0-beta",
       "audit_id": "v2-AMZN-1776374503853",
-      "exitPrice": 250.56,
+      "exitPrice": 263.99,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.626Z"
+      "verifiedAt": "2026-04-26T23:12:36.267Z"
     },
     {
       "symbol": "AVGO",
@@ -128,9 +128,9 @@
       },
       "v2_hash": "at-v2.0.0-beta",
       "audit_id": "v2-AVGO-1776374503853",
-      "exitPrice": 406.54,
+      "exitPrice": 422.76,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.670Z"
+      "verifiedAt": "2026-04-26T23:12:36.358Z"
     },
     {
       "symbol": "CAT",
@@ -147,9 +147,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-CAT-1776374503853",
-      "exitPrice": 794.65,
+      "exitPrice": 830.79,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.718Z"
+      "verifiedAt": "2026-04-26T23:12:36.407Z"
     },
     {
       "symbol": "XOM",
@@ -166,9 +166,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-XOM-1776374503853",
-      "exitPrice": 146.44,
+      "exitPrice": 148.91,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.761Z"
+      "verifiedAt": "2026-04-26T23:12:36.455Z"
     },
     {
       "symbol": "JNJ",
@@ -185,9 +185,9 @@
       },
       "v2_hash": "vam-v2.0.0-beta",
       "audit_id": "v2-JNJ-1776374503853",
-      "exitPrice": 234.18,
+      "exitPrice": 227.5,
       "realizedReturn": null,
-      "verifiedAt": "2026-04-19T23:10:46.806Z"
+      "verifiedAt": "2026-04-26T23:12:36.502Z"
     }
   ]
 }
