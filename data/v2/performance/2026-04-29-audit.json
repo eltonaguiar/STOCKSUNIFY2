@@ -1,0 +1,249 @@
+{
+  "date": "2026-04-29",
+  "totalPicks": 13,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "score": 98,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.276362720338261,
+        "totalReturn": 30.459571241869376,
+        "martinRatio": 7.121110187134324
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-UNH-1777498214415",
+      "exitPrice": 368.78,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.405Z"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 93,
+      "rating": "STRONG BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.4711581317461058,
+        "avgVolatilty": 0.034719563669209044
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AMD-1777498214415",
+      "exitPrice": 360.54,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.450Z"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "score": 84,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.2439645575895059,
+        "avgVolatilty": 0.018037869898666493
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-UNH-1777498214415",
+      "exitPrice": 368.78,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.492Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 83,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 28.349862131178412,
+        "sma200": 205.58830001831055,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1777498214415",
+      "exitPrice": 227.19,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.536Z"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "score": 80,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 5.701855388406217,
+        "totalReturn": 26.57260231506035,
+        "martinRatio": 4.659525887519765
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AVGO-1777498214415",
+      "exitPrice": 421.28,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.583Z"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "score": 76,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.18312002818581744,
+        "avgVolatilty": 0.015127479344612175
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AMZN-1777498214415",
+      "exitPrice": 268.42,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.626Z"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.17164675280393488,
+        "avgVolatilty": 0.021761104414364924
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AVGO-1777498214415",
+      "exitPrice": 421.28,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.670Z"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 13.615722920218207,
+        "totalReturn": 39.23836237667031,
+        "martinRatio": 2.8816303751329855
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMD-1777498214415",
+      "exitPrice": 360.54,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.714Z"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 66,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 37.18695334781461,
+        "sma200": 950.0171499633789,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-COST-1777498214415",
+      "exitPrice": 1011.7,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.811Z"
+    },
+    {
+      "symbol": "AFRM",
+      "name": "Affirm Holdings, Inc.",
+      "score": 66,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.23399672776619887,
+        "avgVolatilty": 0.034600169683959604
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AFRM-1777498214415",
+      "exitPrice": 67.54,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.860Z"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "score": 62,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.442436805217413,
+        "totalReturn": 16.030833009413335,
+        "martinRatio": 2.4879320607959974
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-NVDA-1777498214415",
+      "exitPrice": 198.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.904Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 61,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.0958669244660335,
+        "totalReturn": 15.24562635950382,
+        "martinRatio": 2.500567348505649
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-CAT-1777498214415",
+      "exitPrice": 889.67,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:30.982Z"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix, Inc.",
+      "score": 60,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.459538013556161,
+        "totalReturn": 15.236423801114274,
+        "martinRatio": 2.35838312059207
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-NFLX-1777498214415",
+      "exitPrice": 92.06,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.024Z"
+    }
+  ]
+}

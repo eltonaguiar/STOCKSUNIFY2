@@ -1,0 +1,211 @@
+{
+  "date": "2026-04-28",
+  "totalPicks": 11,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "score": 93,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.316275507234981,
+        "totalReturn": 28.425366680583135,
+        "martinRatio": 6.584098381710248
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-UNH-1777411792474",
+      "exitPrice": 368.78,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.072Z"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 88,
+      "rating": "STRONG BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.4271937379800063,
+        "avgVolatilty": 0.03445407913462791
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AMD-1777411792474",
+      "exitPrice": 360.54,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.115Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 82,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 28.764502100544064,
+        "sma200": 205.23565002441407,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1777411792474",
+      "exitPrice": 227.19,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.158Z"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "score": 81,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.2374240072683229,
+        "avgVolatilty": 0.019177392684657447
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-UNH-1777411792474",
+      "exitPrice": 368.78,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.201Z"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "score": 73,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.17463688975135783,
+        "avgVolatilty": 0.01630578085144051
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AMZN-1777411792474",
+      "exitPrice": 268.42,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.242Z"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "score": 71,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 5.784491541844578,
+        "totalReturn": 20.754437404076675,
+        "martinRatio": 3.587324820020318
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AVGO-1777411792474",
+      "exitPrice": 421.28,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.285Z"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 68,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 35.750760601421845,
+        "sma200": 949.9283499145508,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-COST-1777411792474",
+      "exitPrice": 1011.7,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.330Z"
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.30594043840831,
+        "avgVolatilty": 0.04632014558531743
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-AMC-1777411792474",
+      "exitPrice": 1.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.428Z"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "score": 66,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.1446856477622095,
+        "avgVolatilty": 0.017356153973657314
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-NVDA-1777411792474",
+      "exitPrice": 198.45,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.474Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 66,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.083420037479176,
+        "totalReturn": 18.37576989627707,
+        "martinRatio": 3.020134997762301
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-CAT-1777411792474",
+      "exitPrice": 889.67,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.518Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "score": 63,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 38.57949164461183,
+        "sma200": 127.21574985504151,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-XOM-1777411792474",
+      "exitPrice": 152.75,
+      "realizedReturn": null,
+      "verifiedAt": "2026-05-03T23:14:31.638Z"
+    }
+  ]
+}
