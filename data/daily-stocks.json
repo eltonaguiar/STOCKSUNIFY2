@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T21:31:28.638Z",
+  "lastUpdated": "2026-05-25T21:32:03.872Z",
   "totalPicks": 14,
   "stocks": [
     {
@@ -25,8 +25,8 @@
       "slippageSimulated": true,
       "entryPrice": 266.32,
       "simulatedEntryPrice": 267.6516,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "189c8ff9c0895f3c5115405a2d22a985678e4a2787d09461892be65aa2a83b2d"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "f36eec6fca50de0f4bba6bca87677412c0ee9430f8acb0a8e25076e8aedf4538"
     },
     {
       "symbol": "AMD",
@@ -51,8 +51,8 @@
       "slippageSimulated": true,
       "entryPrice": 467.51,
       "simulatedEntryPrice": 469.8475,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "78d7449d0094a39c5d764ff90f640ca829677c69714accc6e132f42912025893"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "4075be67375c703a84c9f2c1a1723e14c7d46f4dfd21ab4936e2f2f1e9d6a9a7"
     },
     {
       "symbol": "UNH",
@@ -77,8 +77,8 @@
       "slippageSimulated": true,
       "entryPrice": 388.47,
       "simulatedEntryPrice": 390.4124,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "c7d07af67d8c32c51f9d8da31358ea383b59e711c20e28d7e21a22195abdf49f"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "0a1ad13e007651bc21d02c88d0c035bb5de01ae685deadaf597e6add5b8f02d8"
     },
     {
       "symbol": "AMD",
@@ -102,8 +102,8 @@
       "slippageSimulated": true,
       "entryPrice": 467.51,
       "simulatedEntryPrice": 469.8475,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "b10f3c3e07836b2e25ccf818da61e9bb3962ce6f75c259bfe6d9fc4f10ce1a48"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "cc056273b88c46f94108ac79c8f15904b35d7d717f248351c227a7e552ba49c1"
     },
     {
       "symbol": "GOOGL",
@@ -128,8 +128,8 @@
       "slippageSimulated": true,
       "entryPrice": 382.97,
       "simulatedEntryPrice": 384.8848,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "ad08fd101503ac466a5f871b5560443a50e3a99c3ef93f0d8cc958472a40c2e0"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "74fbb08bdbc539d0c3f8c9234631fdeaba6061be380632422bcbb96768907107"
     },
     {
       "symbol": "AVGO",
@@ -154,8 +154,8 @@
       "slippageSimulated": true,
       "entryPrice": 414.14,
       "simulatedEntryPrice": 416.2107,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "730fa43c559b893a3837fc0531facc234df17d7fb62f1939bae55842955d9afc"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "50b449a95696ce2eb46067e51f5ae7cb82581af12492ccddf25c9e3428347ff4"
     },
     {
       "symbol": "AAPL",
@@ -180,8 +180,8 @@
       "slippageSimulated": true,
       "entryPrice": 308.82,
       "simulatedEntryPrice": 310.3641,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "e5c1563bdb28e41e5b4262f3630438f2d7b3cbfb44882f9c51fc63ab091b9657"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "df61af2be506145c0d72db839e7a5b21ba7fc65d21e1205eb9343c860b1d219e"
     },
     {
       "symbol": "LRCX",
@@ -206,8 +206,8 @@
       "slippageSimulated": true,
       "entryPrice": 305.35,
       "simulatedEntryPrice": 306.8768,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "0f8dd13c434aad04fcc51e8fd44e2b91054494b32fb3b9cca20e99dd5fd73567"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "4eab5257eb61fd72b69b215d840199d8c1809954ba8443e24d674d2d44f10705"
     },
     {
       "symbol": "AFRM",
@@ -232,8 +232,8 @@
       "slippageSimulated": true,
       "entryPrice": 65.22,
       "simulatedEntryPrice": 65.5461,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "bf2a88e10863312930afede827fb6903c5e7da3be84696102ae119a0cef02531"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "d4c11105bc9fee2b2f50406a97c2b03ccc579b0593bc5e038d07d6eef2fcacff"
     },
     {
       "symbol": "NVDA",
@@ -258,8 +258,8 @@
       "slippageSimulated": true,
       "entryPrice": 215.33,
       "simulatedEntryPrice": 216.4066,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "da213413ba38a316719e9c6ead446991f38b8e66076b18f6937c17389d3c5334"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "71cb7666d96e79c22e743cd4104a422b2f28fb4a881c6ac26304a1e8c79f6b63"
     },
     {
       "symbol": "UNH",
@@ -283,8 +283,8 @@
       "slippageSimulated": true,
       "entryPrice": 388.47,
       "simulatedEntryPrice": 390.4124,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "810ba83ace9221a43e7189a14ffdf7eeac3a896eece4a625bc11c3216a3c50f0"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "15e03d89aae05320484b79e0bf54b4ab750c6f068d0ae3e76eb788c0e00a2e9e"
     },
     {
       "symbol": "AAPL",
@@ -308,8 +308,8 @@
       "slippageSimulated": true,
       "entryPrice": 308.82,
       "simulatedEntryPrice": 310.3641,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "5099acb50ce393f9662855cdbcab685733396dcfa70eb17cf1d011b9b3634d53"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "0fb8031c7bea210be15c1065dded772b8404e44b1ea8f5c9da9a8eed9ba5eee8"
     },
     {
       "symbol": "CAT",
@@ -334,8 +334,8 @@
       "slippageSimulated": true,
       "entryPrice": 879.89,
       "simulatedEntryPrice": 884.2894,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "6312324f06edf5ec62edb138e4ee0ee302354f6c2ac7633f16d27a7015ffbee2"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "793e6cdaecaa024b47edbb448c90e2d20b87fb5f77dd3657eac3857c04151315"
     },
     {
       "symbol": "MSTR",
@@ -360,8 +360,8 @@
       "slippageSimulated": true,
       "entryPrice": 159.89,
       "simulatedEntryPrice": 160.6894,
-      "pickedAt": "2026-05-22T21:31:28.638Z",
-      "pickHash": "9a197933ad531a0e9e02df4eb1f60f56f3565d2d0a57d166f49f1a02ac7e8342"
+      "pickedAt": "2026-05-25T21:32:03.872Z",
+      "pickHash": "911289da75bec7a37d8b9a2d2cb56c59db61d99523e0683b730b221e4566ef5a"
     }
   ]
 }
