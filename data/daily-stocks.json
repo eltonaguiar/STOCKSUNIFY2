@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T21:29:33.913Z",
+  "lastUpdated": "2026-07-03T21:29:13.467Z",
   "totalPicks": 16,
   "stocks": [
     {
@@ -25,8 +25,8 @@
       "slippageSimulated": true,
       "entryPrice": 517.82,
       "simulatedEntryPrice": 520.4091,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "02b56a019d00a38e4d8346976b98714a93e3f67c98e1745b67459feb54a2946b"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "ee561bc20cf92f172f8b54dacf9312a4f1953eead441fd02a337f9c8bbb9611a"
     },
     {
       "symbol": "LRCX",
@@ -51,8 +51,8 @@
       "slippageSimulated": true,
       "entryPrice": 351.41,
       "simulatedEntryPrice": 353.167,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "3c8f9f92e827d3562a4f631d38b7ada5d1856c76c8c2da4cdb24bf22e21149ea"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "a559b14a0781cad9f629c5a4e7edbcde32b039b3c7efda856b427f64bf425c64"
     },
     {
       "symbol": "UNH",
@@ -77,8 +77,8 @@
       "slippageSimulated": true,
       "entryPrice": 425.36,
       "simulatedEntryPrice": 427.4868,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "56eb980a5fae71c9b8cbbae8d7353b6d493c87607d1dfc0324ddf4d0663dc92b"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "6633edddcedaab3ef55454a0a48cd769c421a177806a3130bca26ffaa7cb16ea"
     },
     {
       "symbol": "LLY",
@@ -103,8 +103,8 @@
       "slippageSimulated": true,
       "entryPrice": 1213.91,
       "simulatedEntryPrice": 1219.9796,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "484df6b9d126a5de02e09ca64293f59b24ff4961960df03815b89e42d73ed2cd"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "1980221b8be6df5a5779785336a6031a6ff24eddbf1a1d907640941d7d3f6905"
     },
     {
       "symbol": "AFRM",
@@ -129,8 +129,8 @@
       "slippageSimulated": true,
       "entryPrice": 84.58,
       "simulatedEntryPrice": 85.0029,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "26346bfce15f5e8a3c4ec9b58ca3e1ec8b208d79c6c926e5c99634d31a543ec7"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "b7f43fd7a000f608710abd8bd212ced5048bffec11d92d32605c6d4d53d33a5d"
     },
     {
       "symbol": "CAT",
@@ -155,12 +155,12 @@
       "slippageSimulated": true,
       "entryPrice": 963.53,
       "simulatedEntryPrice": 968.3476,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "6e88bd688bb5374cea2118f2c7b9aa0fa505a2db7ea36f284c16e0fc6e9b57dc"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "945d59138b905328c199833df59568fd9ea8e17318d5e9c3615592ef07f22e91"
     },
     {
       "symbol": "XOM",
-      "name": "Exxon Mobil Corporation",
+      "name": "ExxonMobil Holdings Corporation",
       "price": 137.09,
       "change": 0,
       "changePercent": 0,
@@ -181,8 +181,8 @@
       "slippageSimulated": true,
       "entryPrice": 137.09,
       "simulatedEntryPrice": 137.7754,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "d346cefc5a188fa2f8db9b84a8405217ca75372a88faa30cc2668cd16c7d25a2"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "554e87ab5f95044ffdb204278bbf78b6b1dd569e4199ed57c52a57b51eb772ba"
     },
     {
       "symbol": "V",
@@ -207,8 +207,8 @@
       "slippageSimulated": true,
       "entryPrice": 362.13,
       "simulatedEntryPrice": 363.9406,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "e498b18e3804e5ae48d938dc46e16e604ce0a6fe6e59478c2cd019a59bd99360"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "7b68ac5e4a244cfbf9d8297885986cce6a4df25d31779402289ecb72001eac87"
     },
     {
       "symbol": "AAPL",
@@ -233,8 +233,8 @@
       "slippageSimulated": true,
       "entryPrice": 308.63,
       "simulatedEntryPrice": 310.1731,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "eb3dd4e5162c14aa2c55dd375d91b0480d1a8d93db8e913fd5a69e1da8a54036"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "94e63130cfd46419a58ec108d1471b3bf2e15a6759d7b8f0df5eae7b2c4b2978"
     },
     {
       "symbol": "GE",
@@ -258,8 +258,8 @@
       "slippageSimulated": true,
       "entryPrice": 377.52,
       "simulatedEntryPrice": 379.4076,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "442cc5dd088d5568a1e016ad84f5119f99db550539389ade3b12951e34489b44"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "15b1aacbac614f33e380da77fd1b84819f84bd31e910c2c094cb9aa0e0f569af"
     },
     {
       "symbol": "GE",
@@ -284,8 +284,8 @@
       "slippageSimulated": true,
       "entryPrice": 377.52,
       "simulatedEntryPrice": 379.4076,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "99dd18f6e4c43cce2cd8aade4bc7b2f75e38de100bb503e1156ba9cc6b11e790"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "e5497f84e10e40cb25e8989a5f602242bd445cd8497427ee61d8ddadc14ec2b7"
     },
     {
       "symbol": "LLY",
@@ -309,8 +309,8 @@
       "slippageSimulated": true,
       "entryPrice": 1213.91,
       "simulatedEntryPrice": 1219.9796,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "23bad5db43d49ef10ecc2eedb32ab747d7b597be4bbeeb696af1f329c9acb03a"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "7dfbbc2769ba798736c6b8c35f02b948ef308df205a746f83d814e17c27a599f"
     },
     {
       "symbol": "JNJ",
@@ -334,8 +334,8 @@
       "slippageSimulated": true,
       "entryPrice": 263.04,
       "simulatedEntryPrice": 264.3552,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "1d4a372f8851004b6ac734f91e5b0f4e91a5f41bb545f3af5963dfeaa5645aa9"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "6b58784cc3de7ea6a42dc80cd2cdb2ec207fd6e35879b62a9acae2eff29728fc"
     },
     {
       "symbol": "UPST",
@@ -360,8 +360,8 @@
       "slippageSimulated": true,
       "entryPrice": 34.78,
       "simulatedEntryPrice": 34.9539,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "4a8ac1f1688a68b4ed7690161690ab07341fb5f9027323cb86e3110f3c4c3efd"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "102914807c8128699f38a455c8a41fc2ef351faa6347cbf06a86459c3f1804cb"
     },
     {
       "symbol": "AMC",
@@ -386,8 +386,8 @@
       "slippageSimulated": true,
       "entryPrice": 1.89,
       "simulatedEntryPrice": 1.8994,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "5bc38bb35740588639a5ac9f8f82022275b5e299ecbcec5c09560c3f30dcd4b7"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "9101dc2b5793fc13ade13c8438a479a4d45c5b057385bc89aa8660812919bbf3"
     },
     {
       "symbol": "JPM",
@@ -412,8 +412,8 @@
       "slippageSimulated": true,
       "entryPrice": 334.47,
       "simulatedEntryPrice": 336.1423,
-      "pickedAt": "2026-07-02T21:29:33.913Z",
-      "pickHash": "a0f6c85b4a6f0d8de3162833e33ff08e0581a1ddaa9227a53bb16cd086974833"
+      "pickedAt": "2026-07-03T21:29:13.467Z",
+      "pickHash": "fda5281d5a68690cb5c90586017aaa2c8635e8a03ae9e096e8092e8966591c89"
     }
   ]
 }
