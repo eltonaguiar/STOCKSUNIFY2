@@ -1,0 +1,252 @@
+{
+  "date": "2026-08-10",
+  "totalPicks": 13,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.318475536846636,
+        "totalReturn": 19.96598833207106,
+        "martinRatio": 15.131760896292938
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JPM-1786396722800",
+      "exitPrice": 362.84,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:50.951Z"
+    },
+    {
+      "symbol": "GE",
+      "name": "GE Aerospace",
+      "score": 91,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.054772915669951,
+        "totalReturn": 25.780335203460453,
+        "martinRatio": 6.356454303409128
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GE-1786396722800",
+      "exitPrice": 368.38,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.046Z"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
+      "score": 86,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.8532279841875425,
+        "totalReturn": 22.374092089178145,
+        "martinRatio": 5.805077483991784
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LLY-1786396722800",
+      "exitPrice": 1180.16,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.137Z"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "score": 83,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.4514890447571362,
+        "totalReturn": 14.946727598008607,
+        "martinRatio": 6.094513502501188
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MA-1786396722800",
+      "exitPrice": 569.29,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.228Z"
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "score": 81,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 18.867709030973433,
+        "totalReturn": 80.59701042680928,
+        "martinRatio": 4.271463950952202
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMC-1786396722800",
+      "exitPrice": 2.5,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.320Z"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "score": 78,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 31.23554127133525,
+        "sma200": 346.1477989196777,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-UNH-1786396722800",
+      "exitPrice": 401.73,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.416Z"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 77,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.2156235544864216,
+        "totalReturn": 12.030265505398908,
+        "martinRatio": 5.42729300202995
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-V-1786396722800",
+      "exitPrice": 364.15,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.512Z"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 75,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.23854179594460756,
+        "avgVolatilty": 0.024039122088037795
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-MSFT-1786396722800",
+      "exitPrice": 495.4,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.603Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.1601355975463323,
+        "totalReturn": 13.435873716729576,
+        "martinRatio": 4.250331345216091
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1786396722800",
+      "exitPrice": 260.35,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.719Z"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.31516139979312086,
+        "avgVolatilty": 0.039262118622275896
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-PLTR-1786396722800",
+      "exitPrice": 174.04,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.814Z"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 66,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 37.207769929040715,
+        "sma200": 279.64019958496095,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AAPL-1786396722800",
+      "exitPrice": 305.93,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:51.910Z"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 65,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 37.58992893095352,
+        "sma200": 319.4462001800537,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMD-1786396722800",
+      "exitPrice": 514.39,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:52.070Z"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 61,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 39.54333362651799,
+        "sma200": 747.763798828125,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-CAT-1786396722800",
+      "exitPrice": 856.57,
+      "realizedReturn": null,
+      "verifiedAt": "2026-08-16T23:02:52.279Z"
+    }
+  ]
+}
