@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
   "date": "2026-08-28",
-  "timestamp": "2026-08-28T00:06:37.268Z",
+  "timestamp": "2026-08-28T22:09:20.830Z",
   "regime": {
     "symbol": "SPY",
-    "price": 771.1,
-    "sma200": 709.4067004394532,
+    "price": 769.35,
+    "sma200": 709.8462503051758,
     "status": "BULLISH"
   },
   "metadata": {
@@ -27,12 +27,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.674669591178122,
-        "totalReturn": 21.530092003075602,
-        "martinRatio": 12.848649946519783
+        "ulcerIndex": 1.676843788969069,
+        "totalReturn": 19.182962311581264,
+        "martinRatio": 11.433103866819453
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-V-1787875597268"
+      "audit_id": "v2-V-1787954960830"
     },
     {
       "symbol": "MA",
@@ -43,12 +43,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.651942848793738,
-        "totalReturn": 25.48616590353844,
-        "martinRatio": 15.41866128168762
+        "ulcerIndex": 1.6548553793374632,
+        "totalReturn": 23.56774907274098,
+        "martinRatio": 14.232975516358712
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MA-1787875597268"
+      "audit_id": "v2-MA-1787954960830"
     },
     {
       "symbol": "JPM",
@@ -59,201 +59,185 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.4205711415751956,
-        "totalReturn": 17.739735022016585,
-        "martinRatio": 12.478963945736671
+        "ulcerIndex": 1.4454936701087093,
+        "totalReturn": 15.031034497652163,
+        "martinRatio": 10.391358640734685
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-JPM-1787875597268"
-    },
-    {
-      "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "score": 94,
-      "rating": "STRONG BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 22.866812361496386,
-        "sma200": 369.33140045166016,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-AVGO-1787875597268"
+      "audit_id": "v2-JPM-1787954960830"
     },
     {
       "symbol": "JNJ",
       "name": "Johnson & Johnson",
-      "score": 88,
-      "rating": "STRONG BUY",
+      "score": 84,
+      "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.9996087724282936,
-        "totalReturn": 19.051242367102635,
-        "martinRatio": 6.349125731471182
+        "ulcerIndex": 3.010306692936146,
+        "totalReturn": 17.473814327479424,
+        "martinRatio": 5.80273486206805
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-JNJ-1787875597268"
-    },
-    {
-      "symbol": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "score": 80,
-      "rating": "STRONG BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 29.800417502630538,
-        "sma200": 238.58950004577636,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-AMZN-1787875597268"
+      "audit_id": "v2-JNJ-1787954960830"
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "score": 78,
+      "score": 82,
       "rating": "BUY",
       "algorithm": "Adversarial Trend (V2)",
       "timeframe": "1m",
       "risk": "Medium",
       "metrics": {
-        "trendStrength": 0.1801564786883035,
-        "avgVolatilty": 0.013588623595721716
+        "trendStrength": 0.19244607385856752,
+        "avgVolatilty": 0.01291749844471832
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-MSFT-1787875597268"
-    },
-    {
-      "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "score": 76,
-      "rating": "BUY",
-      "algorithm": "Adversarial Trend (V2)",
-      "timeframe": "1m",
-      "risk": "Medium",
-      "metrics": {
-        "trendStrength": 0.37372526123616795,
-        "avgVolatilty": 0.04205384217911297
-      },
-      "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-MSTR-1787875597268"
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc.",
-      "score": 73,
-      "rating": "BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 33.7306082066615,
-        "sma200": 334.2864994812012,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-GOOGL-1787875597268"
+      "audit_id": "v2-MSFT-1787954960830"
     },
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "score": 71,
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 9.443166835854807,
+        "totalReturn": 31.467892739648327,
+        "martinRatio": 3.331992465463484
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PLTR-1787954960830"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 70,
       "rating": "BUY",
       "algorithm": "Adversarial Trend (V2)",
       "timeframe": "1m",
       "risk": "Medium",
       "metrics": {
-        "trendStrength": 0.3035625979094101,
-        "avgVolatilty": 0.038844028035168184
+        "trendStrength": 0.2959719161187569,
+        "avgVolatilty": 0.03861366910707465
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-PLTR-1787875597268"
+      "audit_id": "v2-PLTR-1787954960830"
     },
     {
       "symbol": "GE",
       "name": "GE Aerospace",
-      "score": 70,
+      "score": 67,
       "rating": "BUY",
       "algorithm": "Regime-Aware Reversion (V2)",
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 35.05954151235041,
-        "sma200": 320.4828007507324,
+        "rsi": 36.341994730790255,
+        "sma200": 320.63600067138674,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-GE-1787875597268"
+      "audit_id": "v2-GE-1787954960830"
     },
     {
-      "symbol": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "score": 69,
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "score": 65,
       "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "algorithm": "Adversarial Trend (V2)",
       "timeframe": "1m",
-      "risk": "Low",
+      "risk": "Medium",
       "metrics": {
-        "ulcerIndex": 9.66716652771155,
-        "totalReturn": 30.75246412816354,
-        "martinRatio": 3.180795866519133
+        "trendStrength": 0.27011523501184836,
+        "avgVolatilty": 0.04344403937769918
       },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PLTR-1787875597268"
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-MSTR-1787954960830"
     },
     {
-      "symbol": "AMC",
-      "name": "AMC Entertainment Holdings, Inc.",
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 64,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 37.76582517161471,
+        "sma200": 334.5689494323731,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-GOOGL-1787954960830"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "score": 64,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 37.7767677178115,
+        "sma200": 349.78034896850585,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-UNH-1787954960830"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
       "score": 63,
       "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
       "metrics": {
-        "ulcerIndex": 19.300642529250155,
-        "totalReturn": 47.540980146572714,
-        "martinRatio": 2.4630536015019455
+        "rsi": 38.71465678319795,
+        "sma200": 238.67965003967285,
+        "regime": "Bullish"
       },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AMC-1787875597268"
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMZN-1787954960830"
     },
     {
-      "symbol": "SOFI",
-      "name": "SoFi Technologies, Inc.",
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
       "score": 62,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 5.749605815849597,
-        "totalReturn": 14.988007488515883,
-        "martinRatio": 2.606335396386676
+        "ulcerIndex": 7.983349610883482,
+        "totalReturn": 19.969633137421,
+        "martinRatio": 2.501097034904428
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-SOFI-1787875597268"
+      "audit_id": "v2-MSFT-1787954960830"
     },
     {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "score": 60,
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "score": 61,
       "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
       "metrics": {
-        "ulcerIndex": 7.983349610883482,
-        "totalReturn": 18.186924773747943,
-        "martinRatio": 2.2778216962039477
+        "rsi": 39.292060807557704,
+        "sma200": 767.3035989379882,
+        "regime": "Bullish"
       },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSFT-1787875597268"
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-CAT-1787954960830"
     }
   ]
 }
