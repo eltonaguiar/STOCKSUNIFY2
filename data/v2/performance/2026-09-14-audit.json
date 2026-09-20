@@ -1,0 +1,216 @@
+{
+  "date": "2026-09-14",
+  "totalPicks": 11,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.689444948967975,
+        "totalReturn": 33.21296998699907,
+        "martinRatio": 12.344787058266776
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSFT-1789420481920",
+      "exitPrice": 493.78,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.232Z"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 16.280791293918156,
+        "sma200": 1065.188553466797,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-LLY-1789420481920",
+      "exitPrice": 1152.93,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.304Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.9817912832619988,
+        "totalReturn": 19.788116192231744,
+        "martinRatio": 9.97992898157048
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1789420481920",
+      "exitPrice": 163.54,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.375Z"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "score": 94,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.1899347087761565,
+        "totalReturn": 17.278831739850837,
+        "martinRatio": 7.8865114832667444
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MA-1789420481920",
+      "exitPrice": 565.24,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.445Z"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 90,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.040724121322326,
+        "totalReturn": 34.90308893378515,
+        "martinRatio": 5.777008058114719
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PLTR-1789420481920",
+      "exitPrice": 177.64,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.521Z"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 89,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.023420586832079,
+        "totalReturn": 14.680360346917832,
+        "martinRatio": 7.2516355753378505
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-V-1789420481920",
+      "exitPrice": 368.29,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.591Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 80,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.106351248696003,
+        "totalReturn": 16.607557560189168,
+        "martinRatio": 5.344602599129569
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1789420481920",
+      "exitPrice": 269.99,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.662Z"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "score": 79,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 30.358265419701056,
+        "sma200": 531.2669476318359,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-MA-1789420481920",
+      "exitPrice": 565.24,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.733Z"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 34.92766494056369,
+        "sma200": 264.80184928894045,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-LRCX-1789420481920",
+      "exitPrice": 288.11,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.803Z"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.7931622714337743,
+        "totalReturn": 7.65943013523091,
+        "martinRatio": 4.269084383939256
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-JPM-1789420481920",
+      "exitPrice": 349.67,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.875Z"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "score": 64,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 38.01038646622474,
+        "sma200": 353.3484991455078,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-UNH-1789420481920",
+      "exitPrice": 376.9,
+      "realizedReturn": null,
+      "verifiedAt": "2026-09-20T23:04:07.946Z"
+    }
+  ]
+}
