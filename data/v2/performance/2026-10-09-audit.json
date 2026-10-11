@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-09",
+  "totalPicks": 11,
+  "avgReturn": null,
+  "picks": [
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.6530869787066433,
+        "totalReturn": 35.86663705470274,
+        "martinRatio": 13.513738374987556
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSFT-1791580581664",
+      "exitPrice": 535.07,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.217Z"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.228866473313571,
+        "totalReturn": 62.72008696142487,
+        "martinRatio": 10.067645467217375
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSTR-1791580581664",
+      "exitPrice": 154.34,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.273Z"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.895509813562919,
+        "totalReturn": 57.916597891848184,
+        "martinRatio": 11.828138837059836
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PLTR-1791580581664",
+      "exitPrice": 209.05,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.320Z"
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "score": 91,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 9.50241426436705,
+        "totalReturn": 53.608242891992695,
+        "martinRatio": 5.640945601308387
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMC-1791580581664",
+      "exitPrice": 2.98,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.402Z"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "score": 86,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 27.119862945915088,
+        "sma200": 322.1362008666992,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-JPM-1791580581664",
+      "exitPrice": 332.99,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.479Z"
+    },
+    {
+      "symbol": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "score": 78,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.803958607322918,
+        "totalReturn": 14.644407777053518,
+        "martinRatio": 5.220899780417899
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1791580581664",
+      "exitPrice": 168.94,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.568Z"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 78,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.2721037624259715,
+        "avgVolatilty": 0.025420273374241166
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-GME-1791580581664",
+      "exitPrice": 26.56,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.628Z"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 76,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.18120959343676563,
+        "avgVolatilty": 0.015417174392169017
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-PLTR-1791580581664",
+      "exitPrice": 209.05,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.665Z"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 33.83561901536956,
+        "sma200": 135.8558498764038,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-MSTR-1791580581664",
+      "exitPrice": 154.34,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.700Z"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.911382372681612,
+        "totalReturn": 13.05162603424361,
+        "martinRatio": 3.3359791531055816
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-NVDA-1791580581664",
+      "exitPrice": 229.28,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.766Z"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "score": 63,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 38.37916856205311,
+        "sma200": 242.9193002319336,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-JNJ-1791580581664",
+      "exitPrice": 261.44,
+      "realizedReturn": null,
+      "verifiedAt": "2026-10-11T23:04:58.970Z"
+    }
+  ]
+}
