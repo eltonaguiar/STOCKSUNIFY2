@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "date": "2026-10-09",
-  "timestamp": "2026-10-09T21:16:21.664Z",
+  "date": "2026-10-12",
+  "timestamp": "2026-10-12T21:15:07.319Z",
   "regime": {
     "symbol": "SPY",
-    "price": 778.57,
-    "sma200": 722.9283996582031,
+    "price": 778.1,
+    "sma200": 723.3790994262695,
     "status": "BULLISH"
   },
   "metadata": {
@@ -28,11 +28,11 @@
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 2.6530869787066433,
-        "totalReturn": 35.86663705470274,
-        "martinRatio": 13.513738374987556
+        "totalReturn": 34.517385096719906,
+        "martinRatio": 13.0053707258458
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSFT-1791580581664"
+      "audit_id": "v2-MSFT-1791839707319"
     },
     {
       "symbol": "MSTR",
@@ -43,12 +43,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 6.228866473313571,
-        "totalReturn": 62.72008696142487,
-        "martinRatio": 10.067645467217375
+        "ulcerIndex": 6.345700477724107,
+        "totalReturn": 56.08260118209599,
+        "martinRatio": 8.836497228589383
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSTR-1791580581664"
+      "audit_id": "v2-MSTR-1791839707319"
     },
     {
       "symbol": "PLTR",
@@ -59,75 +59,43 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 4.895509813562919,
-        "totalReturn": 57.916597891848184,
-        "martinRatio": 11.828138837059836
+        "ulcerIndex": 4.895510787460866,
+        "totalReturn": 54.98701560277589,
+        "martinRatio": 11.229836507986118
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PLTR-1791580581664"
-    },
-    {
-      "symbol": "AMC",
-      "name": "AMC Entertainment Holdings, Inc.",
-      "score": 91,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 9.50241426436705,
-        "totalReturn": 53.608242891992695,
-        "martinRatio": 5.640945601308387
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AMC-1791580581664"
-    },
-    {
-      "symbol": "JPM",
-      "name": "JPMorgan Chase & Co.",
-      "score": 86,
-      "rating": "STRONG BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 27.119862945915088,
-        "sma200": 322.1362008666992,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-JPM-1791580581664"
+      "audit_id": "v2-PLTR-1791839707319"
     },
     {
       "symbol": "XOM",
       "name": "ExxonMobil Holdings Corporation",
-      "score": 78,
+      "score": 82,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 2.803958607322918,
-        "totalReturn": 14.644407777053518,
-        "martinRatio": 5.220899780417899
+        "totalReturn": 16.035319015756688,
+        "martinRatio": 5.716775632229727
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-XOM-1791580581664"
+      "audit_id": "v2-XOM-1791839707319"
     },
     {
       "symbol": "GME",
       "name": "GameStop Corp.",
-      "score": 78,
+      "score": 82,
       "rating": "BUY",
       "algorithm": "Adversarial Trend (V2)",
       "timeframe": "1m",
       "risk": "Medium",
       "metrics": {
-        "trendStrength": 0.2721037624259715,
-        "avgVolatilty": 0.025420273374241166
+        "trendStrength": 0.29734623039181945,
+        "avgVolatilty": 0.02557045470697672
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-GME-1791580581664"
+      "audit_id": "v2-GME-1791839707319"
     },
     {
       "symbol": "PLTR",
@@ -138,59 +106,91 @@
       "timeframe": "1m",
       "risk": "Medium",
       "metrics": {
-        "trendStrength": 0.18120959343676563,
-        "avgVolatilty": 0.015417174392169017
+        "trendStrength": 0.16956839732233028,
+        "avgVolatilty": 0.013611277741602415
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-PLTR-1791580581664"
+      "audit_id": "v2-PLTR-1791839707319"
     },
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "score": 72,
+      "score": 73,
       "rating": "BUY",
       "algorithm": "Regime-Aware Reversion (V2)",
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 33.83561901536956,
-        "sma200": 135.8558498764038,
+        "rsi": 33.461276494001396,
+        "sma200": 135.82984981536865,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-MSTR-1791580581664"
+      "audit_id": "v2-MSTR-1791839707319"
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "score": 67,
+      "score": 63,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.911382372681612,
-        "totalReturn": 13.05162603424361,
-        "martinRatio": 3.3359791531055816
+        "ulcerIndex": 3.9730328662321206,
+        "totalReturn": 11.334121093594593,
+        "martinRatio": 2.852045132767298
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-NVDA-1791580581664"
+      "audit_id": "v2-NVDA-1791839707319"
     },
     {
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "score": 63,
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 61,
       "rating": "BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
       "metrics": {
-        "rsi": 38.37916856205311,
-        "sma200": 242.9193002319336,
-        "regime": "Bullish"
+        "ulcerIndex": 10.955482659583494,
+        "totalReturn": 25.13786633080034,
+        "martinRatio": 2.294337253280146
       },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-JNJ-1791580581664"
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GME-1791839707319"
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "score": 61,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 9.570309628771746,
+        "totalReturn": 21.951217621109855,
+        "martinRatio": 2.2934392964494226
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMC-1791839707319"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 60,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.950029140250442,
+        "totalReturn": 7.959617298389064,
+        "martinRatio": 2.6972343952230724
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-V-1791839707319"
     }
   ]
 }
