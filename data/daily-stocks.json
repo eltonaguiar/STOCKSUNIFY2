@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-19T21:15:46.429Z",
-  "totalPicks": 16,
+  "lastUpdated": "2026-10-20T21:16:40.477Z",
+  "totalPicks": 15,
   "stocks": [
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 533.52,
+      "price": 531.87,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -13,25 +13,25 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 506.84,
+      "stopLoss": 505.28,
       "indicators": {
-        "ulcerIndex": 2.4150813598735295,
-        "totalReturn": 37.116420362651716,
-        "martinRatio": 15.362239442381439
+        "ulcerIndex": 2.4306978819468243,
+        "totalReturn": 35.215454874057095,
+        "martinRatio": 14.481838034033858
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 533.52,
-      "simulatedEntryPrice": 536.1876,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "ba8437f9d3d55fc57e9febb51c1b32a40f31960a0d16213335342b295533059c"
+      "entryPrice": 531.87,
+      "simulatedEntryPrice": 534.5293,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "074813d050c5339d6e208cfec683eb42f7cfb6adb4601cdc9de51441294234c9"
     },
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 194.15,
+      "price": 192.6,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -39,155 +39,129 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 184.44,
+      "stopLoss": 182.97,
       "indicators": {
-        "ulcerIndex": 4.576208757689795,
-        "totalReturn": 47.6089118846397,
-        "martinRatio": 10.40129790992291
+        "ulcerIndex": 4.339028267843065,
+        "totalReturn": 55.913544809553564,
+        "martinRatio": 12.883221343012549
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 194.15,
-      "simulatedEntryPrice": 195.1207,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "fbf33315ea24e4441d7705fbe18840a3afac6d6c677e1f33e4a5b2b00cdc1c6b"
+      "entryPrice": 192.6,
+      "simulatedEntryPrice": 193.563,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "b2dea5f70247da87ddd726e3cdfbec61d5f3f39a9fa486bda60674d298415a79"
     },
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "price": 136.02,
+      "price": 142.72,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 87,
+      "score": 98,
       "risk": "Low",
-      "stopLoss": 129.22,
+      "stopLoss": 135.58,
       "indicators": {
-        "ulcerIndex": 7.1060336263025,
-        "totalReturn": 37.881396752252265,
-        "martinRatio": 5.330127693790076
+        "ulcerIndex": 7.324903353885601,
+        "totalReturn": 48.41929551239919,
+        "martinRatio": 6.609327638306609
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 136.02,
-      "simulatedEntryPrice": 136.7001,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "ed25745b2c46e66f0d00b62e2859ebd3135a0c816efd2122ff6e725c473c1dac"
+      "entryPrice": 142.72,
+      "simulatedEntryPrice": 143.4336,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "e1bebe2dbd8da0cff1936eb06622fc3a260c705f9fea83c2d3572a7195cd192e"
     },
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "price": 368.06,
+      "price": 373.71,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 86,
+      "score": 92,
       "risk": "Low",
-      "stopLoss": 349.66,
+      "stopLoss": 355.02,
       "indicators": {
-        "ulcerIndex": 3.1195448254131772,
-        "totalReturn": 19.02852291152419,
-        "martinRatio": 6.097820725585862
+        "ulcerIndex": 3.1236738949986713,
+        "totalReturn": 21.55542448358647,
+        "martinRatio": 6.898455713438742
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 368.06,
-      "simulatedEntryPrice": 369.9003,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "ff47ca84d1e286659c52420e1f895285934523cad080b0e5ba667c54e73a51da"
+      "entryPrice": 373.71,
+      "simulatedEntryPrice": 375.5785,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "936f89b4d3105be1c5deb28dff5e72e4e1b9f45896129a31d708d860def8067b"
     },
     {
       "symbol": "XOM",
       "name": "ExxonMobil Holdings Corporation",
-      "price": 178.28,
+      "price": 177.86,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 80,
+      "score": 83,
       "risk": "Low",
-      "stopLoss": 169.37,
+      "stopLoss": 168.97,
       "indicators": {
-        "ulcerIndex": 2.789158335868963,
-        "totalReturn": 15.190279174607687,
-        "martinRatio": 5.444235540086956
+        "ulcerIndex": 2.7865940104403077,
+        "totalReturn": 16.217987325353718,
+        "martinRatio": 5.817915831578374
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 178.28,
-      "simulatedEntryPrice": 179.1714,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "70321b5dd559194edce8daa4974b16e5e5166ec36640c19144b5436acc778476"
+      "entryPrice": 177.86,
+      "simulatedEntryPrice": 178.7493,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "5a9c0e344ff98d87a7f35d1a3890904211b252854983b4df51ca6f78a7e5cccb"
     },
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "price": 538.05,
+      "price": 534.74,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "7d",
       "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 75,
+      "score": 79,
       "risk": "Medium",
-      "stopLoss": 511.15,
+      "stopLoss": 508,
       "indicators": {
-        "rsi": 32.5080440367243,
-        "sma200": 395.86695022583007,
+        "rsi": 30.534767277203443,
+        "sma200": 397.4233001708984,
         "regime": "Bullish"
       },
       "allAlgorithms": [
         "Regime-Aware Reversion (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 538.05,
-      "simulatedEntryPrice": 540.7402,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "8dbd7e11bb8dfe507040b2bd5a23ee86411bd15ae88b31b406032f111bcdbe69"
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "price": 705.44,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "1m",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 73,
-      "risk": "Low",
-      "stopLoss": 670.17,
-      "indicators": {
-        "ulcerIndex": 4.687502703751197,
-        "totalReturn": 18.78694087934121,
-        "martinRatio": 4.007023577977266
-      },
-      "allAlgorithms": [
-        "Volatility-Adjusted Momentum (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 705.44,
-      "simulatedEntryPrice": 708.9672,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "c6909203e11c860858f7cd27f5921fce0c9c07184095730fef2ab0cef84e0ce1"
+      "entryPrice": 534.74,
+      "simulatedEntryPrice": 537.4137,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "714c9ddd8605eb038b72dfe63c50854d62764f35e1e4fda5dd7baf04f57e39c0"
     },
     {
       "symbol": "XELA",
       "name": "Exela Technologies, Inc.",
-      "price": 0.0055,
+      "price": 0.0056,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
@@ -197,74 +171,74 @@
       "risk": "Low",
       "stopLoss": 0.01,
       "indicators": {
-        "ulcerIndex": 73.37457404029392,
-        "totalReturn": 243.75000868385558,
-        "martinRatio": 3.3219502793940823
+        "ulcerIndex": 74.2647434336823,
+        "totalReturn": 250.00000884174392,
+        "martinRatio": 3.366289722326533
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 0.0055,
-      "simulatedEntryPrice": 0.0055,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "9476a4fedf1ac7effa0c23cd8256266954b927db74be7f0577a353713d9aa9be"
+      "entryPrice": 0.0056,
+      "simulatedEntryPrice": 0.0056,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "10c0ccd57ba6d9d71412a5598f11c77219ed4c56f4271aba40999f575a219ea6"
     },
     {
       "symbol": "GME",
       "name": "GameStop Corp.",
-      "price": 26.44,
+      "price": 26.47,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Adversarial Trend (V2)",
-      "score": 70,
+      "score": 71,
       "risk": "Medium",
-      "stopLoss": 25.12,
+      "stopLoss": 25.15,
       "indicators": {
-        "trendStrength": 0.21348974675278418,
-        "avgVolatilty": 0.026145639410767824
+        "trendStrength": 0.2063622293690299,
+        "avgVolatilty": 0.02341238592220246
       },
       "allAlgorithms": [
         "Adversarial Trend (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 26.44,
-      "simulatedEntryPrice": 26.5722,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "4c9b82f536e9c73ecf4d91575f47505546265bdb547974a16119bed750d06035"
+      "entryPrice": 26.47,
+      "simulatedEntryPrice": 26.6023,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "48a73f60cbedc1c29274c9f6b11dde26cd90b83c08545f61def5b4e4fb645fe6"
     },
     {
-      "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "price": 136.02,
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "price": 694.25,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
-      "timeframe": "7d",
-      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 69,
-      "risk": "Medium",
-      "stopLoss": 129.22,
+      "risk": "Low",
+      "stopLoss": 659.54,
       "indicators": {
-        "rsi": 35.517938738281,
-        "sma200": 135.5252997970581,
-        "regime": "Bullish"
+        "ulcerIndex": 4.882486261707016,
+        "totalReturn": 16.99331514789154,
+        "martinRatio": 3.4797507840129662
       },
       "allAlgorithms": [
-        "Regime-Aware Reversion (V2)"
+        "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 136.02,
-      "simulatedEntryPrice": 136.7001,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "e16c2322b9136f3f90f8da5c10f8ebb6459e2bf6f72767d923bf4fea99290c9c"
+      "entryPrice": 694.25,
+      "simulatedEntryPrice": 697.7212,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "2224f85190612685df0caaab2c16d524db19936735ac0018e43457c277ebb334"
     },
     {
       "symbol": "V",
       "name": "Visa Inc.",
-      "price": 402.92,
+      "price": 406.57,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
@@ -272,129 +246,77 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 68,
       "risk": "Low",
-      "stopLoss": 382.77,
+      "stopLoss": 386.24,
       "indicators": {
         "ulcerIndex": 2.9151218544102564,
-        "totalReturn": 11.141147313795678,
-        "martinRatio": 3.820535584597103
+        "totalReturn": 10.905917799584278,
+        "martinRatio": 3.7398703977649257
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 402.92,
-      "simulatedEntryPrice": 404.9346,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "a9823d4cd333dc60fcb75ac16c1329321e6302dbe4dc2bbe4c066c3fb8c3f323"
+      "entryPrice": 406.57,
+      "simulatedEntryPrice": 408.6028,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "9e6006f364a3267682c6ab904f64758ee7d63a5d8ad6c9dc726398eefc10ed5f"
     },
     {
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "price": 253.79,
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 216.47,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "7d",
       "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 65,
+      "score": 67,
       "risk": "Medium",
-      "stopLoss": 241.1,
+      "stopLoss": 205.65,
       "indicators": {
-        "rsi": 37.35315741491512,
-        "sma200": 244.3506502532959,
+        "rsi": 36.45050213414824,
+        "sma200": 203.26205001831056,
         "regime": "Bullish"
       },
       "allAlgorithms": [
         "Regime-Aware Reversion (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 253.79,
-      "simulatedEntryPrice": 255.0589,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "487a69e22ae40d487e498ce09592a2e77db91c71d67ff95d66f291f115202d47"
+      "entryPrice": 216.47,
+      "simulatedEntryPrice": 217.5523,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "103422b97590deb46b3b75a3f3cbb0b2eb5772396933e9877151f70bc3e374c0"
     },
     {
-      "symbol": "MA",
-      "name": "Mastercard Incorporated",
-      "price": 616.4,
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
+      "price": 159.32,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 64,
+      "score": 62,
       "risk": "Low",
-      "stopLoss": 585.58,
+      "stopLoss": 151.35,
       "indicators": {
-        "ulcerIndex": 3.845149939521713,
-        "totalReturn": 11.725358512800385,
-        "martinRatio": 3.0485963098616193
+        "ulcerIndex": 2.2059909398283155,
+        "totalReturn": 7.0123554371220616,
+        "martinRatio": 3.1773376639541446
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 616.4,
-      "simulatedEntryPrice": 619.482,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "64bbce52f582836ae2a92bce4cd33e468320eab72c4ba774753b508d57f7a444"
+      "entryPrice": 159.32,
+      "simulatedEntryPrice": 160.1166,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "02c5cc02b8ed9954095c6fd42cd98092510df0cb814f923cc77216ce4a92a995"
     },
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 217.09,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "7d",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 63,
-      "risk": "Medium",
-      "stopLoss": 206.24,
-      "indicators": {
-        "rsi": 38.62919792576408,
-        "sma200": 203.1239500427246,
-        "regime": "Bullish"
-      },
-      "allAlgorithms": [
-        "Regime-Aware Reversion (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 217.09,
-      "simulatedEntryPrice": 218.1754,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "c43b0dbd5c4c31d34ea01e937a0b13ecb8da34f78350baf568b8e2f230269e17"
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "price": 705.44,
-      "change": 0,
-      "changePercent": 0,
-      "rating": "BUY",
-      "timeframe": "7d",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "score": 62,
-      "risk": "Medium",
-      "stopLoss": 670.17,
-      "indicators": {
-        "rsi": 39.20363879218023,
-        "sma200": 632.2038470458984,
-        "regime": "Bullish"
-      },
-      "allAlgorithms": [
-        "Regime-Aware Reversion (V2)"
-      ],
-      "slippageSimulated": true,
-      "entryPrice": 705.44,
-      "simulatedEntryPrice": 708.9672,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "6a4879cf1090473c209328709893482bba2e9c7030f4dae686ec9660e63c0275"
-    },
-    {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 217.09,
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "price": 620.42,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
@@ -402,20 +324,72 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 61,
       "risk": "Low",
-      "stopLoss": 206.24,
+      "stopLoss": 589.4,
       "indicators": {
-        "ulcerIndex": 4.077206617527376,
-        "totalReturn": 10.47275256651038,
-        "martinRatio": 2.567979886428615
+        "ulcerIndex": 3.845149939521713,
+        "totalReturn": 10.247889826743663,
+        "martinRatio": 2.6644540613042342
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 217.09,
-      "simulatedEntryPrice": 218.1754,
-      "pickedAt": "2026-10-19T21:15:46.429Z",
-      "pickHash": "f776427822ec9790a8152b1052084aee9e3c1d3c1d8f578305e282539c56a5d1"
+      "entryPrice": 620.42,
+      "simulatedEntryPrice": 623.5221,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "95f76bb8658f42a8f52ddc8e558ffa4c9b00b4f0fda550734252ed40423f7667"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "price": 534.74,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "1m",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "score": 61,
+      "risk": "Low",
+      "stopLoss": 508,
+      "indicators": {
+        "ulcerIndex": 7.3933251526113075,
+        "totalReturn": 17.623511007728542,
+        "martinRatio": 2.383383289752249
+      },
+      "allAlgorithms": [
+        "Volatility-Adjusted Momentum (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 534.74,
+      "simulatedEntryPrice": 537.4137,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "123acacb3f08299dbfdeb6d321d1f7664824bd9bdd4e869029609d4ec7e3c4a8"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "price": 694.25,
+      "change": 0,
+      "changePercent": 0,
+      "rating": "BUY",
+      "timeframe": "7d",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "score": 60,
+      "risk": "Medium",
+      "stopLoss": 659.54,
+      "indicators": {
+        "rsi": 39.827674045239775,
+        "sma200": 632.4230471801758,
+        "regime": "Bullish"
+      },
+      "allAlgorithms": [
+        "Regime-Aware Reversion (V2)"
+      ],
+      "slippageSimulated": true,
+      "entryPrice": 694.25,
+      "simulatedEntryPrice": 697.7212,
+      "pickedAt": "2026-10-20T21:16:40.477Z",
+      "pickHash": "23b6dc8c3b92b6ab962545a92962f314b2a19303da24f1f0054b32f34f6f140b"
     }
   ]
 }
