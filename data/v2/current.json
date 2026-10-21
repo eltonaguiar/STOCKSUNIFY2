@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "date": "2026-10-20",
-  "timestamp": "2026-10-20T21:16:40.477Z",
+  "date": "2026-10-21",
+  "timestamp": "2026-10-21T21:15:26.730Z",
   "regime": {
     "symbol": "SPY",
-    "price": 769.05,
-    "sma200": 725.8667993164063,
+    "price": 773.09,
+    "sma200": 726.2936495971679,
     "status": "BULLISH"
   },
   "metadata": {
@@ -27,12 +27,44 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.4306978819468243,
-        "totalReturn": 35.215454874057095,
-        "martinRatio": 14.481838034033858
+        "ulcerIndex": 2.4417214240465004,
+        "totalReturn": 36.464891775280805,
+        "martinRatio": 14.927978039704067
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSFT-1792531000477"
+      "audit_id": "v2-MSFT-1792617326730"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.100109148814132,
+        "totalReturn": 29.54880346995249,
+        "martinRatio": 9.52846289891215
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-TSLA-1792617326730"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 7.40500923867451,
+        "totalReturn": 64.44872708545361,
+        "martinRatio": 8.702220724881018
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSTR-1792617326730"
     },
     {
       "symbol": "PLTR",
@@ -43,76 +75,44 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 4.339028267843065,
-        "totalReturn": 55.913544809553564,
-        "martinRatio": 12.883221343012549
+        "ulcerIndex": 4.360620251561098,
+        "totalReturn": 64,
+        "martinRatio": 14.673446175671371
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PLTR-1792531000477"
-    },
-    {
-      "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "score": 98,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 7.324903353885601,
-        "totalReturn": 48.41929551239919,
-        "martinRatio": 6.609327638306609
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSTR-1792531000477"
-    },
-    {
-      "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "score": 92,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 3.1236738949986713,
-        "totalReturn": 21.55542448358647,
-        "martinRatio": 6.898455713438742
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-TSLA-1792531000477"
+      "audit_id": "v2-PLTR-1792617326730"
     },
     {
       "symbol": "XOM",
       "name": "ExxonMobil Holdings Corporation",
-      "score": 83,
+      "score": 76,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.7865940104403077,
-        "totalReturn": 16.217987325353718,
-        "martinRatio": 5.817915831578374
+        "ulcerIndex": 2.7873333737137322,
+        "totalReturn": 13.614035087719301,
+        "martinRatio": 4.882499064158533
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-XOM-1792531000477"
+      "audit_id": "v2-XOM-1792617326730"
     },
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "score": 79,
+      "score": 73,
       "rating": "BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
       "metrics": {
-        "rsi": 30.534767277203443,
-        "sma200": 397.4233001708984,
-        "regime": "Bullish"
+        "ulcerIndex": 7.6059279735304495,
+        "totalReturn": 28.671199166911894,
+        "martinRatio": 3.7690903958441595
       },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-AMD-1792531000477"
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMD-1792617326730"
     },
     {
       "symbol": "XELA",
@@ -123,139 +123,123 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 74.2647434336823,
+        "ulcerIndex": 75.1443685111981,
         "totalReturn": 250.00000884174392,
-        "martinRatio": 3.366289722326533
+        "martinRatio": 3.326885126719275
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-XELA-1792531000477"
+      "audit_id": "v2-XELA-1792617326730"
     },
     {
-      "symbol": "GME",
-      "name": "GameStop Corp.",
-      "score": 71,
-      "rating": "BUY",
-      "algorithm": "Adversarial Trend (V2)",
-      "timeframe": "1m",
-      "risk": "Medium",
-      "metrics": {
-        "trendStrength": 0.2063622293690299,
-        "avgVolatilty": 0.02341238592220246
-      },
-      "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-GME-1792531000477"
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "score": 69,
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "score": 72,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 4.882486261707016,
-        "totalReturn": 16.99331514789154,
-        "martinRatio": 3.4797507840129662
+        "ulcerIndex": 4.332988389201435,
+        "totalReturn": 16.820170736868395,
+        "martinRatio": 3.8809911855734383
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-META-1792531000477"
+      "audit_id": "v2-NVDA-1792617326730"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.996818182701709,
+        "totalReturn": 19.10999085530516,
+        "martinRatio": 3.82366667948187
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-META-1792617326730"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 35.12862472810038,
+        "sma200": 399.08150001525877,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMD-1792617326730"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 68,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.19005585916979115,
+        "avgVolatilty": 0.02339866580068441
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-GME-1792617326730"
     },
     {
       "symbol": "V",
       "name": "Visa Inc.",
-      "score": 68,
+      "score": 67,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 2.9151218544102564,
-        "totalReturn": 10.905917799584278,
-        "martinRatio": 3.7398703977649257
+        "totalReturn": 10.60938568819732,
+        "martinRatio": 3.6381832508651852
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-V-1792531000477"
-    },
-    {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "score": 67,
-      "rating": "BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 36.45050213414824,
-        "sma200": 203.26205001831056,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-NVDA-1792531000477"
+      "audit_id": "v2-V-1792617326730"
     },
     {
       "symbol": "PG",
       "name": "The Procter & Gamble Company",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.7540115281470554,
+        "totalReturn": 7.351124878718222,
+        "martinRatio": 4.1886476304116105
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PG-1792617326730"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
       "score": 62,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.2059909398283155,
-        "totalReturn": 7.0123554371220616,
-        "martinRatio": 3.1773376639541446
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PG-1792531000477"
-    },
-    {
-      "symbol": "MA",
-      "name": "Mastercard Incorporated",
-      "score": 61,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
         "ulcerIndex": 3.845149939521713,
-        "totalReturn": 10.247889826743663,
-        "martinRatio": 2.6644540613042342
+        "totalReturn": 10.526874938715101,
+        "martinRatio": 2.736990264093596
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MA-1792531000477"
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "score": 61,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 7.3933251526113075,
-        "totalReturn": 17.623511007728542,
-        "martinRatio": 2.383383289752249
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AMD-1792531000477"
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "score": 60,
-      "rating": "BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 39.827674045239775,
-        "sma200": 632.4230471801758,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-META-1792531000477"
+      "audit_id": "v2-MA-1792617326730"
     }
   ]
 }
