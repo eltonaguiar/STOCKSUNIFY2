@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "date": "2026-10-22",
-  "timestamp": "2026-10-22T21:16:03.568Z",
+  "date": "2026-10-23",
+  "timestamp": "2026-10-23T21:15:46.908Z",
   "regime": {
     "symbol": "SPY",
-    "price": 763.96,
-    "sma200": 726.6543997192383,
+    "price": 759.97,
+    "sma200": 727.0063494873046,
     "status": "BULLISH"
   },
   "metadata": {
@@ -19,6 +19,22 @@
   },
   "picks": [
     {
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 7.767639780967164,
+        "totalReturn": 56.52873275166287,
+        "martinRatio": 7.276529012215994
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSTR-1792790146908"
+    },
+    {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
       "score": 100,
@@ -27,202 +43,203 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 4.431668692443145,
-        "totalReturn": 60.46948844430058,
-        "martinRatio": 13.641779397451817
+        "ulcerIndex": 4.4962945675746075,
+        "totalReturn": 59.881361858730344,
+        "martinRatio": 13.314974360468538
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PLTR-1792703763568"
-    },
-    {
-      "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "score": 97,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 7.6065096329476,
-        "totalReturn": 49.171273978557615,
-        "martinRatio": 6.463517806878642
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSTR-1792703763568"
-    },
-    {
-      "symbol": "PG",
-      "name": "The Procter & Gamble Company",
-      "score": 95,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 1.7351047240363149,
-        "totalReturn": 15.025001581949269,
-        "martinRatio": 8.654432750472134
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PG-1792703763568"
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "score": 93,
-      "rating": "STRONG BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 23.58466805633479,
-        "sma200": 400.54939994812014,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-AMD-1792703763568"
-    },
-    {
-      "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "score": 92,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 3.125448976634029,
-        "totalReturn": 21.282173416714777,
-        "martinRatio": 6.807139209937598
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-TSLA-1792703763568"
-    },
-    {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "score": 84,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 2.498880013407938,
-        "totalReturn": 15.513188417121379,
-        "martinRatio": 6.205573201080627
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSFT-1792703763568"
+      "audit_id": "v2-PLTR-1792790146908"
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "score": 81,
+      "score": 96,
       "rating": "STRONG BUY",
       "algorithm": "Regime-Aware Reversion (V2)",
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 29.735275292645113,
-        "sma200": 203.55615005493163,
+        "rsi": 22.02643737127113,
+        "sma200": 203.66540008544922,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-NVDA-1792703763568"
+      "audit_id": "v2-NVDA-1792790146908"
     },
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "score": 79,
-      "rating": "BUY",
+      "score": 91,
+      "rating": "STRONG BUY",
       "algorithm": "Regime-Aware Reversion (V2)",
       "timeframe": "7d",
       "risk": "Medium",
       "metrics": {
-        "rsi": 30.297908559942172,
-        "sma200": 632.557847290039,
+        "rsi": 24.34360743197587,
+        "sma200": 632.527497253418,
         "regime": "Bullish"
       },
       "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-META-1792703763568"
+      "audit_id": "v2-META-1792790146908"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 89,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.58320937574981,
+        "totalReturn": 12.56514709065463,
+        "martinRatio": 7.931493957171865
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AAPL-1792790146908"
     },
     {
       "symbol": "XOM",
       "name": "ExxonMobil Holdings Corporation",
+      "score": 88,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.7387528137047514,
+        "totalReturn": 17.865412456527572,
+        "martinRatio": 6.520811792641098
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1792790146908"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "score": 87,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.1614908698996658,
+        "totalReturn": 19.604129115413844,
+        "martinRatio": 6.198952003942327
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-TSLA-1792790146908"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 87,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 26.55408007715785,
+        "sma200": 402.0832498168945,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMD-1792790146908"
+    },
+    {
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
+      "score": 81,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.7713080449033525,
+        "totalReturn": 11.440233842068748,
+        "martinRatio": 6.454991769048031
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PG-1792790146908"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
       "score": 76,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.787858305034503,
-        "totalReturn": 13.543988414324376,
-        "martinRatio": 4.8564634459465
+        "ulcerIndex": 2.5390624622906146,
+        "totalReturn": 12.865811375073916,
+        "martinRatio": 5.065155509393103
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-XOM-1792703763568"
+      "audit_id": "v2-MSFT-1792790146908"
     },
     {
       "symbol": "V",
       "name": "Visa Inc.",
-      "score": 74,
+      "score": 69,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.9105366701233026,
-        "totalReturn": 13.124201389192653,
-        "martinRatio": 4.5076545055628126
+        "ulcerIndex": 2.9173666856948595,
+        "totalReturn": 11.413977155618063,
+        "martinRatio": 3.9110839674694304
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-V-1792703763568"
+      "audit_id": "v2-V-1792790146908"
+    },
+    {
+      "symbol": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.1051246714785733,
+        "avgVolatilty": 0.009603897655385763
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-XOM-1792790146908"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "score": 64,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 37.85600594900012,
+        "sma200": 135.25694972991943,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-MSTR-1792790146908"
     },
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "score": 72,
+      "score": 63,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 5.298710897716548,
-        "totalReturn": 20.37362757811046,
-        "martinRatio": 3.844290371931177
+        "ulcerIndex": 5.753060540871411,
+        "totalReturn": 15.431728303170978,
+        "martinRatio": 2.681884939089284
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-META-1792703763568"
-    },
-    {
-      "symbol": "V",
-      "name": "Visa Inc.",
-      "score": 66,
-      "rating": "BUY",
-      "algorithm": "Adversarial Trend (V2)",
-      "timeframe": "1m",
-      "risk": "Medium",
-      "metrics": {
-        "trendStrength": 0.10133305421730934,
-        "avgVolatilty": 0.0096407137264904
-      },
-      "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-V-1792703763568"
-    },
-    {
-      "symbol": "PG",
-      "name": "The Procter & Gamble Company",
-      "score": 66,
-      "rating": "BUY",
-      "algorithm": "Adversarial Trend (V2)",
-      "timeframe": "1m",
-      "risk": "Medium",
-      "metrics": {
-        "trendStrength": 0.11860948891760559,
-        "avgVolatilty": 0.013097728912728021
-      },
-      "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-PG-1792703763568"
+      "audit_id": "v2-META-1792790146908"
     }
   ]
 }
