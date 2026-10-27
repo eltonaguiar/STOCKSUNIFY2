@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "date": "2026-10-26",
-  "timestamp": "2026-10-26T21:15:59.530Z",
+  "date": "2026-10-27",
+  "timestamp": "2026-10-27T21:10:39.184Z",
   "regime": {
     "symbol": "SPY",
-    "price": 765.37,
-    "sma200": 727.3856494140625,
+    "price": 769.66,
+    "sma200": 727.7635992431641,
     "status": "BULLISH"
   },
   "metadata": {
@@ -19,211 +19,196 @@
   },
   "picks": [
     {
-      "symbol": "PLTR",
-      "name": "Palantir Technologies Inc.",
+      "symbol": "XELA",
+      "name": "Exela Technologies, Inc.",
       "score": 100,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 4.540288844764324,
-        "totalReturn": 58.2491027340313,
-        "martinRatio": 12.826557553410636
+        "ulcerIndex": 49.578130256868,
+        "totalReturn": 899.999952502551,
+        "martinRatio": 18.152798321383976
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PLTR-1793049359530"
-    },
-    {
-      "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "score": 92,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 1.5746225923491581,
-        "totalReturn": 13.344533906926731,
-        "martinRatio": 8.469372025842075
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AAPL-1793049359530"
+      "audit_id": "v2-XELA-1793135439184"
     },
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "score": 92,
+      "score": 99,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 3.1614908698996658,
-        "totalReturn": 21.59091416011705,
-        "martinRatio": 6.827186242849786
+        "totalReturn": 24.472275058138145,
+        "martinRatio": 7.738291133442722
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-TSLA-1793049359530"
+      "audit_id": "v2-TSLA-1793135439184"
     },
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "score": 92,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 8.072463668703875,
-        "totalReturn": 47.39616181780014,
-        "martinRatio": 5.870610652714957
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSTR-1793049359530"
-    },
-    {
-      "symbol": "XOM",
-      "name": "ExxonMobil Holdings Corporation",
-      "score": 91,
-      "rating": "STRONG BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 2.7314599548013123,
-        "totalReturn": 19.01199723046971,
-        "martinRatio": 6.9578319700762625
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-XOM-1793049359530"
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "score": 89,
-      "rating": "STRONG BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 25.588905415702612,
-        "sma200": 403.71625,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-AMD-1793049359530"
-    },
-    {
-      "symbol": "GME",
-      "name": "GameStop Corp.",
       "score": 88,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 4.287103199208072,
-        "totalReturn": 25.39349774225354,
-        "martinRatio": 5.921848556943129
+        "ulcerIndex": 8.33521240927959,
+        "totalReturn": 44.80286512082297,
+        "martinRatio": 5.374486987753568
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-GME-1793049359530"
+      "audit_id": "v2-MSTR-1793135439184"
     },
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "score": 83,
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 87,
       "rating": "STRONG BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 28.73351140849259,
-        "sma200": 203.82020011901855,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-NVDA-1793049359530"
-    },
-    {
-      "symbol": "PG",
-      "name": "The Procter & Gamble Company",
-      "score": 76,
-      "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.8256346880055578,
-        "totalReturn": 10.31247751494249,
-        "martinRatio": 5.645615723088202
+        "ulcerIndex": 1.5751699757567503,
+        "totalReturn": 12.19212441717918,
+        "martinRatio": 7.7352852831278565
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PG-1793049359530"
-    },
-    {
-      "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "score": 70,
-      "rating": "BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 34.9041523279687,
-        "sma200": 135.121199760437,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-MSTR-1793049359530"
+      "audit_id": "v2-AAPL-1793135439184"
     },
     {
       "symbol": "XOM",
       "name": "ExxonMobil Holdings Corporation",
-      "score": 68,
-      "rating": "BUY",
-      "algorithm": "Adversarial Trend (V2)",
+      "score": 85,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
-      "risk": "Medium",
+      "risk": "Low",
       "metrics": {
-        "trendStrength": 0.10987484043249693,
-        "avgVolatilty": 0.00936595379936795
+        "ulcerIndex": 2.7400586436570946,
+        "totalReturn": 16.855022184014683,
+        "martinRatio": 6.149092148399594
       },
-      "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-XOM-1793049359530"
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1793135439184"
     },
     {
-      "symbol": "V",
-      "name": "Visa Inc.",
-      "score": 67,
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 80,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.934514050755546,
-        "totalReturn": 10.525879935154224,
-        "martinRatio": 3.585702453866661
+        "ulcerIndex": 4.5848002485146875,
+        "totalReturn": 22.17508639236118,
+        "martinRatio": 4.835597974321614
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-V-1793049359530"
+      "audit_id": "v2-PLTR-1793135439184"
     },
     {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 77,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.79469260102494,
+        "totalReturn": 21.603337393606477,
+        "martinRatio": 4.504737728391805
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GME-1793135439184"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "score": 76,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 32.18389844616938,
+        "sma200": 203.98560012817381,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-NVDA-1793135439184"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 33.99402248120441,
+        "sma200": 405.5017000579834,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMD-1793135439184"
+    },
+    {
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
       "score": 66,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.552111366004172,
-        "totalReturn": 9.217677979312635,
-        "martinRatio": 3.610370507941867
+        "ulcerIndex": 1.8917732352014816,
+        "totalReturn": 7.580572873168946,
+        "martinRatio": 4.005008488173181
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MSFT-1793049359530"
+      "audit_id": "v2-PG-1793135439184"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 62,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.5683007200082084,
+        "totalReturn": 7.816400363676951,
+        "martinRatio": 3.0422286900118016
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSFT-1793135439184"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 62,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.9601650802100714,
+        "totalReturn": 8.731297919819008,
+        "martinRatio": 2.9486022168002846
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-V-1793135439184"
     }
   ]
 }
