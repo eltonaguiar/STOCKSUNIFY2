@@ -1,0 +1,307 @@
+{
+  "version": "2.0.0",
+  "date": "2026-11-02",
+  "timestamp": "2026-11-02T21:10:07.992Z",
+  "regime": {
+    "symbol": "SPY",
+    "price": 752.15,
+    "sma200": 729.1536492919922,
+    "status": "BULLISH"
+  },
+  "metadata": {
+    "engine": "STOCKSUNIFY2-Scientific",
+    "system": "linux",
+    "checksPerformed": [
+      "Purging",
+      "Slippage-Stress",
+      "Regime-Detection"
+    ]
+  },
+  "picks": [
+    {
+      "symbol": "XELA",
+      "name": "Exela Technologies, Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 55.010645917276904,
+        "totalReturn": 566.6666350017007,
+        "martinRatio": 10.300848584930886
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XELA-1793653807992"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "score": 93,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.1539738047792407,
+        "totalReturn": 22.044243846956117,
+        "martinRatio": 6.9871400559849
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-TSLA-1793653807992"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 86,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.8786910089089877,
+        "totalReturn": 17.75987805131433,
+        "martinRatio": 6.167286002689197
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-V-1793653807992"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 86,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 27.128857459071767,
+        "sma200": 22.70207504272461,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-GME-1793653807992"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 84,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 27.83945161456056,
+        "sma200": 438.1788493347168,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-MSFT-1793653807992"
+    },
+    {
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
+      "score": 83,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.7218250039870586,
+        "totalReturn": 11.711279208326857,
+        "martinRatio": 6.7977183876620995
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PG-1793653807992"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 83,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 28.36969421687077,
+        "sma200": 153.57402454376222,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-PLTR-1793653807992"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 83,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 5.735094286669491,
+        "totalReturn": 28.712074622702293,
+        "martinRatio": 5.0055095310110715
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GME-1793653807992"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 81,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 29.254788416959585,
+        "sma200": 411.68329986572263,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMD-1793653807992"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 80,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.4529280197739178,
+        "totalReturn": 9.751504989969371,
+        "martinRatio": 6.707006713775078
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AAPL-1793653807992"
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "score": 77,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 7.603273793592496,
+        "totalReturn": 32.23140078989453,
+        "martinRatio": 4.238590253950786
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMC-1793653807992"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "score": 75,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.8323661869393657,
+        "totalReturn": 16.907864406728226,
+        "martinRatio": 4.4107094345264715
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MA-1793653807992"
+    },
+    {
+      "symbol": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "score": 73,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.7846084611000115,
+        "totalReturn": 12.48514146824145,
+        "martinRatio": 4.4820159195349305
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XOM-1793653807992"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 9.583117768971436,
+        "totalReturn": 34.3470641529146,
+        "martinRatio": 3.583748132156009
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSTR-1793653807992"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.176586350671896,
+        "avgVolatilty": 0.019094953544188047
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-LLY-1793653807992"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.11916538342247486,
+        "avgVolatilty": 0.011968896488129667
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-MA-1793653807992"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 66,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.11268304906541973,
+        "avgVolatilty": 0.011650278853022852
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-V-1793653807992"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "score": 60,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 39.775789961145854,
+        "sma200": 243.4378500366211,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-AMZN-1793653807992"
+    }
+  ]
+}
