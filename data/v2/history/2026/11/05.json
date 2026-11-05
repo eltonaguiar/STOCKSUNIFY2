@@ -1,0 +1,229 @@
+{
+  "version": "2.0.0",
+  "date": "2026-11-05",
+  "timestamp": "2026-11-05T21:09:07.435Z",
+  "regime": {
+    "symbol": "SPY",
+    "price": 733.11,
+    "sma200": 730.1515487670898,
+    "status": "BULLISH"
+  },
+  "metadata": {
+    "engine": "STOCKSUNIFY2-Scientific",
+    "system": "linux",
+    "checksPerformed": [
+      "Purging",
+      "Slippage-Stress",
+      "Regime-Detection"
+    ]
+  },
+  "picks": [
+    {
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.6315967764584531,
+        "totalReturn": 15.811733232863235,
+        "martinRatio": 9.68502049058506
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PG-1793912947435"
+    },
+    {
+      "symbol": "XELA",
+      "name": "Exela Technologies, Inc.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 58.73134735247376,
+        "totalReturn": 1233.3332700034014,
+        "martinRatio": 20.999216370524554
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-XELA-1793912947435"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 90,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.5573655631257723,
+        "totalReturn": 12.746507563912365,
+        "martinRatio": 8.179407878049743
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AAPL-1793912947435"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 84,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 28.08527948355369,
+        "sma200": 153.56037448883058,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-PLTR-1793912947435"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 81,
+      "rating": "STRONG BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 29.374985098824595,
+        "sma200": 22.750550041198732,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-GME-1793912947435"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 81,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.299687463534711,
+        "totalReturn": 30.156167997873474,
+        "martinRatio": 4.786171060285498
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GME-1793912947435"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 80,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.9109098948550596,
+        "totalReturn": 15.564368831036083,
+        "martinRatio": 5.345072269762248
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-V-1793912947435"
+    },
+    {
+      "symbol": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "score": 73,
+      "rating": "BUY",
+      "algorithm": "Regime-Aware Reversion (V2)",
+      "timeframe": "7d",
+      "risk": "Medium",
+      "metrics": {
+        "rsi": 33.55672490186596,
+        "sma200": 155.44174987792968,
+        "regime": "Bullish"
+      },
+      "v2_hash": "rar-v2.0.0-beta",
+      "audit_id": "v2-XOM-1793912947435"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "score": 72,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.8515712457944677,
+        "totalReturn": 15.58973359871171,
+        "martinRatio": 4.04657892199391
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MA-1793912947435"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "score": 69,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 10.534914884796203,
+        "totalReturn": 33.16169107300326,
+        "martinRatio": 3.1474904111893567
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSTR-1793912947435"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.12163189108555482,
+        "avgVolatilty": 0.012827006072115421
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-COST-1793912947435"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 62,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.558067423612003,
+        "totalReturn": 7.859039352247081,
+        "martinRatio": 3.071055994747656
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MSFT-1793912947435"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 61,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.232768773480789,
+        "totalReturn": 10.78546832117621,
+        "martinRatio": 2.547486388187645
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1793912947435"
+    }
+  ]
+}
