@@ -1,0 +1,149 @@
+{
+  "version": "2.0.0",
+  "date": "2026-11-17",
+  "timestamp": "2026-11-17T21:10:14.900Z",
+  "regime": {
+    "symbol": "SPY",
+    "price": 732.21,
+    "sma200": 732.341449584961,
+    "status": "BEARISH"
+  },
+  "metadata": {
+    "engine": "STOCKSUNIFY2-Scientific",
+    "system": "linux",
+    "checksPerformed": [
+      "Purging",
+      "Slippage-Stress",
+      "Regime-Detection"
+    ]
+  },
+  "picks": [
+    {
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.5853566637033327,
+        "totalReturn": 18.156813763218434,
+        "martinRatio": 11.445606261602952
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PG-1794949814900"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 94,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.4906903209979971,
+        "totalReturn": 13.555988038369634,
+        "martinRatio": 9.087669100983485
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AAPL-1794949814900"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 90,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 6.983013120210654,
+        "totalReturn": 40.18794796069744,
+        "martinRatio": 5.754277271387096
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GME-1794949814900"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 75,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.45949705038542,
+        "totalReturn": 15.63212765573275,
+        "martinRatio": 4.517307030789606
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1794949814900"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 70,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.13845695116271095,
+        "avgVolatilty": 0.012816794256473665
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-COST-1794949814900"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
+      "score": 65,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 4.861192142757707,
+        "totalReturn": 14.734202355933421,
+        "martinRatio": 3.0303620102467956
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LLY-1794949814900"
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "score": 62,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 7.937245079704809,
+        "totalReturn": 19.811316442982058,
+        "martinRatio": 2.495679617354263
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMC-1794949814900"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 61,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.128149671344272,
+        "totalReturn": 8.54766077457796,
+        "martinRatio": 2.7316241382937476
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-V-1794949814900"
+    }
+  ]
+}

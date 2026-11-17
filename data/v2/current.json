@@ -1,12 +1,12 @@
 {
   "version": "2.0.0",
-  "date": "2026-11-16",
-  "timestamp": "2026-11-16T21:10:04.264Z",
+  "date": "2026-11-17",
+  "timestamp": "2026-11-17T21:10:14.900Z",
   "regime": {
     "symbol": "SPY",
-    "price": 739.96,
-    "sma200": 732.1574993896485,
-    "status": "BULLISH"
+    "price": 732.21,
+    "sma200": 732.341449584961,
+    "status": "BEARISH"
   },
   "metadata": {
     "engine": "STOCKSUNIFY2-Scientific",
@@ -27,201 +27,123 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.6266321846521852,
-        "totalReturn": 18.103678575391207,
-        "martinRatio": 11.122708647629656
+        "ulcerIndex": 1.5853566637033327,
+        "totalReturn": 18.156813763218434,
+        "martinRatio": 11.445606261602952
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PG-1794863404264"
+      "audit_id": "v2-PG-1794949814900"
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "score": 95,
+      "score": 94,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.4824074196393662,
-        "totalReturn": 13.675325179775315,
-        "martinRatio": 9.218859902359089
+        "ulcerIndex": 1.4906903209979971,
+        "totalReturn": 13.555988038369634,
+        "martinRatio": 9.087669100983485
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AAPL-1794863404264"
+      "audit_id": "v2-AAPL-1794949814900"
     },
     {
       "symbol": "GME",
       "name": "GameStop Corp.",
-      "score": 93,
+      "score": 90,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 6.872395600912459,
-        "totalReturn": 42.073163521515184,
-        "martinRatio": 6.121161353775399
+        "ulcerIndex": 6.983013120210654,
+        "totalReturn": 40.18794796069744,
+        "martinRatio": 5.754277271387096
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-GME-1794863404264"
-    },
-    {
-      "symbol": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "score": 92,
-      "rating": "STRONG BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 24.06654421645696,
-        "sma200": 153.79182453155516,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-PLTR-1794863404264"
+      "audit_id": "v2-GME-1794949814900"
     },
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "score": 72,
+      "score": 75,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.45949705038542,
+        "totalReturn": 15.63212765573275,
+        "martinRatio": 4.517307030789606
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1794949814900"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 70,
       "rating": "BUY",
       "algorithm": "Adversarial Trend (V2)",
       "timeframe": "1m",
       "risk": "Medium",
       "metrics": {
-        "trendStrength": 0.14691308473629727,
-        "avgVolatilty": 0.012698690229990383
+        "trendStrength": 0.13845695116271095,
+        "avgVolatilty": 0.012816794256473665
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-COST-1794863404264"
-    },
-    {
-      "symbol": "XOM",
-      "name": "ExxonMobil Holdings Corporation",
-      "score": 72,
-      "rating": "BUY",
-      "algorithm": "Regime-Aware Reversion (V2)",
-      "timeframe": "7d",
-      "risk": "Medium",
-      "metrics": {
-        "rsi": 34.227841146192986,
-        "sma200": 156.48884986877442,
-        "regime": "Bullish"
-      },
-      "v2_hash": "rar-v2.0.0-beta",
-      "audit_id": "v2-XOM-1794863404264"
-    },
-    {
-      "symbol": "COST",
-      "name": "Costco Wholesale Corporation",
-      "score": 68,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 4.211894745408275,
-        "totalReturn": 14.653075150146858,
-        "martinRatio": 3.4781488823373907
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-COST-1794863404264"
-    },
-    {
-      "symbol": "V",
-      "name": "Visa Inc.",
-      "score": 68,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 3.0737557095451056,
-        "totalReturn": 11.542584115265967,
-        "martinRatio": 3.753984122847156
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-V-1794863404264"
+      "audit_id": "v2-COST-1794949814900"
     },
     {
       "symbol": "LLY",
       "name": "Eli Lilly and Company",
-      "score": 67,
-      "rating": "BUY",
-      "algorithm": "Adversarial Trend (V2)",
-      "timeframe": "1m",
-      "risk": "Medium",
-      "metrics": {
-        "trendStrength": 0.15046871518585903,
-        "avgVolatilty": 0.017557268905713047
-      },
-      "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-LLY-1794863404264"
-    },
-    {
-      "symbol": "PG",
-      "name": "The Procter & Gamble Company",
       "score": 65,
       "rating": "BUY",
-      "algorithm": "Adversarial Trend (V2)",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
-      "risk": "Medium",
+      "risk": "Low",
       "metrics": {
-        "trendStrength": 0.11853469886146761,
-        "avgVolatilty": 0.013534102896109363
+        "ulcerIndex": 4.861192142757707,
+        "totalReturn": 14.734202355933421,
+        "martinRatio": 3.0303620102467956
       },
-      "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-PG-1794863404264"
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LLY-1794949814900"
     },
     {
       "symbol": "AMC",
       "name": "AMC Entertainment Holdings, Inc.",
-      "score": 65,
+      "score": 62,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 7.829668584907822,
-        "totalReturn": 21.722842963776806,
-        "martinRatio": 2.774072574804609
+        "ulcerIndex": 7.937245079704809,
+        "totalReturn": 19.811316442982058,
+        "martinRatio": 2.495679617354263
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AMC-1794863404264"
+      "audit_id": "v2-AMC-1794949814900"
     },
     {
-      "symbol": "LLY",
-      "name": "Eli Lilly and Company",
-      "score": 63,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 5.577365714414446,
-        "totalReturn": 15.032915898626431,
-        "martinRatio": 2.6948602275719415
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-LLY-1794863404264"
-    },
-    {
-      "symbol": "MA",
-      "name": "Mastercard Incorporated",
+      "symbol": "V",
+      "name": "Visa Inc.",
       "score": 61,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.9265255739245952,
-        "totalReturn": 10.347417091350044,
-        "martinRatio": 2.6345893608046826
+        "ulcerIndex": 3.128149671344272,
+        "totalReturn": 8.54766077457796,
+        "martinRatio": 2.7316241382937476
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MA-1794863404264"
+      "audit_id": "v2-V-1794949814900"
     }
   ]
 }
