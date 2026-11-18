@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "date": "2026-11-17",
-  "timestamp": "2026-11-17T21:10:14.900Z",
+  "date": "2026-11-18",
+  "timestamp": "2026-11-18T21:10:02.747Z",
   "regime": {
     "symbol": "SPY",
-    "price": 732.21,
-    "sma200": 732.341449584961,
+    "price": 730.25,
+    "sma200": 732.5461993408203,
     "status": "BEARISH"
   },
   "metadata": {
@@ -27,44 +27,60 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.5853566637033327,
-        "totalReturn": 18.156813763218434,
-        "martinRatio": 11.445606261602952
+        "ulcerIndex": 1.5913393453623361,
+        "totalReturn": 17.441379310344825,
+        "martinRatio": 10.95330550057849
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PG-1794949814900"
+      "audit_id": "v2-PG-1795036202747"
     },
     {
-      "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "score": 94,
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 99,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.4906903209979971,
-        "totalReturn": 13.555988038369634,
-        "martinRatio": 9.087669100983485
+        "ulcerIndex": 7.017062192068176,
+        "totalReturn": 47.52365616563472,
+        "martinRatio": 6.771620835641215
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AAPL-1794949814900"
+      "audit_id": "v2-GME-1795036202747"
     },
     {
-      "symbol": "GME",
-      "name": "GameStop Corp.",
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
       "score": 90,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 6.983013120210654,
-        "totalReturn": 40.18794796069744,
-        "martinRatio": 5.754277271387096
+        "ulcerIndex": 1.4971033192636207,
+        "totalReturn": 12.442171406651456,
+        "martinRatio": 8.305282584092595
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-GME-1794949814900"
+      "audit_id": "v2-AAPL-1795036202747"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
+      "score": 85,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.600733364021304,
+        "totalReturn": 16.21854198946247,
+        "martinRatio": 6.233744861692777
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LLY-1795036202747"
     },
     {
       "symbol": "COST",
@@ -75,75 +91,27 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.45949705038542,
-        "totalReturn": 15.63212765573275,
-        "martinRatio": 4.517307030789606
+        "ulcerIndex": 3.2170848287593463,
+        "totalReturn": 14.694808768808553,
+        "martinRatio": 4.566321135317548
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-COST-1794949814900"
+      "audit_id": "v2-COST-1795036202747"
     },
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "score": 70,
+      "score": 66,
       "rating": "BUY",
       "algorithm": "Adversarial Trend (V2)",
       "timeframe": "1m",
       "risk": "Medium",
       "metrics": {
-        "trendStrength": 0.13845695116271095,
-        "avgVolatilty": 0.012816794256473665
+        "trendStrength": 0.12019495126492692,
+        "avgVolatilty": 0.013237051962569028
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-COST-1794949814900"
-    },
-    {
-      "symbol": "LLY",
-      "name": "Eli Lilly and Company",
-      "score": 65,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 4.861192142757707,
-        "totalReturn": 14.734202355933421,
-        "martinRatio": 3.0303620102467956
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-LLY-1794949814900"
-    },
-    {
-      "symbol": "AMC",
-      "name": "AMC Entertainment Holdings, Inc.",
-      "score": 62,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 7.937245079704809,
-        "totalReturn": 19.811316442982058,
-        "martinRatio": 2.495679617354263
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AMC-1794949814900"
-    },
-    {
-      "symbol": "V",
-      "name": "Visa Inc.",
-      "score": 61,
-      "rating": "BUY",
-      "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "timeframe": "1m",
-      "risk": "Low",
-      "metrics": {
-        "ulcerIndex": 3.128149671344272,
-        "totalReturn": 8.54766077457796,
-        "martinRatio": 2.7316241382937476
-      },
-      "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-V-1794949814900"
+      "audit_id": "v2-COST-1795036202747"
     }
   ]
 }
