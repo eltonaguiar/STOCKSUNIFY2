@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "date": "2026-11-18",
-  "timestamp": "2026-11-18T21:10:02.747Z",
+  "date": "2026-11-19",
+  "timestamp": "2026-11-19T21:10:14.084Z",
   "regime": {
     "symbol": "SPY",
-    "price": 730.25,
-    "sma200": 732.5461993408203,
+    "price": 715.83,
+    "sma200": 732.6941494750977,
     "status": "BEARISH"
   },
   "metadata": {
@@ -27,12 +27,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.5913393453623361,
-        "totalReturn": 17.441379310344825,
-        "martinRatio": 10.95330550057849
+        "ulcerIndex": 1.6243507928222474,
+        "totalReturn": 17.304737121678983,
+        "martinRatio": 10.646770652894668
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PG-1795036202747"
+      "audit_id": "v2-PG-1795122614084"
     },
     {
       "symbol": "GME",
@@ -43,28 +43,28 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 7.017062192068176,
-        "totalReturn": 47.52365616563472,
-        "martinRatio": 6.771620835641215
+        "ulcerIndex": 7.032813495021869,
+        "totalReturn": 47.78082191780821,
+        "martinRatio": 6.793018033762872
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-GME-1795036202747"
+      "audit_id": "v2-GME-1795122614084"
     },
     {
-      "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "score": 90,
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 88,
       "rating": "STRONG BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.4971033192636207,
-        "totalReturn": 12.442171406651456,
-        "martinRatio": 8.305282584092595
+        "ulcerIndex": 2.5699016656815616,
+        "totalReturn": 17.029725400560768,
+        "martinRatio": 6.624028304110996
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AAPL-1795036202747"
+      "audit_id": "v2-COST-1795122614084"
     },
     {
       "symbol": "LLY",
@@ -75,43 +75,43 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.600733364021304,
-        "totalReturn": 16.21854198946247,
-        "martinRatio": 6.233744861692777
+        "ulcerIndex": 2.291114728736419,
+        "totalReturn": 14.88819216468626,
+        "martinRatio": 6.495395705124114
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-LLY-1795036202747"
+      "audit_id": "v2-LLY-1795122614084"
     },
     {
-      "symbol": "COST",
-      "name": "Costco Wholesale Corporation",
-      "score": 75,
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 84,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.2170848287593463,
-        "totalReturn": 14.694808768808553,
-        "martinRatio": 4.566321135317548
+        "ulcerIndex": 1.518804397967038,
+        "totalReturn": 11.00833330342174,
+        "martinRatio": 7.243256644175399
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-COST-1795036202747"
+      "audit_id": "v2-AAPL-1795122614084"
     },
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "score": 66,
+      "score": 65,
       "rating": "BUY",
       "algorithm": "Adversarial Trend (V2)",
       "timeframe": "1m",
       "risk": "Medium",
       "metrics": {
-        "trendStrength": 0.12019495126492692,
-        "avgVolatilty": 0.013237051962569028
+        "trendStrength": 0.11299171203270816,
+        "avgVolatilty": 0.01236757718290686
       },
       "v2_hash": "at-v2.0.0-beta",
-      "audit_id": "v2-COST-1795036202747"
+      "audit_id": "v2-COST-1795122614084"
     }
   ]
 }

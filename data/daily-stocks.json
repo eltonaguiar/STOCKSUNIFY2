@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-18T21:10:02.747Z",
+  "lastUpdated": "2026-11-19T21:10:14.084Z",
   "totalPicks": 6,
   "stocks": [
     {
       "symbol": "PG",
       "name": "The Procter & Gamble Company",
-      "price": 170.29,
+      "price": 167.91,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -13,25 +13,25 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 100,
       "risk": "Low",
-      "stopLoss": 161.78,
+      "stopLoss": 159.51,
       "indicators": {
-        "ulcerIndex": 1.5913393453623361,
-        "totalReturn": 17.441379310344825,
-        "martinRatio": 10.95330550057849
+        "ulcerIndex": 1.6243507928222474,
+        "totalReturn": 17.304737121678983,
+        "martinRatio": 10.646770652894668
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 170.29,
-      "simulatedEntryPrice": 171.1414,
-      "pickedAt": "2026-11-18T21:10:02.747Z",
-      "pickHash": "06234a86d658b197f485894ac9aa295f66c646d6200954dfcec714014579e02a"
+      "entryPrice": 167.91,
+      "simulatedEntryPrice": 168.7495,
+      "pickedAt": "2026-11-19T21:10:14.084Z",
+      "pickHash": "0b9e71db13e7e4bcd66d68f14eb48ce2f9217e48de91826b976e4a20dd393873"
     },
     {
       "symbol": "GME",
       "name": "GameStop Corp.",
-      "price": 26.51,
+      "price": 26.97,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -39,51 +39,51 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 99,
       "risk": "Low",
-      "stopLoss": 25.18,
+      "stopLoss": 25.62,
       "indicators": {
-        "ulcerIndex": 7.017062192068176,
-        "totalReturn": 47.52365616563472,
-        "martinRatio": 6.771620835641215
+        "ulcerIndex": 7.032813495021869,
+        "totalReturn": 47.78082191780821,
+        "martinRatio": 6.793018033762872
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 26.51,
-      "simulatedEntryPrice": 26.6425,
-      "pickedAt": "2026-11-18T21:10:02.747Z",
-      "pickHash": "15396022c35b75dfc1a0bb1b423e04d613b6c4977ed42f717a6c029905dc8348"
+      "entryPrice": 26.97,
+      "simulatedEntryPrice": 27.1048,
+      "pickedAt": "2026-11-19T21:10:14.084Z",
+      "pickHash": "b611d640cbe4f95700a41334feb290918ea37c37f0e1f8acdae51ce640926bfd"
     },
     {
-      "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "price": 352.45,
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "price": 1093.83,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 90,
+      "score": 88,
       "risk": "Low",
-      "stopLoss": 334.83,
+      "stopLoss": 1039.14,
       "indicators": {
-        "ulcerIndex": 1.4971033192636207,
-        "totalReturn": 12.442171406651456,
-        "martinRatio": 8.305282584092595
+        "ulcerIndex": 2.5699016656815616,
+        "totalReturn": 17.029725400560768,
+        "martinRatio": 6.624028304110996
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 352.45,
-      "simulatedEntryPrice": 354.2122,
-      "pickedAt": "2026-11-18T21:10:02.747Z",
-      "pickHash": "7f72942c20265ec43e242b87af1394efb38e64c8dd42ca058082a61deba620fd"
+      "entryPrice": 1093.83,
+      "simulatedEntryPrice": 1099.2991,
+      "pickedAt": "2026-11-19T21:10:14.084Z",
+      "pickHash": "2e59814426027e8b49ed8bbb84e3e903ec9b554121f86e656ec7b930bfb2f365"
     },
     {
       "symbol": "LLY",
       "name": "Eli Lilly and Company",
-      "price": 1382.315,
+      "price": 1351.2,
       "change": 0,
       "changePercent": 0,
       "rating": "STRONG BUY",
@@ -91,71 +91,71 @@
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "score": 85,
       "risk": "Low",
-      "stopLoss": 1313.2,
+      "stopLoss": 1283.64,
       "indicators": {
-        "ulcerIndex": 2.600733364021304,
-        "totalReturn": 16.21854198946247,
-        "martinRatio": 6.233744861692777
+        "ulcerIndex": 2.291114728736419,
+        "totalReturn": 14.88819216468626,
+        "martinRatio": 6.495395705124114
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 1382.315,
-      "simulatedEntryPrice": 1389.2266,
-      "pickedAt": "2026-11-18T21:10:02.747Z",
-      "pickHash": "82522217738dd0cff40d004d2e9297a53c2256489f2c71343ff98c0faf46f04b"
+      "entryPrice": 1351.2,
+      "simulatedEntryPrice": 1357.956,
+      "pickedAt": "2026-11-19T21:10:14.084Z",
+      "pickHash": "1a498311c1e7457dae2dcffad9fedbfcdb7ae133bdea4e4d05cf726ce7ca9d85"
     },
     {
-      "symbol": "COST",
-      "name": "Costco Wholesale Corporation",
-      "price": 1096.62,
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "price": 349.21,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
-      "score": 75,
+      "score": 84,
       "risk": "Low",
-      "stopLoss": 1041.79,
+      "stopLoss": 331.75,
       "indicators": {
-        "ulcerIndex": 3.2170848287593463,
-        "totalReturn": 14.694808768808553,
-        "martinRatio": 4.566321135317548
+        "ulcerIndex": 1.518804397967038,
+        "totalReturn": 11.00833330342174,
+        "martinRatio": 7.243256644175399
       },
       "allAlgorithms": [
         "Volatility-Adjusted Momentum (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 1096.62,
-      "simulatedEntryPrice": 1102.1031,
-      "pickedAt": "2026-11-18T21:10:02.747Z",
-      "pickHash": "b2a194335868b917c26993201371c146917b16fb7fa5ca13c396b9d97b68358a"
+      "entryPrice": 349.21,
+      "simulatedEntryPrice": 350.956,
+      "pickedAt": "2026-11-19T21:10:14.084Z",
+      "pickHash": "3bc18fce625649a3816fb1c420ea9ff5f2fccd09047d774d9df6e5808c5c1774"
     },
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "price": 1096.62,
+      "price": 1093.83,
       "change": 0,
       "changePercent": 0,
       "rating": "BUY",
       "timeframe": "1m",
       "algorithm": "Adversarial Trend (V2)",
-      "score": 66,
+      "score": 65,
       "risk": "Medium",
-      "stopLoss": 1041.79,
+      "stopLoss": 1039.14,
       "indicators": {
-        "trendStrength": 0.12019495126492692,
-        "avgVolatilty": 0.013237051962569028
+        "trendStrength": 0.11299171203270816,
+        "avgVolatilty": 0.01236757718290686
       },
       "allAlgorithms": [
         "Adversarial Trend (V2)"
       ],
       "slippageSimulated": true,
-      "entryPrice": 1096.62,
-      "simulatedEntryPrice": 1102.1031,
-      "pickedAt": "2026-11-18T21:10:02.747Z",
-      "pickHash": "3920d5bd3a35110bed2ec64cf05f7e6834a2eb21ec0ee93bf2170808154cae7d"
+      "entryPrice": 1093.83,
+      "simulatedEntryPrice": 1099.2991,
+      "pickedAt": "2026-11-19T21:10:14.084Z",
+      "pickHash": "0c1aae6b605262b08638256993cedb70f50e0690ebf4b5cf8a4ab3f9c8984770"
     }
   ]
 }
