@@ -1,0 +1,117 @@
+{
+  "version": "2.0.0",
+  "date": "2026-11-20",
+  "timestamp": "2026-11-20T21:09:43.564Z",
+  "regime": {
+    "symbol": "SPY",
+    "price": 690.43,
+    "sma200": 732.7583993530274,
+    "status": "BEARISH"
+  },
+  "metadata": {
+    "engine": "STOCKSUNIFY2-Scientific",
+    "system": "linux",
+    "checksPerformed": [
+      "Purging",
+      "Slippage-Stress",
+      "Regime-Detection"
+    ]
+  },
+  "picks": [
+    {
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.6466698447006838,
+        "totalReturn": 17.87800906867475,
+        "martinRatio": 10.850480225862528
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PG-1795208983564"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 7.055229091053634,
+        "totalReturn": 49.41241603850645,
+        "martinRatio": 7.002666070062105
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GME-1795208983564"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 86,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.5734108204376467,
+        "totalReturn": 16.57165580630294,
+        "martinRatio": 6.4370673377941205
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1795208983564"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
+      "score": 84,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.4016325642162184,
+        "totalReturn": 14.96581987559244,
+        "martinRatio": 6.228925761885924
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LLY-1795208983564"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 68,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.5979918243087665,
+        "totalReturn": 7.1504494589024565,
+        "martinRatio": 4.4718486675149505
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AAPL-1795208983564"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 67,
+      "rating": "BUY",
+      "algorithm": "Adversarial Trend (V2)",
+      "timeframe": "1m",
+      "risk": "Medium",
+      "metrics": {
+        "trendStrength": 0.11697086442389726,
+        "avgVolatilty": 0.012016709540244506
+      },
+      "v2_hash": "at-v2.0.0-beta",
+      "audit_id": "v2-COST-1795208983564"
+    }
+  ]
+}
