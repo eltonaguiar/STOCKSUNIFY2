@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
   "date": "2026-11-25",
-  "timestamp": "2026-11-25T20:32:48.828Z",
+  "timestamp": "2026-11-25T21:11:03.524Z",
   "regime": {
     "symbol": "SPY",
-    "price": 714.28,
-    "sma200": 733.1485995483398,
+    "price": 716.81,
+    "sma200": 733.1612493896484,
     "status": "BEARISH"
   },
   "metadata": {
@@ -27,12 +27,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.7146024300033824,
-        "totalReturn": 17.151691246035426,
-        "martinRatio": 9.997474325098509
+        "ulcerIndex": 1.7165095614652326,
+        "totalReturn": 17.052604564647247,
+        "martinRatio": 9.928681008389509
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-COST-1795638768828"
+      "audit_id": "v2-COST-1795641063524"
     },
     {
       "symbol": "LLY",
@@ -43,12 +43,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.315242221464837,
-        "totalReturn": 20.18568140265958,
-        "martinRatio": 8.714840449585518
+        "ulcerIndex": 2.3186766911187915,
+        "totalReturn": 20.01500351191024,
+        "martinRatio": 8.628359110793541
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-LLY-1795638768828"
+      "audit_id": "v2-LLY-1795641063524"
     },
     {
       "symbol": "PG",
@@ -60,11 +60,11 @@
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 1.6682101905781164,
-        "totalReturn": 17.25142286348273,
-        "martinRatio": 10.335081202390606
+        "totalReturn": 17.329315033948323,
+        "martinRatio": 10.381745289936473
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PG-1795638768828"
+      "audit_id": "v2-PG-1795641063524"
     },
     {
       "symbol": "GME",
@@ -75,28 +75,28 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 7.088160998082487,
-        "totalReturn": 41.75013691787532,
-        "martinRatio": 5.88929168475199
+        "ulcerIndex": 7.086024186950578,
+        "totalReturn": 42.092783213883564,
+        "martinRatio": 5.93941576937038
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-GME-1795638768828"
+      "audit_id": "v2-GME-1795641063524"
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "score": 74,
+      "score": 76,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 1.619151596763404,
-        "totalReturn": 8.918023543500745,
-        "martinRatio": 5.504437708987472
+        "ulcerIndex": 1.6171420998186952,
+        "totalReturn": 9.422701055540468,
+        "martinRatio": 5.823160436031073
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AAPL-1795638768828"
+      "audit_id": "v2-AAPL-1795641063524"
     },
     {
       "symbol": "V",
@@ -107,12 +107,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.0590651173199825,
-        "totalReturn": 12.341439444180056,
-        "martinRatio": 4.033064320862799
+        "ulcerIndex": 3.0608253579970546,
+        "totalReturn": 12.202697370060559,
+        "martinRatio": 3.985432199190865
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-V-1795638768828"
+      "audit_id": "v2-V-1795641063524"
     },
     {
       "symbol": "MA",
@@ -123,12 +123,28 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.2881813442449146,
-        "totalReturn": 12.284487290794207,
-        "martinRatio": 3.7348160545445124
+        "ulcerIndex": 3.2883057323026885,
+        "totalReturn": 12.269184812173732,
+        "martinRatio": 3.7300226280834807
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MA-1795638768828"
+      "audit_id": "v2-MA-1795641063524"
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "score": 60,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 9.674499917189083,
+        "totalReturn": 21.401510327452556,
+        "martinRatio": 2.2119281185080206
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMC-1795641063524"
     }
   ]
 }
