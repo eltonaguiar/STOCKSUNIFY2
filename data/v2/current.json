@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "date": "2026-11-25",
-  "timestamp": "2026-11-25T21:11:03.524Z",
+  "date": "2026-11-26",
+  "timestamp": "2026-11-26T21:10:22.908Z",
   "regime": {
     "symbol": "SPY",
-    "price": 716.81,
-    "sma200": 733.1612493896484,
+    "price": 716.7,
+    "sma200": 733.1606994628906,
     "status": "BEARISH"
   },
   "metadata": {
@@ -32,7 +32,7 @@
         "martinRatio": 9.928681008389509
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-COST-1795641063524"
+      "audit_id": "v2-COST-1795727422908"
     },
     {
       "symbol": "LLY",
@@ -43,12 +43,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 2.3186766911187915,
-        "totalReturn": 20.01500351191024,
-        "martinRatio": 8.628359110793541
+        "ulcerIndex": 2.3187651816662833,
+        "totalReturn": 20.01069346416405,
+        "martinRatio": 8.626172003232845
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-LLY-1795641063524"
+      "audit_id": "v2-LLY-1795727422908"
     },
     {
       "symbol": "PG",
@@ -60,11 +60,11 @@
       "risk": "Low",
       "metrics": {
         "ulcerIndex": 1.6682101905781164,
-        "totalReturn": 17.329315033948323,
-        "martinRatio": 10.381745289936473
+        "totalReturn": 17.33270165005552,
+        "martinRatio": 10.383774163308031
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-PG-1795641063524"
+      "audit_id": "v2-PG-1795727422908"
     },
     {
       "symbol": "GME",
@@ -75,12 +75,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 7.086024186950578,
-        "totalReturn": 42.092783213883564,
-        "martinRatio": 5.93941576937038
+        "ulcerIndex": 7.085548984454034,
+        "totalReturn": 42.171855436039316,
+        "martinRatio": 5.950972120358291
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-GME-1795641063524"
+      "audit_id": "v2-GME-1795727422908"
     },
     {
       "symbol": "AAPL",
@@ -96,7 +96,7 @@
         "martinRatio": 5.823160436031073
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AAPL-1795641063524"
+      "audit_id": "v2-AAPL-1795727422908"
     },
     {
       "symbol": "V",
@@ -107,28 +107,28 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.0608253579970546,
-        "totalReturn": 12.202697370060559,
-        "martinRatio": 3.985432199190865
+        "ulcerIndex": 3.0614641498309028,
+        "totalReturn": 12.153807305847025,
+        "martinRatio": 3.9686365982498475
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-V-1795641063524"
+      "audit_id": "v2-V-1795727422908"
     },
     {
       "symbol": "MA",
       "name": "Mastercard Incorporated",
-      "score": 69,
+      "score": 68,
       "rating": "BUY",
       "algorithm": "Volatility-Adjusted Momentum (V2)",
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 3.2883057323026885,
-        "totalReturn": 12.269184812173732,
-        "martinRatio": 3.7300226280834807
+        "ulcerIndex": 3.2887694316444747,
+        "totalReturn": 12.21307572389869,
+        "martinRatio": 3.712441244793765
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-MA-1795641063524"
+      "audit_id": "v2-MA-1795727422908"
     },
     {
       "symbol": "AMC",
@@ -139,12 +139,12 @@
       "timeframe": "1m",
       "risk": "Low",
       "metrics": {
-        "ulcerIndex": 9.674499917189083,
-        "totalReturn": 21.401510327452556,
-        "martinRatio": 2.2119281185080206
+        "ulcerIndex": 9.672327147773112,
+        "totalReturn": 21.590904259320652,
+        "martinRatio": 2.232003935098078
       },
       "v2_hash": "vam-v2.0.0-beta",
-      "audit_id": "v2-AMC-1795641063524"
+      "audit_id": "v2-AMC-1795727422908"
     }
   ]
 }
