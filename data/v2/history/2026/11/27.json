@@ -1,0 +1,150 @@
+{
+  "version": "2.0.0",
+  "date": "2026-11-27",
+  "timestamp": "2026-11-27T21:10:11.734Z",
+  "regime": {
+    "symbol": "SPY",
+    "price": 728.32,
+    "sma200": 733.3424993896484,
+    "status": "BEARISH"
+  },
+  "metadata": {
+    "engine": "STOCKSUNIFY2-Scientific",
+    "system": "linux",
+    "checksPerformed": [
+      "Purging",
+      "Slippage-Stress",
+      "Regime-Detection"
+    ]
+  },
+  "picks": [
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.5901857127608348,
+        "totalReturn": 18.62958384483967,
+        "martinRatio": 11.707988385916217
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-COST-1795813811734"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 2.3574032788759176,
+        "totalReturn": 20.074166032682136,
+        "martinRatio": 8.511761416075565
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-LLY-1795813811734"
+    },
+    {
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
+      "score": 100,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.614914212690716,
+        "totalReturn": 17.655868604916492,
+        "martinRatio": 10.926241298117603
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-PG-1795813811734"
+    },
+    {
+      "symbol": "GME",
+      "name": "GameStop Corp.",
+      "score": 85,
+      "rating": "STRONG BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 7.127702882684513,
+        "totalReturn": 36.973482199765165,
+        "martinRatio": 5.186565186995388
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-GME-1795813811734"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "score": 75,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 1.6171420998186952,
+        "totalReturn": 9.241037547473061,
+        "martinRatio": 5.710893714778495
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AAPL-1795813811734"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "score": 74,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.1107858414363507,
+        "totalReturn": 13.872048450476562,
+        "martinRatio": 4.457905896272555
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-MA-1795813811734"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "score": 73,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 3.068474215649154,
+        "totalReturn": 13.415181518151817,
+        "martinRatio": 4.370514484127922
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-V-1795813811734"
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "score": 62,
+      "rating": "BUY",
+      "algorithm": "Volatility-Adjusted Momentum (V2)",
+      "timeframe": "1m",
+      "risk": "Low",
+      "metrics": {
+        "ulcerIndex": 9.759976473376938,
+        "totalReturn": 23.622049100711394,
+        "martinRatio": 2.4200497937005108
+      },
+      "v2_hash": "vam-v2.0.0-beta",
+      "audit_id": "v2-AMC-1795813811734"
+    }
+  ]
+}
